@@ -58,23 +58,6 @@ GenerateClassCluster=0
 DocumentUniqueId=cdec712f-2973-4e75-83a7-a910eead7d1f
 
 [Document2]
-DocumentPath=FullGatewayAssembly.MbaDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=843b6f5b-b538-467d-8126-9d863ab59a15
-
-[Document3]
 DocumentPath=..\CommunicationBoard\CommunicationBoard.PrjPcb
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -91,7 +74,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document4]
+[Document3]
 DocumentPath=..\SensorBoard\SensorBoard.PrjPcb
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -107,6 +90,23 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
+
+[Document4]
+DocumentPath=FullGatewayAssembly.MbaDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=a3ebd9b7-3398-4fba-b3f5-33e2b911129f
 
 [OutputGroup1]
 Name=Netlist Outputs

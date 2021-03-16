@@ -1,0 +1,3 @@
+Added Component: Designator=R17(R0805)
+Added Pin To Net: NetName=USB_DP Pin=R17-1
+Added Pin To Net: NetName=NetJ3_3 Pin=R17-2

@@ -1,0 +1,100 @@
+Removed Pin From Net: NetName=MODBUS_*RE Pin=JP2-4
+Removed Pin From Net: NetName=ESP32-LTE-RXD Pin=JP3-2
+Removed Pin From Net: NetName=ESP32-LTE-TXD Pin=JP3-4
+Removed Pin From Net: NetName=ESP32-LTE-RTS Pin=JP4-2
+Removed Pin From Net: NetName=ESP32-LTE-CTS Pin=JP4-4
+Removed Pin From Net: NetName=ESP32-LTE-RI Pin=U1-14
+Removed Pin From Net: NetName=ESP32-LTE-DTR Pin=U1-26
+Removed Pin From Net: NetName=ESP32-LTE-DCD Pin=U1-29
+Removed Pin From Net: NetName=ESP32-LTE-RI Pin=U2-1
+Removed Pin From Net: NetName=ESP32-LTE-DTR Pin=U2-2
+Removed Pin From Net: NetName=ESP32-LTE-DCD Pin=U2-12
+Change Component Footprint: Designator=JP2 Old Footprint=MALE HEADER 2X2 New Footprint=Male Header 2x3
+Change Component Comment : Designator=JP2 Old Comment=PBC02DAAN New Comment=PEC03DAAN
+Change component parameters: Designator = "JP2" ("JP2"); Footprint = "MALE HEADER 2X2"; UniqueID = "\UHALWEXN" ("\UHALWEXN")
+Change component parameters (AddParameter): Name = "Alternate Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Alternate PartNumber"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Cert_CSA"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Cert_CULUS"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Cert_UL"; Value = "Y"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Cert_VDE"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ClassName"; Value = "Header"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Color"; Value = "Black"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet URL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.sullinscorp.com/catalogs/77_PAGE108-109_.100_MALE_HDR.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "CompType"; Value = "Header"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ContactFinish"; Value = "Tin"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Current_A"; Value = "3"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Gender"; Value = "Male"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionDate"; Value = "2017-04-11"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Sullins Connector Solutions"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MountType"; Value = "TH"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Orientation"; Value = "Vertical"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "3x2 Header"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PartNumber"; Value = "PEC03DAAN"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PinCount"; Value = "6"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Pitch_mm"; Value = "2.54"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Publisher"; Value = "Texas Instruments"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RoHS"; Value = "Y"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Row_Count"; Value = "2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RowSpacing_mm"; Value = "2.54"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Shrouded"; Value = "N"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 2"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 3"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "S2012E-03-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 2"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 3"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SymbolCreator"; Value = "a0412235"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SymbolVersion"; Value = "2013-10-14"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage_V"; Value = "1800"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=ESP32-LTE-CTS Pin=J8-1
+Added Pin To Net: NetName=VDD5.0 Pin=J8-2
+Added Pin To Net: NetName=ESP32-LTE-RTS Pin=J8-3
+Added Pin To Net: NetName=VDD5.0 Pin=J8-4
+Added Pin To Net: NetName=ESP32-LTE-TXD Pin=J8-5
+Added Pin To Net: NetName=VDD5.0 Pin=J8-6
+Added Pin To Net: NetName=ESP32-LTE-RXD Pin=J8-7
+Added Pin To Net: NetName=VDD5.0 Pin=J8-8
+Added Pin To Net: NetName=ESP32-LTE-DTR Pin=J8-9
+Added Pin To Net: NetName=VDD5.0 Pin=J8-10
+Added Pin To Net: NetName=ESP32-LTE-DCD Pin=J8-11
+Added Pin To Net: NetName=GND Pin=J8-12
+Added Pin To Net: NetName=ESP32-LTE-RI Pin=J8-13
+Added Pin To Net: NetName=GND Pin=J8-14
+Added Pin To Net: NetName=GND Pin=J8-16
+Added Pin To Net: NetName=GND Pin=J8-18
+Added Pin To Net: NetName=GND Pin=J8-20
+Added Pin To Net: NetName=ESP32-LTE-DTR Pin=JP2-2
+Added Pin To Net: NetName=ESP32-LTE-DCD Pin=JP2-4
+Added Pin To Net: NetName=ESP32-LTE-RI Pin=JP2-6
+Added Pin To Net: NetName=ETH_MOSI Pin=JP3-1
+Added Pin To Net: NetName=ETH_SCLK Pin=JP3-3
+Added Pin To Net: NetName=MODBUS_*RE Pin=U1-24
+Added Pin To Net: NetName=ESP32-LTE-RXD Pin=U1-27
+Added Pin To Net: NetName=ESP32-LTE-TXD Pin=U1-28
+Added Pin To Net: NetName=ESP32-LTE-RTS Pin=U1-30
+Added Pin To Net: NetName=ESP32-LTE-CTS Pin=U1-31
+Added Pin To Net: NetName=ESP32-BOOT/MODBUS_DE Pin=SW2-2
+Added Pin To Net: NetName=ESP32-BOOT/MODBUS_DE Pin=U1-25
+Added Pin To Net: NetName=ESP32-BOOT/MODBUS_DE Pin=U3-5
+Added Net: Name=ESP32-BOOT/MODBUS_DE
+Added Pin To Net: NetName=ETH_INT Pin=JP2-3
+Added Pin To Net: NetName=ETH_INT Pin=U1-29
+Added Pin To Net: NetName=ETH_INT Pin=U2-12
+Added Net: Name=ETH_INT
+Added Pin To Net: NetName=ETH_MISO Pin=JP2-5
+Added Pin To Net: NetName=ETH_MISO Pin=U1-14
+Added Pin To Net: NetName=ETH_MISO Pin=U2-1
+Added Net: Name=ETH_MISO
+Added Pin To Net: NetName=ETH_RST Pin=JP2-1
+Added Pin To Net: NetName=ETH_RST Pin=U1-26
+Added Pin To Net: NetName=ETH_RST Pin=U2-2
+Added Net: Name=ETH_RST
+Added Pin To Net: NetName=LTE_PWR Pin=J8-17
+Added Pin To Net: NetName=LTE_PWR Pin=JP3-2
+Added Net: Name=LTE_PWR
+Added Pin To Net: NetName=LTE_RESET Pin=J8-15
+Added Pin To Net: NetName=LTE_RESET Pin=JP3-4
+Added Net: Name=LTE_RESET
