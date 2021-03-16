@@ -1,0 +1,118 @@
+Removed Pin From Net: NetName=GND Pin=J2-1
+Removed Pin From Net: NetName=GND Pin=J3-2
+Removed Pin From Net: NetName=ADC_1 Pin=J8-1
+Removed Pin From Net: NetName=ADC_2 Pin=J8-2
+Removed Pin From Net: NetName=GND Pin=J10-2
+Removed Pin From Net: NetName=VDC3.3 Pin=J12-1
+Removed Pin From Net: NetName=I2C_SDA Pin=J12-2
+Removed Pin From Net: NetName=I2C_SCL Pin=J12-3
+Removed Pin From Net: NetName=GND Pin=J12-4
+Removed Pin From Net: NetName=NetJ3_1 Pin=R3-2
+Removed Pin From Net: NetName=NetJ6_1 Pin=R4-2
+Removed Pin From Net: NetName=NetJ9_1 Pin=R7-2
+Removed Pin From Net: NetName=NetJ3_1 Pin=TP2-1
+Removed Pin From Net: NetName=NetJ6_1 Pin=TP3-1
+Removed Pin From Net: NetName=NetJ9_1 Pin=TP5-1
+Change Component Footprint: Designator=J6 Old Footprint=TE_284512-2 New Footprint=CONN_2213932-2_TEC
+Change Component Footprint: Designator=J9 Old Footprint=TE_284512-2 New Footprint=CONN_2213932-2_TEC
+Change Component Footprint: Designator=J10 Old Footprint=TE_284512-2 New Footprint=CONN_2213932-2_TEC
+Change Component Footprint: Designator=J3 Old Footprint=TE_284512-2 New Footprint=CONN_2213932-3_TEC
+Change Component Footprint: Designator=J8 Old Footprint=TE_284512-2 New Footprint=CONN_2213932-4_TEC
+Change Component Footprint: Designator=J2 Old Footprint=TE_284512-3 New Footprint=CONN_2213932-2_TEC
+Change Component Footprint: Designator=J7 Old Footprint=TE_284512-4 New Footprint=CONN_2213932-4_TEC
+Change Component Comment : Designator=J6 Old Comment=284512-2 New Comment=2213932-2
+Change Component Comment : Designator=J9 Old Comment=284512-2 New Comment=2213932-2
+Change Component Comment : Designator=J10 Old Comment=284512-2 New Comment=2213932-2
+Change Component Comment : Designator=J3 Old Comment=284512-2 New Comment=2213932-3
+Change Component Comment : Designator=J8 Old Comment=284512-2 New Comment=2213932-4
+Change Component Comment : Designator=J2 Old Comment=284512-3 New Comment=2213932-2
+Change Component Comment : Designator=J7 Old Comment=284512-4 New Comment=2213932-4
+Change component parameters: Designator = "J3" ("J3"); Footprint = "TE_284512-2"; UniqueID = "\NPRUVLMS" ("\NPRUVLMS")
+Change component parameters (AddParameter): Name = "Built_By"; Value = "EMA_Cory"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Copyright"; Value = "Copyright (C) 2018 Accelerated Designs. All rights reserved"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "2213932-4"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefDes"; Value = "RefDes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SourceLibrary"; Value = "TE Connectivity_2020-01-22"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Type"; Value = "DEV"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Vendor"; Value = "TE Connectivity"; VariantName = "[No Variations]"
+Change component parameters: Designator = "J6" ("J6"); Footprint = "TE_284512-2"; UniqueID = "\AMWHEGLI" ("\AMWHEGLI")
+Change component parameters (AddParameter): Name = "Built_By"; Value = "EMA_Cory"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Copyright"; Value = "Copyright (C) 2018 Accelerated Designs. All rights reserved"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "2213932-4"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefDes"; Value = "RefDes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SourceLibrary"; Value = "TE Connectivity_2020-01-22"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Type"; Value = "DEV"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Vendor"; Value = "TE Connectivity"; VariantName = "[No Variations]"
+Change component parameters: Designator = "J8" ("J8"); Footprint = "TE_284512-2"; UniqueID = "\OZGNFFAD" ("\OZGNFFAD")
+Change component parameters (AddParameter): Name = "Built_By"; Value = "EMA_Cory"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Copyright"; Value = "Copyright (C) 2018 Accelerated Designs. All rights reserved"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "2213932-4"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefDes"; Value = "RefDes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SourceLibrary"; Value = "TE Connectivity_2020-01-22"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Type"; Value = "DEV"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Vendor"; Value = "TE Connectivity"; VariantName = "[No Variations]"
+Change component parameters: Designator = "J9" ("J9"); Footprint = "TE_284512-2"; UniqueID = "\YVHQOBVF" ("\YVHQOBVF")
+Change component parameters (AddParameter): Name = "Built_By"; Value = "EMA_Cory"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Copyright"; Value = "Copyright (C) 2018 Accelerated Designs. All rights reserved"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "2213932-4"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefDes"; Value = "RefDes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SourceLibrary"; Value = "TE Connectivity_2020-01-22"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Type"; Value = "DEV"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Vendor"; Value = "TE Connectivity"; VariantName = "[No Variations]"
+Change component parameters: Designator = "J10" ("J10"); Footprint = "TE_284512-2"; UniqueID = "\CHYEPPTI" ("\CHYEPPTI")
+Change component parameters (AddParameter): Name = "Built_By"; Value = "EMA_Cory"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Copyright"; Value = "Copyright (C) 2018 Accelerated Designs. All rights reserved"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "2213932-4"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefDes"; Value = "RefDes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SourceLibrary"; Value = "TE Connectivity_2020-01-22"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Type"; Value = "DEV"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Vendor"; Value = "TE Connectivity"; VariantName = "[No Variations]"
+Change component parameters: Designator = "J2" ("J2"); Footprint = "TE_284512-3"; UniqueID = "\LZBVHCTH" ("\LZBVHCTH")
+Change component parameters (AddParameter): Name = "Built_By"; Value = "EMA_Cory"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Copyright"; Value = "Copyright (C) 2018 Accelerated Designs. All rights reserved"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "2213932-4"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefDes"; Value = "RefDes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SourceLibrary"; Value = "TE Connectivity_2020-01-22"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Type"; Value = "DEV"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Vendor"; Value = "TE Connectivity"; VariantName = "[No Variations]"
+Change component parameters: Designator = "J7" ("J7"); Footprint = "TE_284512-4"; UniqueID = "\PCMHHGWU" ("\PCMHHGWU")
+Change component parameters (AddParameter): Name = "Built_By"; Value = "EMA_Cory"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Copyright"; Value = "Copyright (C) 2018 Accelerated Designs. All rights reserved"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "2213932-4"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefDes"; Value = "RefDes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SourceLibrary"; Value = "TE Connectivity_2020-01-22"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Type"; Value = "DEV"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Vendor"; Value = "TE Connectivity"; VariantName = "[No Variations]"
+Added Component: Designator=J4(CONN_2213932-2_TEC)
+Add component (AddParameter): Name = "Built_By"; Value = "EMA_Cory"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Copyright"; Value = "Copyright (C) 2018 Accelerated Designs. All rights reserved"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "2213932-4"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RefDes"; Value = "RefDes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SourceLibrary"; Value = "TE Connectivity_2020-01-22"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "DEV"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor"; Value = "TE Connectivity"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=J2-2
+Added Pin To Net: NetName=GND Pin=J3-3
+Added Pin To Net: NetName=GND Pin=J4-2
+Added Pin To Net: NetName=VDC3.3 Pin=J8-1
+Added Pin To Net: NetName=I2C_SDA Pin=J8-2
+Added Pin To Net: NetName=I2C_SCL Pin=J8-3
+Added Pin To Net: NetName=GND Pin=J8-4
+Added Pin To Net: NetName=ADC_1 Pin=J10-1
+Added Pin To Net: NetName=ADC_2 Pin=J10-2
+Added Pin To Net: NetName=NetJ6_1 Pin=R7-2
+Added Pin To Net: NetName=NetJ9_1 Pin=R8-2
+Added Pin To Net: NetName=NetJ6_1 Pin=TP5-1
+Added Pin To Net: NetName=NetJ9_1 Pin=TP7-1
+Added Pin To Net: NetName=NetJ3_1 Pin=U3-12
+Added Pin To Net: NetName=NetJ2_1 Pin=J2-1
+Added Pin To Net: NetName=NetJ2_1 Pin=R3-2
+Added Pin To Net: NetName=NetJ2_1 Pin=TP2-1
+Added Net: Name=NetJ2_1
+Added Pin To Net: NetName=NetJ3_2 Pin=J3-2
+Added Pin To Net: NetName=NetJ3_2 Pin=U3-13
+Added Net: Name=NetJ3_2
+Added Pin To Net: NetName=NetJ4_1 Pin=J4-1
+Added Pin To Net: NetName=NetJ4_1 Pin=R4-2
+Added Pin To Net: NetName=NetJ4_1 Pin=TP3-1
+Added Net: Name=NetJ4_1

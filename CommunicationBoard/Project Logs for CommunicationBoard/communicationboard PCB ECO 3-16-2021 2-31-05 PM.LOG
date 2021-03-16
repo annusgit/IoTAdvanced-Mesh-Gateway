@@ -1,0 +1,15 @@
+Removed Pin From Net: NetName=GND Pin=J5-2
+Removed Pin From Net: NetName=GND Pin=J5-3
+Change Component Footprint: Designator=J5 Old Footprint=HRS_U.FL-R-SMT(10) New Footprint=LINX_CONSMA020.031-G
+Change Component Comment : Designator=J5 Old Comment=U.FL-R-SMT New Comment=CONSMA020.031-G
+Change component parameters: Designator = "J5" ("J5"); Footprint = "HRS_U.FL-R-SMT(10)"; UniqueID = "\ATLOKKMQ" ("\ATLOKKMQ")
+Change component parameters (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MF"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MP"; Value = "CONSMA020.031-G"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=J5-S1
+Added Pin To Net: NetName=GND Pin=J5-S2
+Added Pin To Net: NetName=GND Pin=J5-S3
+Added Pin To Net: NetName=GND Pin=J5-S4

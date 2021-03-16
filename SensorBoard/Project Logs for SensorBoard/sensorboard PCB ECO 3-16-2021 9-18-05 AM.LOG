@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=ESP32-LTE-DTR Pin=J4-1
+Removed Pin From Net: NetName=ESP32-LTE-DCD Pin=J4-2
+Removed Pin From Net: NetName=ESP32-LTE-RI Pin=J4-3
+Removed Pin From Net: NetName=ETH_MOSI Pin=J4-4
+Removed Pin From Net: NetName=ETH_SCLK Pin=J4-5
+Removed Pin From Net: NetName=ETH_CS Pin=J4-6

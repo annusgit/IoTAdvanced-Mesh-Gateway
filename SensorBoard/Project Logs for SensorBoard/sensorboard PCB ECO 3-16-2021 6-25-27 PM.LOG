@@ -1,0 +1,80 @@
+Removed Pin From Net: NetName=GPIO_1 Pin=J5-1
+Removed Pin From Net: NetName=GPIO_2 Pin=J5-2
+Removed Pin From Net: NetName=GPIO_3 Pin=J5-3
+Removed Pin From Net: NetName=GPIO_4 Pin=J5-4
+Removed Pin From Net: NetName=VDC3.3 Pin=J5-5
+Removed Pin From Net: NetName=GND Pin=J5-6
+Change Component Designator: OldDesignator=D1 NewDesignator=D3
+Change Component Designator: OldDesignator=D2 NewDesignator=D4
+Change Component Designator: OldDesignator=D3 NewDesignator=D5
+Change Component Designator: OldDesignator=D4 NewDesignator=D6
+Change Component Designator: OldDesignator=D5 NewDesignator=D7
+Change Component Designator: OldDesignator=D6 NewDesignator=D8
+Change Component Designator: OldDesignator=D7 NewDesignator=D9
+Change Component Designator: OldDesignator=D8 NewDesignator=D10
+Change Component Designator: OldDesignator=D9 NewDesignator=D11
+Change Component Designator: OldDesignator=D10 NewDesignator=D12
+Change Component Designator: OldDesignator=J2 NewDesignator=J5
+Change Component Designator: OldDesignator=J4 NewDesignator=J7
+Change Component Designator: OldDesignator=J6 NewDesignator=J10
+Change Component Designator: OldDesignator=J7 NewDesignator=J2
+Change Component Designator: OldDesignator=J8 NewDesignator=J4
+Change Component Designator: OldDesignator=J9 NewDesignator=J12
+Change Component Designator: OldDesignator=J10 NewDesignator=J11
+Change Component Designator: OldDesignator=J11 NewDesignator=J13
+Change Component Designator: OldDesignator=J12 NewDesignator=J8
+Change Component Designator: OldDesignator=R3 NewDesignator=R7
+Change Component Designator: OldDesignator=R4 NewDesignator=R8
+Change Component Designator: OldDesignator=R7 NewDesignator=R9
+Change Component Designator: OldDesignator=R8 NewDesignator=R10
+Change Component Designator: OldDesignator=R9 NewDesignator=R11
+Change Component Designator: OldDesignator=R10 NewDesignator=R12
+Change Component Designator: OldDesignator=R11 NewDesignator=R13
+Change Component Designator: OldDesignator=TP1 NewDesignator=TP2
+Change Component Designator: OldDesignator=TP2 NewDesignator=TP1
+Added Component: Designator=D1(D0805)
+Added Component: Designator=D2(D0805)
+Added Component: Designator=J6(CONN_2213932-4_TEC)
+Add component (AddParameter): Name = "Built_By"; Value = "EMA_Cory"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Copyright"; Value = "Copyright (C) 2018 Accelerated Designs. All rights reserved"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "2213932-4"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RefDes"; Value = "RefDes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SourceLibrary"; Value = "TE Connectivity_2020-01-22"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "DEV"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor"; Value = "TE Connectivity"; VariantName = "[No Variations]"
+Added Component: Designator=J9(CONN_2213932-4_TEC)
+Add component (AddParameter): Name = "Built_By"; Value = "EMA_Cory"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Copyright"; Value = "Copyright (C) 2018 Accelerated Designs. All rights reserved"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "2213932-4"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RefDes"; Value = "RefDes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SourceLibrary"; Value = "TE Connectivity_2020-01-22"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "DEV"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor"; Value = "TE Connectivity"; VariantName = "[No Variations]"
+Added Component: Designator=R3(R0805)
+Added Component: Designator=R4(R0805)
+Added Pin To Net: NetName=GND Pin=D1-2
+Added Pin To Net: NetName=GND Pin=D2-2
+Added Pin To Net: NetName=GPIO_1 Pin=J6-1
+Added Pin To Net: NetName=GPIO_2 Pin=J6-2
+Added Pin To Net: NetName=GPIO_3 Pin=J6-3
+Added Pin To Net: NetName=GPIO_4 Pin=J6-4
+Added Pin To Net: NetName=VDC3.3 Pin=J9-1
+Added Pin To Net: NetName=VDD5.0 Pin=J9-2
+Added Pin To Net: NetName=GND Pin=J9-3
+Added Pin To Net: NetName=GND Pin=J9-4
+Added Pin To Net: NetName=GPIO_3 Pin=R3-2
+Added Pin To Net: NetName=GPIO_4 Pin=R4-2
+Change Net Name : Old Net Name=NetD7_1 New Net Name=NetD9_1
+Change Net Name : Old Net Name=NetD8_1 New Net Name=NetD10_1
+Change Net Name : Old Net Name=NetD9_1 New Net Name=NetD11_1
+Change Net Name : Old Net Name=NetD10_2 New Net Name=NetD12_2
+Change Net Name : Old Net Name=NetJ2_1 New Net Name=NetJ5_1
+Change Net Name : Old Net Name=NetJ4_1 New Net Name=NetJ7_1
+Change Net Name : Old Net Name=NetJ6_1 New Net Name=NetJ10_1
+Change Net Name : Old Net Name=NetJ9_1 New Net Name=NetJ12_1
+Added Pin To Net: NetName=NetD1_1 Pin=D1-1
+Added Pin To Net: NetName=NetD1_1 Pin=R3-1
+Added Net: Name=NetD1_1
+Added Pin To Net: NetName=NetD2_1 Pin=D2-1
+Added Pin To Net: NetName=NetD2_1 Pin=R4-1
+Added Net: Name=NetD2_1
