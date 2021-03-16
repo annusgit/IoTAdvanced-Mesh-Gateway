@@ -1,0 +1,13 @@
+Removed Pin From Net: NetName=VDC3.3 Pin=J1-1
+Removed Pin From Net: NetName=TXD0 Pin=J1-2
+Removed Pin From Net: NetName=RXD0 Pin=J1-3
+Removed Pin From Net: NetName=GND Pin=J1-4
+Removed Pin From Net: NetName=VDD5.0 Pin=J1-5
+Removed Pin From Net: NetName=GND Pin=J1-6
+Added Component: Designator=J1(Male Header 6x1)
+Added Pin To Net: NetName=VDC3.3 Pin=J1-1
+Added Pin To Net: NetName=TXD0 Pin=J1-2
+Added Pin To Net: NetName=RXD0 Pin=J1-3
+Added Pin To Net: NetName=GND Pin=J1-4
+Added Pin To Net: NetName=VDD5.0 Pin=J1-5
+Added Pin To Net: NetName=GND Pin=J1-6

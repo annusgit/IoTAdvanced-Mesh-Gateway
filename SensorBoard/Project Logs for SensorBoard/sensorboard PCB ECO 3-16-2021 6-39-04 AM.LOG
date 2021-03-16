@@ -1,0 +1,71 @@
+Removed Pin From Net: NetName=ADC_3 Pin=D3-2
+Removed Pin From Net: NetName=ADC_4 Pin=D4-2
+Removed Pin From Net: NetName=ADC_3 Pin=R7-1
+Removed Pin From Net: NetName=ADC_4 Pin=R8-1
+Removed Pin From Net: NetName=ADC_5 Pin=TP3-1
+Removed Pin From Net: NetName=ADC_3 Pin=TP5-1
+Removed Pin From Net: NetName=ADC_4 Pin=TP7-1
+Change Component Footprint: Designator=J3 Old Footprint=CUI_SJ2-35853A-SMT-TR New Footprint=TE_284512-2
+Change Component Footprint: Designator=J6 Old Footprint=CUI_SJ2-35853A-SMT-TR New Footprint=TE_284512-2
+Change Component Footprint: Designator=J9 Old Footprint=CUI_SJ2-35853A-SMT-TR New Footprint=TE_284512-2
+Change Component Footprint: Designator=J10 Old Footprint=CUI_SJ2-35853A-SMT-TR New Footprint=TE_284512-2
+Change Component Comment : Designator=J3 Old Comment=SJ2-35853A-SMT-TR New Comment=284512-2
+Change Component Comment : Designator=J6 Old Comment=SJ2-35853A-SMT-TR New Comment=284512-2
+Change Component Comment : Designator=J9 Old Comment=SJ2-35853A-SMT-TR New Comment=284512-2
+Change Component Comment : Designator=J10 Old Comment=SJ2-35853A-SMT-TR New Comment=284512-2
+Change component parameters: Designator = "J3" ("J3"); Footprint = "CUI_SJ2-35853A-SMT-TR"; UniqueID = "\HVDXRXRQ" ("\HVDXRXRQ")
+Change component parameters (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MF"; Value = "TE Connectivity"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MP"; Value = "284512-2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/284512-2/TE%20Connectivity%20AMP%20Connectors/view-part/2581711/?ref=snap"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "TE_purchase_URL"; Value = "https://www.te.com/usa-en/product-284512-2.html?te_bu=Cor&te_type=disp&te_campaign=seda_glo_cor-seda-global-disp-prtnr-fy19-seda-model-bom-cta_sma-317_1&elqCampaignId=32493"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "J6" ("J6"); Footprint = "CUI_SJ2-35853A-SMT-TR"; UniqueID = "\LMOURMLW" ("\LMOURMLW")
+Change component parameters (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MF"; Value = "TE Connectivity"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MP"; Value = "284512-2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/284512-2/TE%20Connectivity%20AMP%20Connectors/view-part/2581711/?ref=snap"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "TE_purchase_URL"; Value = "https://www.te.com/usa-en/product-284512-2.html?te_bu=Cor&te_type=disp&te_campaign=seda_glo_cor-seda-global-disp-prtnr-fy19-seda-model-bom-cta_sma-317_1&elqCampaignId=32493"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "J9" ("J9"); Footprint = "CUI_SJ2-35853A-SMT-TR"; UniqueID = "\RMWUKOKE" ("\RMWUKOKE")
+Change component parameters (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MF"; Value = "TE Connectivity"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MP"; Value = "284512-2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/284512-2/TE%20Connectivity%20AMP%20Connectors/view-part/2581711/?ref=snap"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "TE_purchase_URL"; Value = "https://www.te.com/usa-en/product-284512-2.html?te_bu=Cor&te_type=disp&te_campaign=seda_glo_cor-seda-global-disp-prtnr-fy19-seda-model-bom-cta_sma-317_1&elqCampaignId=32493"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "J10" ("J10"); Footprint = "CUI_SJ2-35853A-SMT-TR"; UniqueID = "\RNGLYITN" ("\RNGLYITN")
+Change component parameters (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MF"; Value = "TE Connectivity"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MP"; Value = "284512-2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/284512-2/TE%20Connectivity%20AMP%20Connectors/view-part/2581711/?ref=snap"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "TE_purchase_URL"; Value = "https://www.te.com/usa-en/product-284512-2.html?te_bu=Cor&te_type=disp&te_campaign=seda_glo_cor-seda-global-disp-prtnr-fy19-seda-model-bom-cta_sma-317_1&elqCampaignId=32493"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=ADC_4 Pin=D3-2
+Added Pin To Net: NetName=ADC_3 Pin=D4-2
+Added Pin To Net: NetName=ADC_4 Pin=R7-1
+Added Pin To Net: NetName=ADC_3 Pin=R8-1
+Added Pin To Net: NetName=ADC_5 Pin=TP4-1
+Added Pin To Net: NetName=ADC_4 Pin=TP6-1
+Added Pin To Net: NetName=ADC_3 Pin=TP8-1
+Change Net Name : Old Net Name=Jack_1 New Net Name=NetJ3_1
+Added Pin To Net: NetName=NetJ6_1 Pin=J6-1
+Added Pin To Net: NetName=NetJ6_1 Pin=R4-2
+Added Pin To Net: NetName=NetJ6_1 Pin=TP3-1
+Added Net: Name=NetJ6_1
+Added Pin To Net: NetName=NetJ9_1 Pin=J9-1
+Added Pin To Net: NetName=NetJ9_1 Pin=R7-2
+Added Pin To Net: NetName=NetJ9_1 Pin=TP5-1
+Added Net: Name=NetJ9_1
+Added Pin To Net: NetName=NetJ10_1 Pin=J10-1
+Added Pin To Net: NetName=NetJ10_1 Pin=R8-2
+Added Pin To Net: NetName=NetJ10_1 Pin=TP7-1
+Added Net: Name=NetJ10_1

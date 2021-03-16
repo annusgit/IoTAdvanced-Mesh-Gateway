@@ -1,0 +1,14 @@
+Removed Pin From Net: NetName=MAIN_ANT Pin=J-1
+Removed Pin From Net: NetName=GND Pin=J-2
+Removed Pin From Net: NetName=GND Pin=J-3
+Added Component: Designator=J5(HRS_U.FL-R-SMT(10))
+Add component (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Hirose"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "U.FL-R-SMT_10_"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "FakePackage u"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/U.FL-R-SMT%2810%29/Hirose%20Electric%20Co%20Ltd/view-part/46852/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=MAIN_ANT Pin=J5-1
+Added Pin To Net: NetName=GND Pin=J5-2
+Added Pin To Net: NetName=GND Pin=J5-3
