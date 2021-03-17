@@ -1,0 +1,36 @@
+Removed Pin From Net: NetName=NetC4_2 Pin=S1-2
+Removed Pin From Net: NetName=GND Pin=SW2-1
+Removed Pin From Net: NetName=ESP32-BOOT/MODBUS_DE Pin=SW2-2
+Removed Pin From Net: NetName=GND Pin=SW2-3
+Removed Pin From Net: NetName=GND Pin=SW2-4
+Added Component: Designator=SW1(FP-TL3330AF260QG-MFG)
+Add component (AddParameter): Name = "Actuator Length"; Value = "1mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Actuator Material"; Value = "Nylon"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case/Package"; Value = "SMD/SMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Color"; Value = "Black"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Material"; Value = "Silver"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Plating"; Value = "Silver"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Resistance"; Value = "100mR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Current Rating"; Value = "50mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Electrical Life"; Value = "30000Cycles"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Illumination Type"; Value = "Non-Illuminated"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lead Free"; Value = "Lead Free"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "70°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Voltage Rating (DC)"; Value = "12V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mechanical Life"; Value = "30000Cycles"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-20°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Force"; Value = "260gf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Orientation"; Value = "Right Angle"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Quantity"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Switch Function"; Value = "Off-Mom"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Switch Travel"; Value = "0.25mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Termination"; Value = "Gull Wing"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Throw Configuration"; Value = "SPST"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating (DC)"; Value = "12V"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=ESP32-BOOT/MODBUS_DE Pin=S1-2
+Added Pin To Net: NetName=GND Pin=SW1-1
+Added Pin To Net: NetName=NetC4_2 Pin=SW1-2
+Added Pin To Net: NetName=GND Pin=SW1-3
+Added Pin To Net: NetName=GND Pin=SW1-4

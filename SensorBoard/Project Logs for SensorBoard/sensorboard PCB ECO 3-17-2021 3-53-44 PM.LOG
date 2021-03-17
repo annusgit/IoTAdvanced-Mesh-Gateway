@@ -1,0 +1,50 @@
+Removed Pin From Net: NetName=VDC3.3 Pin=J1-1
+Removed Pin From Net: NetName=TXD0 Pin=J1-2
+Removed Pin From Net: NetName=RXD0 Pin=J1-3
+Removed Pin From Net: NetName=GND Pin=J1-4
+Removed Pin From Net: NetName=VDD5.0 Pin=J1-5
+Removed Pin From Net: NetName=GND Pin=J1-6
+Added Component: Designator=JP4(Male Header 2x3)
+Add component (AddParameter): Name = "Alternate Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Alternate PartNumber"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Cert_CSA"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Cert_CULUS"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Cert_UL"; Value = "Y"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Cert_VDE"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ClassName"; Value = "Header"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Color"; Value = "Black"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.sullinscorp.com/catalogs/77_PAGE108-109_.100_MALE_HDR.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "CompType"; Value = "Header"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ContactFinish"; Value = "Tin"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Current_A"; Value = "3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Gender"; Value = "Male"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "2017-04-11"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Sullins Connector Solutions"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MountType"; Value = "TH"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Orientation"; Value = "Vertical"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "3x2 Header"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "PEC03DAAN"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PinCount"; Value = "6"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pitch_mm"; Value = "2.54"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Texas Instruments"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "Y"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Row_Count"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RowSpacing_mm"; Value = "2.54"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Shrouded"; Value = "N"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 2"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 3"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "S2012E-03-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 2"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 3"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SymbolCreator"; Value = "a0412235"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SymbolVersion"; Value = "2013-10-14"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage_V"; Value = "1800"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=VDC3.3 Pin=JP4-1
+Added Pin To Net: NetName=GND Pin=JP4-2
+Added Pin To Net: NetName=TXD0 Pin=JP4-3
+Added Pin To Net: NetName=VDD5.0 Pin=JP4-4
+Added Pin To Net: NetName=RXD0 Pin=JP4-5
+Added Pin To Net: NetName=GND Pin=JP4-6

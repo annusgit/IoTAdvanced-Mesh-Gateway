@@ -1,0 +1,3 @@
+Change Component Footprint: Designator=J11 Old Footprint=CONN_2213932-2_TEC New Footprint=CONN_2213932-3_TEC
+Change Component Comment : Designator=J11 Old Comment=2213932-2 New Comment=2213932-3
+Added Pin To Net: NetName=GND Pin=J11-3

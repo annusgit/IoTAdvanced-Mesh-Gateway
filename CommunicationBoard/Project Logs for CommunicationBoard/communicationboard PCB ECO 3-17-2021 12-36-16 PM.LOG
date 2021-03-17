@@ -1,0 +1,7 @@
+Added Component: Designator=D11(D0805)
+Added Component: Designator=R20(R0805)
+Added Pin To Net: NetName=GND Pin=D11-2
+Added Pin To Net: NetName=VDD3.8 Pin=R20-2
+Added Pin To Net: NetName=NetD11_1 Pin=D11-1
+Added Pin To Net: NetName=NetD11_1 Pin=R20-1
+Added Net: Name=NetD11_1
