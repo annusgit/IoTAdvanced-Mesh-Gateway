@@ -1,0 +1,26 @@
+Removed Pin From Net: NetName=NetC2_2 Pin=C9-1
+Removed Pin From Net: NetName=VDD5.0 Pin=C16-1
+Removed Pin From Net: NetName=NetC17_1 Pin=C17-1
+Removed Pin From Net: NetName=GND Pin=C17-2
+Change Component Footprint: Designator=C3 Old Footprint=CAP ALSMD 8.3MM H10.5MM New Footprint=Cap-Electrolytic-SMT-6.3x5.4
+Change Component Footprint: Designator=C4 Old Footprint=CAP ALSMD 8.3MM H10.5MM New Footprint=Cap-Electrolytic-SMT-6.3x5.4
+Change Component Footprint: Designator=C8 Old Footprint=CAP ALSMD 8.3MM H10.5MM New Footprint=Cap-Electrolytic-SMT-6.3x5.4
+Change Component Footprint: Designator=C9 Old Footprint=CAP ALSMD 8.3MM H10.5MM New Footprint=Cap-Electrolytic-SMT-6.3x5.4
+Change Component Footprint: Designator=C16 Old Footprint=CAP ALSMD 8.3MM H10.5MM New Footprint=Cap-Electrolytic-SMT-6.3x5.4
+Change Component Comment : Designator=C3 Old Comment=100µF New Comment=100uF
+Change Component Comment : Designator=C4 Old Comment=100µF New Comment=100uF
+Change Component Comment : Designator=C8 Old Comment=100µF New Comment=100uF
+Change Component Comment : Designator=C9 Old Comment=100µF New Comment=100uF
+Change Component Comment : Designator=C16 Old Comment=100µF New Comment=330uF
+Change component parameters: Designator = "C3" ("C3"); Footprint = "CAP ALSMD 8.3MM H10.5MM"; UniqueID = "\HDKNAZUA" ("\HDKNAZUA")
+Change component parameters: Designator = "C4" ("C4"); Footprint = "CAP ALSMD 8.3MM H10.5MM"; UniqueID = "\CFWMRFVE" ("\CFWMRFVE")
+Change component parameters: Designator = "C8" ("C8"); Footprint = "CAP ALSMD 8.3MM H10.5MM"; UniqueID = "\XLIVEEDZ" ("\XLIVEEDZ")
+Change component parameters: Designator = "C9" ("C9"); Footprint = "CAP ALSMD 8.3MM H10.5MM"; UniqueID = "\TGMPTNJD" ("\TGMPTNJD")
+Change component parameters: Designator = "C16" ("C16"); Footprint = "CAP ALSMD 8.3MM H10.5MM"; UniqueID = "\SFSYMGWM" ("\SFSYMGWM")
+Added Component: Designator=C1(Cap-Electrolytic-SMT-6.3x5.4)
+Added Pin To Net: NetName=NetC2_2 Pin=C1-1
+Added Pin To Net: NetName=GND Pin=C1-2
+Added Pin To Net: NetName=VDD5.0 Pin=C9-1
+Added Pin To Net: NetName=NetC17_1 Pin=C16-1
+Change Net Name : Old Net Name=NetC2_2 New Net Name=NetC1_1
+Change Net Name : Old Net Name=NetC17_1 New Net Name=NetC16_1
