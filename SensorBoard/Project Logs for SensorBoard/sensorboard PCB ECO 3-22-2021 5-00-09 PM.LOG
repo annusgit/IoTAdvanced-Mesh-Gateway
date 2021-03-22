@@ -1,0 +1,15 @@
+Removed Pin From Net: NetName=MODBUS_R Pin=JP1-2
+Removed Pin From Net: NetName=MODBUS_D Pin=JP1-4
+Removed Pin From Net: NetName=ESP32-LTE-RXD Pin=U1-27
+Removed Pin From Net: NetName=ESP32-LTE-TXD Pin=U1-28
+Removed Pin From Net: NetName=ESP32-LTE-RTS Pin=U1-30
+Removed Pin From Net: NetName=ESP32-LTE-CTS Pin=U1-31
+Removed Pin From Net: NetName=I2C_SCL Pin=U1-36
+Added Pin To Net: NetName=VDD3.3 Pin=J8-19
+Added Pin To Net: NetName=ESP32-LTE-RXD Pin=JP1-2
+Added Pin To Net: NetName=ESP32-LTE-TXD Pin=JP1-4
+Added Pin To Net: NetName=MODBUS_R Pin=U1-27
+Added Pin To Net: NetName=MODBUS_D Pin=U1-28
+Added Pin To Net: NetName=I2C_SCL Pin=U1-30
+Added Pin To Net: NetName=ESP32-LTE-RTS Pin=U1-31
+Added Pin To Net: NetName=ESP32-LTE-CTS Pin=U1-36

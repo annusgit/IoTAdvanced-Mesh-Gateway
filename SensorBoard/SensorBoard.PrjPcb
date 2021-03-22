@@ -123,7 +123,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=JYUKSMCQ
 
 [Document6]
 DocumentPath=..\..\..\MESAltiumComponentLibrary\Schematic Symbol Libraries\SSNWANIoTGateway.SchLib
