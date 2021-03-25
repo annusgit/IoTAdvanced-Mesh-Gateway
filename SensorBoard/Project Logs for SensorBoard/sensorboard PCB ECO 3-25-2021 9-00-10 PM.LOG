@@ -1,0 +1,51 @@
+Removed Pin From Net: NetName=VDD3.3 Pin=J14-19
+Removed Pin From Net: NetName=RXD0 Pin=JP1-1
+Removed Pin From Net: NetName=ESP32-LTE-TXD Pin=JP1-2
+Removed Pin From Net: NetName=TXD0 Pin=JP1-3
+Removed Pin From Net: NetName=ESP32-LTE-RXD Pin=JP1-4
+Removed Pin From Net: NetName=ADC_1 Pin=U1-4
+Removed Pin From Net: NetName=ADC_2 Pin=U1-5
+Removed Pin From Net: NetName=GPIO_2 Pin=U1-10
+Removed Pin From Net: NetName=GPIO_3 Pin=U1-11
+Removed Pin From Net: NetName=GPIO_4 Pin=U1-12
+Added Component: Designator=SW2(CTS 218-2LPJ)
+Add component (AddParameter): Name = "Actuator Level"; Value = "Flush, Recessed"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Actuator Type"; Value = "Slide (Standard)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Circuit"; Value = "SPST"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.ctscorp.com/wp-content/uploads/218.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "DigiKey Link"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://digikey.com/product-detail/en/cts-electrocomponents/218-2LPST/CT2182LPST-ND/267319"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Finish"; Value = "Gold"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Material"; Value = "Beryllium Copper"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Current Rating (Amps)"; Value = "25mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Features"; Value = "Epoxy Sealed Terminals, Tape Seal"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height Above Board"; Value = "0.104" (2.65mm)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LastUpdated"; Value = "1/4/2020 6:30:26 PM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lifecycle Status"; Value = "Active"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "CTS Electrocomponents"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Minimum Order"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Positions"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-55°C ~ 85°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tube"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "218-2LPST"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Status"; Value = "Active"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartId"; Value = "3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pitch"; Value = "0.050" (1.27mm), Half"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "1.04"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Series"; Value = "218"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "DigiKey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "CT2182LPST-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Termination Style"; Value = "Gull Wing"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = "24VDC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Washable"; Value = "Yes"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=RXD0 Pin=SW2-1
+Added Pin To Net: NetName=TXD0 Pin=SW2-2
+Added Pin To Net: NetName=ESP32-LTE-RXD Pin=SW2-3
+Added Pin To Net: NetName=ESP32-LTE-TXD Pin=SW2-4
+Added Pin To Net: NetName=GPIO_2 Pin=U1-4
+Added Pin To Net: NetName=GPIO_3 Pin=U1-5
+Added Pin To Net: NetName=ADC_1 Pin=U1-10
+Added Pin To Net: NetName=ADC_2 Pin=U1-11
+Added Pin To Net: NetName=ADC_3 Pin=U1-12
