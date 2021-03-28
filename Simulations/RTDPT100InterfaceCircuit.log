@@ -1,0 +1,221 @@
+Circuit: * C:\Users\Public\Documents\Altium\Projects\IoTAdvanced-Mesh+Gateway\Simulations\RTDPT100InterfaceCircuit.asc
+
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+Gmin = 0.115292
+Gmin = 0.0123794
+Gmin = 0.00132923
+vernier = 0.5
+vernier = 0.25
+vernier = 0.125
+vernier = 0.0625
+Gmin = 0.00111203
+vernier = 0.03125
+vernier = 0.015625
+vernier = 0.0078125
+Gmin = 0.00108008
+vernier = 0.00390625
+vernier = 0.00520833
+Gmin = 0.00107133
+vernier = 0.00694444
+vernier = 0.00925925
+Gmin = 0.00105261
+vernier = 0.0123457
+vernier = 0.00617283
+Gmin = 0.00103491
+vernier = 0.00823044
+vernier = 0.0109739
+Gmin = 0.00101351
+vernier = 0.0146319
+vernier = 0.00731595
+vernier = 0.00365797
+Gmin = 0.000999718
+vernier = 0.00182899
+vernier = 0.000914493
+vernier = 0.000457247
+Gmin = 0
+Gmin stepping failed
+
+Starting source stepping with srcstepmethod=0
+Source Step = 3.0303%
+vernier = 0.25
+Source Step = 0.520833%
+Source Step = 0.994318%
+Source Step = 1.4678%
+Source Step = 1.94129%
+Source Step = 2.41477%
+vernier = 0.0234375
+Source Step = 3.0303%
+Source Step = 3.74053%
+Source Step = 4.45076%
+Source Step = 4.89909%
+Source Step = 4.94348%
+Source Step = 4.98787%
+Source Step = 5.03226%
+Source Step = 5.07665%
+Source Step = 5.12103%
+vernier = 0.00219727
+Source Step = 5.18762%
+Source Step = 5.2542%
+Source Step = 5.32079%
+Source Step = 5.38737%
+Source Step = 5.45395%
+vernier = 0.0032959
+Source Step = 5.5505%
+Source Step = 5.65038%
+Source Step = 5.75025%
+Source Step = 5.85013%
+Source Step = 5.95%
+vernier = 0.00494385
+Source Step = 6.08983%
+Source Step = 6.23964%
+Source Step = 6.38946%
+Source Step = 6.53927%
+Source Step = 6.68908%
+vernier = 0.00741577
+Source Step = 6.89133%
+Source Step = 7.11605%
+Source Step = 7.34077%
+Source Step = 7.56549%
+Source Step = 7.79021%
+vernier = 0.0111237
+Source Step = 8.08235%
+Source Step = 8.41943%
+Source Step = 8.75651%
+Source Step = 9.09359%
+Source Step = 9.43067%
+vernier = 0.0166855
+Source Step = 9.85202%
+Source Step = 10.3576%
+vernier = 0.00417137
+Source Step = 10.3355%
+Source Step = 10.3671%
+Source Step = 10.3987%
+Source Step = 10.4303%
+Source Step = 10.4619%
+Source Step = 10.4935%
+vernier = 0.00156426
+Source Step = 10.5394%
+Source Step = 10.5868%
+Source Step = 10.6342%
+Source Step = 10.6816%
+Source Step = 10.729%
+vernier = 0.0023464
+Source Step = 10.7953%
+Source Step = 10.8664%
+Source Step = 10.9375%
+Source Step = 11.0086%
+Source Step = 11.0797%
+vernier = 0.00351959
+Source Step = 11.1757%
+Source Step = 11.2824%
+Source Step = 11.389%
+Source Step = 11.4957%
+Source Step = 11.6023%
+vernier = 0.00527939
+Source Step = 11.741%
+Source Step = 11.901%
+Source Step = 12.061%
+Source Step = 12.2209%
+Source Step = 12.3809%
+vernier = 0.00791909
+Source Step = 12.5809%
+Source Step = 12.8209%
+Source Step = 13.0608%
+Source Step = 13.3008%
+Source Step = 13.5408%
+vernier = 0.0118786
+Source Step = 13.8287%
+Source Step = 14.1887%
+Source Step = 14.5487%
+Source Step = 14.9086%
+Source Step = 15.2686%
+vernier = 0.0178179
+Source Step = 15.6825%
+Source Step = 16.2225%
+Source Step = 16.7624%
+Source Step = 17.3023%
+Source Step = 17.8423%
+vernier = 0.0267269
+Source Step = 18.4362%
+Source Step = 19.2461%
+Source Step = 20.056%
+Source Step = 20.8659%
+Source Step = 21.6758%
+vernier = 0.0400904
+Source Step = 22.5262%
+Source Step = 23.7411%
+Source Step = 24.956%
+Source Step = 26.1708%
+Source Step = 27.3857%
+Source Step = 28.6005%
+vernier = 0.0601356
+Source Step = 30.4228%
+Source Step = 32.2451%
+Source Step = 34.0674%
+Source Step = 35.8897%
+Source Step = 37.712%
+vernier = 0.0902034
+Source Step = 40.3543%
+Source Step = 43.0878%
+Source Step = 45.8212%
+Source Step = 48.5546%
+Source Step = 51.2881%
+vernier = 0.135305
+Source Step = 55.1149%
+Source Step = 59.215%
+Source Step = 63.3152%
+Source Step = 67.4153%
+Source Step = 71.5155%
+vernier = 0.202958
+Source Step = 77.0507%
+Source Step = 83.2009%
+Source Step = 89.3511%
+Source Step = 94.4251%
+vernier = 0.0126848
+Starting source stepping with srcstepmethod=1
+Source Step = 3.0303%
+Source Step = 33.3333%
+Source Step = 63.6364%
+Source Step = 93.9394%
+Source Step = 99.0089%
+Source stepping failed
+
+Pseudo transient terminated at 101.995 s, solution accepted ready or not!
+Semiconductor Device Operating Points:
+                        --- Diodes ---
+Name:  d:u4:e_n:2  d:u4:e_n:1  d:u3:e_n:2  d:u3:e_n:1  d:u2:e_n:2
+Model: u4:e_n:dvn  u4:e_n:dvn  u3:e_n:dvn  u3:e_n:dvn  u2:e_n:dvn
+Id:      1.00e-02    1.00e-02    1.00e-02    1.00e-02    1.00e-02
+Vd:      8.34e-01    8.34e-01    8.34e-01    8.34e-01    8.34e-01
+Req:     2.59e+00    2.59e+00    2.59e+00    2.59e+00    2.59e+00
+CAP:     0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+
+Name:  d:u2:e_n:1  d:u1:e_n:2  d:u1:e_n:1
+Model: u2:e_n:dvn  u1:e_n:dvn  u1:e_n:dvn
+Id:      1.00e-02    1.00e-02    1.00e-02
+Vd:      8.34e-01    8.34e-01    8.34e-01
+Req:     2.59e+00    2.59e+00    2.59e+00
+CAP:     0.00e+00    0.00e+00    0.00e+00
+
+
+
+Date: Sat Mar 27 14:00:37 2021
+Total elapsed time: 693.232 seconds.
+
+tnom = 27
+temp = 27
+method = trap
+totiter = 13500
+traniter = 0
+tranpoints = 0
+accept = 0
+rejected = 40
+matrix size = 517
+fillins = 1082
+solver = Normal
+Matrix Compiler1: 97.90 KB object code size  27.5/20.0/[10.3]
+Matrix Compiler2: off  [11.2]/14.2/12.6
+

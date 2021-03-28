@@ -1,0 +1,9 @@
+Removed Pin From Net: NetName=CT_2 Pin=U1-6
+Removed Pin From Net: NetName=CT_1 Pin=U1-7
+Removed Pin From Net: NetName=CT_3 Pin=U1-9
+Added Pin To Net: NetName=CT_1 Pin=U1-6
+Added Pin To Net: NetName=CT_3 Pin=U1-7
+Added Pin To Net: NetName=CT_2 Pin=U1-9
+Change Net Name : Old Net Name=CT_1 New Net Name=CT_2
+Change Net Name : Old Net Name=CT_2 New Net Name=CT_3
+Change Net Name : Old Net Name=CT_3 New Net Name=CT_1

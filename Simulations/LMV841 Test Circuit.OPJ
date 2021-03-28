@@ -1,0 +1,48 @@
+(ExpressProject "LMV841 Test Circuit"
+  (ProjectVersion "19981106")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File ".\lmv841.olb"
+        (Type "Schematic Library")))
+    (NoModify)
+    (File ".\lmv841 test circuit.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (PSPICE_Regenerate_Netlist_Flag "FALSE"))
+  (Folder "Outputs")
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles"
+      (ActiveProfile
+         ".\lmv841 test circuit-pspicefiles\schematic1\test circuit tran.sim")
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\lmv841 test circuit-pspicefiles\schematic1\test circuit tran.sim"
+        (DisplayName "SCHEMATIC1-Test Circuit Tran")
+        (Type "PSpice Profile")))
+    (Folder "Model Libraries"
+      (Sort User)
+      (File ".\lmv841.lib"
+        (Type "PSpiceLibrary")))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (DefaultLibraryBrowseDirectory "library\PSpice")
+  (PartMRUSelector
+    (LMV841
+      (FullPartName "LMV841.Normal")
+      (LibraryName
+         "C:\USERS\X0260768\DESKTOP\PART_ASSIGNED_BY_IAN\REWORK\MODEL FIXES\GYANA\LMV841\1\MODEL_FIX_LMV841\LMV841_PSPICE\LMV841.OLB")
+      (DeviceIndex "0")))
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Outputs"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -4 -28 0 302 0 347"))
+      (Tab 0)))
+  (MPSSessionName "x0260768"))

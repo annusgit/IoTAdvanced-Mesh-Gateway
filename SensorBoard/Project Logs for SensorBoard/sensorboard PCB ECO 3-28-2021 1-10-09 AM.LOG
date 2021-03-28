@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=ESP32-LTE-RXD Pin=SW2-3
+Removed Pin From Net: NetName=ESP32-LTE-TXD Pin=SW2-4
+Change Component Footprint: Designator=SW2 Old Footprint=CTS 218-2LPJ New Footprint=HAD-02HWA-R
+Change Component Comment : Designator=SW2 Old Comment=218-2LPST New Comment=HAD-02HWA-R
+Added Pin To Net: NetName=ESP32-LTE-TXD Pin=SW2-3
+Added Pin To Net: NetName=ESP32-LTE-RXD Pin=SW2-4

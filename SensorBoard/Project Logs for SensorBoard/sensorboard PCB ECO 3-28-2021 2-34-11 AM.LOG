@@ -1,0 +1,2 @@
+Removed Pin From Net: NetName=VDC3.3 Pin=JP1-1
+Added Pin To Net: NetName=VDD3.3 Pin=JP1-1

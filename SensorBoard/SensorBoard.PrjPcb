@@ -106,7 +106,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=VAWDDKOJ
 
 [Document5]
 DocumentPath=..\..\..\MESAltiumComponentLibrary\Schematic Symbol Libraries\AMFNode-V2.0.SchLib
@@ -261,7 +261,28 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=XWTDQEDW
 
+[Document14]
+DocumentPath=OutputJob.OutJob
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
 [GeneratedDocument1]
+DocumentPath=Project Outputs for SensorBoard\BOM\Bill of Materials-SensorBoard.xlsx
+DItemRevisionGUID=
+
+[GeneratedDocument2]
 DocumentPath=Project Outputs for SensorBoard\Design Rule Check - sensorboard.html
 DItemRevisionGUID=
 
