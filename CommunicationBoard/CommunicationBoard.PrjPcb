@@ -140,7 +140,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=INGKZVRG
 
 [Document7]
 DocumentPath=..\..\..\MESAltiumComponentLibrary\Schematic Symbol Libraries\SSNWireless.SchLib
