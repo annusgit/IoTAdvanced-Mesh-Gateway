@@ -1,9 +1,9 @@
-Circuit: * C:\Users\Public\Documents\Altium\Projects\IoTAdvanced-Mesh+Gateway\Simulations\Thermistor_NTC_50k_Interface.asc
+Circuit: * C:\Users\Public\Documents\Altium\Projects\IoTAdvanced-Mesh-Gateway\Simulations\Thermistor_NTC_50k_Interface.asc
 
 Direct Newton iteration for .op point succeeded.
 
-Date: Sun Mar 28 19:43:33 2021
-Total elapsed time: 2.537 seconds.
+Date: Mon Mar 29 15:34:10 2021
+Total elapsed time: 3.024 seconds.
 
 tnom = 27
 temp = 27
@@ -13,8 +13,8 @@ traniter = 0
 tranpoints = 0
 accept = 0
 rejected = 0
-matrix size = 3
+matrix size = 4
 fillins = 0
 solver = Normal
-Matrix Compiler1: 50 bytes object code size
-Matrix Compiler2: 175 bytes object code size
+Matrix Compiler1: 82 bytes object code size
+Matrix Compiler2: 248 bytes object code size

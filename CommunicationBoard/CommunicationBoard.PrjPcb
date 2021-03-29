@@ -106,7 +106,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=VAWDDKOJ
 
 [Document5]
 DocumentPath=..\..\..\MESAltiumComponentLibrary\Schematic Symbol Libraries\AMFNode-V2.0.SchLib
@@ -123,7 +123,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=JYUKSMCQ
 
 [Document6]
 DocumentPath=..\..\..\MESAltiumComponentLibrary\Schematic Symbol Libraries\SSNWANIoTGateway.SchLib
@@ -174,7 +174,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=QWLFORSJ
 
 [Document9]
 DocumentPath=..\..\..\MESAltiumComponentLibrary\PCB Footprint Libraries\AMFNode-V2.0.PcbLib
@@ -191,7 +191,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=YWVECFRA
 
 [Document10]
 DocumentPath=..\..\..\MESAltiumComponentLibrary\PCB Footprint Libraries\SSNWANIoTGateway.PcbLib
@@ -243,6 +243,10 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=BPNUWVYW
+
+[GeneratedDocument1]
+DocumentPath=Project Outputs for CommunicationBoard\Design Rule Check - communicationboard.html
+DItemRevisionGUID=
 
 [Configuration1]
 Name=Sources
