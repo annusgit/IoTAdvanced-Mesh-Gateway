@@ -1,0 +1,247 @@
+Change Component Footprint: Designator=D10 Old Footprint=ORH-R35A New Footprint=12-21SURC/S530-A3/TR8
+Change Component Comment : Designator=D10 Old Comment=RLED New Comment=RLED-RA
+Added Component: Designator=J2(CONN_2213932-4_TEC)
+Add component (AddParameter): Name = "Built_By"; Value = "EMA_Cory"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Copyright"; Value = "Copyright (C) 2018 Accelerated Designs. All rights reserved"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "2213932-4"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RefDes"; Value = "RefDes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SourceLibrary"; Value = "TE Connectivity_2020-01-22"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "DEV"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor"; Value = "TE Connectivity"; VariantName = "[No Variations]"
+Added Component: Designator=J3(CONN_2213932-4_TEC)
+Add component (AddParameter): Name = "Built_By"; Value = "EMA_Cory"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Copyright"; Value = "Copyright (C) 2018 Accelerated Designs. All rights reserved"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "2213932-4"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RefDes"; Value = "RefDes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SourceLibrary"; Value = "TE Connectivity_2020-01-22"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "DEV"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor"; Value = "TE Connectivity"; VariantName = "[No Variations]"
+Added Component: Designator=J4(CONN_2213932-3_TEC)
+Add component (AddParameter): Name = "Built_By"; Value = "EMA_Cory"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Copyright"; Value = "Copyright (C) 2018 Accelerated Designs. All rights reserved"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "2213932-4"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RefDes"; Value = "RefDes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SourceLibrary"; Value = "TE Connectivity_2020-01-22"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "DEV"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor"; Value = "TE Connectivity"; VariantName = "[No Variations]"
+Added Component: Designator=J5(CONN_2213932-2_TEC)
+Add component (AddParameter): Name = "Built_By"; Value = "EMA_Cory"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Copyright"; Value = "Copyright (C) 2018 Accelerated Designs. All rights reserved"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "2213932-4"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RefDes"; Value = "RefDes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SourceLibrary"; Value = "TE Connectivity_2020-01-22"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "DEV"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor"; Value = "TE Connectivity"; VariantName = "[No Variations]"
+Added Component: Designator=J6(CONN_2213932-2_TEC)
+Add component (AddParameter): Name = "Built_By"; Value = "EMA_Cory"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Copyright"; Value = "Copyright (C) 2018 Accelerated Designs. All rights reserved"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "2213932-4"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RefDes"; Value = "RefDes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SourceLibrary"; Value = "TE Connectivity_2020-01-22"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "DEV"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor"; Value = "TE Connectivity"; VariantName = "[No Variations]"
+Added Component: Designator=J7(Male Header 10x2)
+Add component (AddParameter): Name = "Alternate Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Alternate PartNumber"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Cert_CSA"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Cert_CULUS"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Cert_UL"; Value = "Y"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Cert_VDE"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ClassName"; Value = "Header"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Color"; Value = "Black"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://drawings-pdf.s3.amazonaws.com/C10419.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "CompType"; Value = "Header"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ContactFinish"; Value = "Tin"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Current_A"; Value = "3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Gender"; Value = "Male"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Green_EU RoHS"; Value = "Incomplete"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Green_EU RoHS-2"; Value = "Incomplete"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Green_Lifecycle"; Value = "Not Set"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Green_REACh"; Value = "Incomplete"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "2017-05-05"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Sullins Connector Solutions"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MountType"; Value = "TH"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Orientation"; Value = "Vertical"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "Header, 10x2, 2.54mm, TH"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "PEC10DAAN"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PinCount"; Value = "20"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pitch_mm"; Value = "2.54"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Texas Instruments"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "Y"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Row_Count"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RowSpacing_mm"; Value = "2.54"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Shrouded"; Value = "N"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 2"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 3"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "S2012E-10-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 2"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 3"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SymbolCreator"; Value = "a0412235"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SymbolVersion"; Value = "2013-09-12"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage_V"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=J8(CONN_2213932-2_TEC)
+Add component (AddParameter): Name = "Built_By"; Value = "EMA_Cory"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Copyright"; Value = "Copyright (C) 2018 Accelerated Designs. All rights reserved"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "2213932-4"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RefDes"; Value = "RefDes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SourceLibrary"; Value = "TE Connectivity_2020-01-22"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "DEV"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor"; Value = "TE Connectivity"; VariantName = "[No Variations]"
+Added Component: Designator=J9(CONN_2213932-2_TEC)
+Add component (AddParameter): Name = "Built_By"; Value = "EMA_Cory"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Copyright"; Value = "Copyright (C) 2018 Accelerated Designs. All rights reserved"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "2213932-4"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RefDes"; Value = "RefDes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SourceLibrary"; Value = "TE Connectivity_2020-01-22"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "DEV"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor"; Value = "TE Connectivity"; VariantName = "[No Variations]"
+Added Component: Designator=J10(CONN_2213932-3_TEC)
+Add component (AddParameter): Name = "Built_By"; Value = "EMA_Cory"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Copyright"; Value = "Copyright (C) 2018 Accelerated Designs. All rights reserved"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "2213932-4"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RefDes"; Value = "RefDes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SourceLibrary"; Value = "TE Connectivity_2020-01-22"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "DEV"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor"; Value = "TE Connectivity"; VariantName = "[No Variations]"
+Added Component: Designator=J11(CONN_2213932-4_TEC)
+Add component (AddParameter): Name = "Built_By"; Value = "EMA_Cory"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Copyright"; Value = "Copyright (C) 2018 Accelerated Designs. All rights reserved"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "2213932-4"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RefDes"; Value = "RefDes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SourceLibrary"; Value = "TE Connectivity_2020-01-22"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "DEV"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor"; Value = "TE Connectivity"; VariantName = "[No Variations]"
+Added Component: Designator=J12(CONN_2213932-4_TEC)
+Add component (AddParameter): Name = "Built_By"; Value = "EMA_Cory"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Copyright"; Value = "Copyright (C) 2018 Accelerated Designs. All rights reserved"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "2213932-4"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RefDes"; Value = "RefDes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SourceLibrary"; Value = "TE Connectivity_2020-01-22"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "DEV"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor"; Value = "TE Connectivity"; VariantName = "[No Variations]"
+Added Component: Designator=J13(CUI PJ-102AH)
+Add component (AddParameter): Name = "Actual Diameter"; Value = "0.079" (2.00mm ID), 0.256" (6.50mm OD)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.cuidevices.com/product/resource/digikeypdf/pj-102ah.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "DigiKey Link"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "//digikey.com/product-detail/en/cui-devices/PJ-102AH/CP-102AH-ND/408448"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Connector Type"; Value = "Jack"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Current Rating (Amps)"; Value = "5A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Gender"; Value = "Male"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Industry Recognized Mating Diameter"; Value = "2.00mm ID (0.079"), 5.50mm OD (0.217")"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Internal Switch(s)"; Value = "Single Switch, Normally Closed"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LastUpdated"; Value = "12/16/2019 7:01:27 PM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lifecycle Status"; Value = "0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "CUI Devices"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Material Flammability Rating"; Value = "UL94 V-0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mating Length/Depth"; Value = "0.354" (9.00mm)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Minimum Order"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "Through Hole, Right Angle"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Positions/Contacts"; Value = "2 Conductors, 3 Contacts"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tray"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "PJ-102AH"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Status"; Value = "Active"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "0.76"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Series"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Shielding"; Value = "Unshielded"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "DigiKey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "CP-102AH-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Termination"; Value = "Solder"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage - Rated"; Value = "24VDC"; VariantName = "[No Variations]"
+Added Component: Designator=SW1(FP-TL3330AF260QG-MFG)
+Add component (AddParameter): Name = "Actuator Length"; Value = "1mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Actuator Material"; Value = "Nylon"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case/Package"; Value = "SMD/SMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Color"; Value = "Black"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Material"; Value = "Silver"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Plating"; Value = "Silver"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Resistance"; Value = "100mR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Current Rating"; Value = "50mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Electrical Life"; Value = "30000Cycles"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Illumination Type"; Value = "Non-Illuminated"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lead Free"; Value = "Lead Free"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "70°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Voltage Rating (DC)"; Value = "12V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mechanical Life"; Value = "30000Cycles"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-20°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Force"; Value = "260gf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Orientation"; Value = "Right Angle"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Quantity"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Switch Function"; Value = "Off-Mom"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Switch Travel"; Value = "0.25mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Termination"; Value = "Gull Wing"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Throw Configuration"; Value = "SPST"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating (DC)"; Value = "12V"; VariantName = "[No Variations]"
+Added Component: Designator=U6(USR-ES1-WIZNET5500)
+Added Pin To Net: NetName=VDD3.3 Pin=J2-1
+Added Pin To Net: NetName=GND Pin=J2-2
+Added Pin To Net: NetName=I2C_SCL Pin=J2-3
+Added Pin To Net: NetName=I2C_SDA Pin=J2-4
+Added Pin To Net: NetName=I2C_SDA Pin=J3-1
+Added Pin To Net: NetName=I2C_SCL Pin=J3-2
+Added Pin To Net: NetName=GND Pin=J3-3
+Added Pin To Net: NetName=VDD3.3 Pin=J3-4
+Added Pin To Net: NetName=NetJ4_1 Pin=J4-1
+Added Pin To Net: NetName=NetJ4_2 Pin=J4-2
+Added Pin To Net: NetName=GND Pin=J4-3
+Added Pin To Net: NetName=NetJ5_1 Pin=J5-1
+Added Pin To Net: NetName=GND Pin=J5-2
+Added Pin To Net: NetName=NetJ6_1 Pin=J6-1
+Added Pin To Net: NetName=GND Pin=J6-2
+Added Pin To Net: NetName=ESP32-LTE-CTS Pin=J7-1
+Added Pin To Net: NetName=VDD5.0 Pin=J7-2
+Added Pin To Net: NetName=ESP32-LTE-RTS Pin=J7-3
+Added Pin To Net: NetName=VDD5.0 Pin=J7-4
+Added Pin To Net: NetName=ESP32-LTE-TXD Pin=J7-5
+Added Pin To Net: NetName=VDD5.0 Pin=J7-6
+Added Pin To Net: NetName=ESP32-LTE-RXD Pin=J7-7
+Added Pin To Net: NetName=VDD5.0 Pin=J7-8
+Added Pin To Net: NetName=ESP32-LTE-DTR Pin=J7-9
+Added Pin To Net: NetName=VDD5.0 Pin=J7-10
+Added Pin To Net: NetName=ESP32-LTE-DCD Pin=J7-11
+Added Pin To Net: NetName=GND Pin=J7-12
+Added Pin To Net: NetName=ESP32-LTE-RI Pin=J7-13
+Added Pin To Net: NetName=GND Pin=J7-14
+Added Pin To Net: NetName=ETH_SCLK Pin=J7-15
+Added Pin To Net: NetName=GND Pin=J7-16
+Added Pin To Net: NetName=ETH_MOSI Pin=J7-17
+Added Pin To Net: NetName=GND Pin=J7-18
+Added Pin To Net: NetName=GND Pin=J7-20
+Added Pin To Net: NetName=NetJ8_1 Pin=J8-1
+Added Pin To Net: NetName=GND Pin=J8-2
+Added Pin To Net: NetName=NetJ9_1 Pin=J9-1
+Added Pin To Net: NetName=GND Pin=J9-2
+Added Pin To Net: NetName=RTD_1 Pin=J10-1
+Added Pin To Net: NetName=RTD_2 Pin=J10-2
+Added Pin To Net: NetName=RTD_3 Pin=J10-3
+Added Pin To Net: NetName=GPIO_1 Pin=J11-1
+Added Pin To Net: NetName=GPIO_2 Pin=J11-2
+Added Pin To Net: NetName=GPIO_3 Pin=J11-3
+Added Pin To Net: NetName=GND Pin=J11-4
+Added Pin To Net: NetName=VDD3.3 Pin=J12-1
+Added Pin To Net: NetName=VDD5.0 Pin=J12-2
+Added Pin To Net: NetName=GND Pin=J12-3
+Added Pin To Net: NetName=GND Pin=J12-4
+Added Pin To Net: NetName=NetF1_1 Pin=J13-1
+Added Pin To Net: NetName=GND Pin=J13-2
+Added Pin To Net: NetName=GND Pin=J13-3
+Added Pin To Net: NetName=GND Pin=SW1-1
+Added Pin To Net: NetName=NetC4_2 Pin=SW1-2
+Added Pin To Net: NetName=GND Pin=SW1-3
+Added Pin To Net: NetName=GND Pin=SW1-4
+Added Pin To Net: NetName=ESP32-LTE-RI Pin=U6-1
+Added Pin To Net: NetName=ESP32-LTE-DTR Pin=U6-2
+Added Pin To Net: NetName=VDD3.3 Pin=U6-4
+Added Pin To Net: NetName=VDD3.3 Pin=U6-5
+Added Pin To Net: NetName=GND Pin=U6-6
+Added Pin To Net: NetName=GND Pin=U6-7
+Added Pin To Net: NetName=GND Pin=U6-8
+Added Pin To Net: NetName=ETH_MOSI Pin=U6-9
+Added Pin To Net: NetName=ETH_SCLK Pin=U6-10
+Added Pin To Net: NetName=ETH_CS Pin=U6-11
+Added Pin To Net: NetName=ESP32-LTE-DCD Pin=U6-12

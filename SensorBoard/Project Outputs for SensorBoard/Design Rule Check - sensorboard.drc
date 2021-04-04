@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
-PCB File : C:\Users\Public\Documents\Altium\Projects\IoTAdvanced-Mesh-Gateway\SensorBoard\sensorboard.PcbDoc
-Date     : 4/2/2021
-Time     : 5:56:17 PM
+PCB File : C:\Users\Public\Documents\Altium\Projects\IoTAdvanced-Mesh+Gateway\SensorBoard\sensorboard.PcbDoc
+Date     : 4/4/2021
+Time     : 10:24:15 PM
 
 Processing Rule : Clearance Constraint (Gap=0.35mm) (All),(All)
 Rule Violations :0
@@ -13,27 +13,7 @@ Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
 Rule Violations :0
 
 Processing Rule : Un-Routed Net Constraint ( (All) )
-   Violation between Un-Routed Net Constraint: Net VDD3.3 Between Pad C11-1(46.177mm,27.013mm) on Top Layer And Pad Free-1(52.1mm,38.5mm) on Bottom Layer 
-   Violation between Un-Routed Net Constraint: Net GPIO_1 Between Via (33.254mm,30.897mm) from Top Layer to Bottom Layer And Pad Free-1(52.1mm,28mm) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net GPIO_2 Between Via (34.154mm,31.699mm) from Top Layer to Bottom Layer And Pad Free-2(52.1mm,31.5mm) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net VDD5.0 Between Pad U4-11(23.932mm,36.424mm) on Bottom Layer And Pad Free-2(52.1mm,35mm) on Bottom Layer 
-   Violation between Un-Routed Net Constraint: Net GPIO_3 Between Pad U1-37(30.37mm,50.215mm) on Top Layer [Unplated] And Pad Free-3(52.1mm,35mm) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net VDD3.3 Between Pad Free-5(37.78mm,9.04mm) on Multi-Layer And Pad J1-1(42.703mm,8.06mm) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net ETH_SCLK Between Pad J14-4(42.703mm,8.06mm) on Bottom Layer And Via (52.222mm,14.046mm) from Top Layer to Bottom Layer 
-   Violation between Un-Routed Net Constraint: Net VDD5.0 Between Pad JP2-1(16.535mm,44.628mm) on Multi-Layer And Pad U4-11(23.932mm,36.424mm) on Bottom Layer 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad S1-2(49.759mm,47.168mm) on Top Layer And Via (55.182mm,39.71mm) from Top Layer to Bottom Layer 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad U1-15(46.61mm,36mm) on Top Layer [Unplated] And Track (48.727mm,28.931mm)(48.754mm,28.931mm) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net GND Between Via (19.927mm,15.215mm) from Top Layer to Bottom Layer And Pad U3-3(21.1mm,11.45mm) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net VDD5.0 Between Via (22.86mm,21.819mm) from Top Layer to Bottom Layer And Pad U4-11(23.932mm,36.424mm) on Bottom Layer 
-   Violation between Un-Routed Net Constraint: Net RT_2 Between Pad U4-14(23.932mm,32.614mm) on Bottom Layer And Track (32.354mm,35.527mm)(33.045mm,36.219mm) on Bottom Layer 
-   Violation between Un-Routed Net Constraint: Net VDD5.0 Between Pad U5-1(18.6mm,11.245mm) on Bottom Layer And Track (23.2mm,19.9mm)(23.216mm,19.916mm) on Top Layer 
-   Violation between Isolated copper: Split Plane  (VDD3.3) on VDD. Dead copper detected. Copper area is : 0.069 sq. mm
-   Violation between Un-Routed Net Constraint: Net RTD_1 Between Track (19.914mm,31.072mm)(20.1mm,30.886mm) on Bottom Layer And Track (34.646mm,8.293mm)(34.646mm,19.304mm) on Bottom Layer 
-   Violation between Un-Routed Net Constraint: Net VDD3.3 Between Track (24.55mm,31.95mm)(26.35mm,31.95mm) on Top Layer And Via (27.652mm,37.479mm) from Top Layer to Bottom Layer 
-   Violation between Un-Routed Net Constraint: Net RTD_3 Between Track (27.711mm,8.293mm)(27.711mm,19.152mm) on Bottom Layer And Track (28.143mm,31.936mm)(28.293mm,31.936mm) on Bottom Layer 
-   Violation between Un-Routed Net Constraint: Net RTD_2 Between Via (29.947mm,39.319mm) from Top Layer to Bottom Layer And Track (31.242mm,8.293mm)(31.242mm,19.152mm) on Bottom Layer 
-   Violation between Un-Routed Net Constraint: Net VDD3.3 Between Via (14.046mm,13.716mm) from Top Layer to Bottom Layer And Via (20.815mm,12.862mm) from Top Layer to Bottom Layer 
-Rule Violations :20
+Rule Violations :0
 
 Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
 Rule Violations :0
@@ -60,16 +40,12 @@ Processing Rule : Silk to Silk (Clearance=0mm) (All),(All)
 Rule Violations :0
 
 Processing Rule : Net Antennae (Tolerance=0mm) (All)
-   Violation between Net Antennae: Track (27.711mm,8.293mm)(27.711mm,19.152mm) on Bottom Layer 
-   Violation between Net Antennae: Track (31.242mm,8.293mm)(31.242mm,19.152mm) on Bottom Layer 
-   Violation between Net Antennae: Track (34.646mm,8.293mm)(34.646mm,19.304mm) on Bottom Layer 
-   Violation between Net Antennae: Via (52.222mm,14.046mm) from Top Layer to Bottom Layer 
-Rule Violations :4
+Rule Violations :0
 
 Processing Rule : Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (All)
 Rule Violations :0
 
 
-Violations Detected : 24
+Violations Detected : 0
 Waived Violations : 0
 Time Elapsed        : 00:00:02

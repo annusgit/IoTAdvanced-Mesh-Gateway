@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
-PCB File : C:\Users\Public\Documents\Altium\Projects\IoTAdvanced-Mesh-Gateway\CommunicationBoard\communicationboard.PcbDoc
-Date     : 4/2/2021
-Time     : 3:55:38 PM
+PCB File : C:\Users\Public\Documents\Altium\Projects\IoTAdvanced-Mesh+Gateway\CommunicationBoard\communicationboard.PcbDoc
+Date     : 4/5/2021
+Time     : 12:56:04 AM
 
 Processing Rule : Clearance Constraint (Gap=0.25mm) ((HasFootprint('FCI USB 10118193-0001LF'))),(All)
 Rule Violations :0
@@ -22,9 +22,7 @@ Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
 Rule Violations :0
 
 Processing Rule : Un-Routed Net Constraint ( (All) )
-   Violation between Isolated copper: Split Plane  (GND) on GND. Dead copper detected. Copper area is : 0.197 sq. mm
-   Violation between Isolated copper: Split Plane  (VDD3.8) on VDD. Dead copper detected. Copper area is : 0.197 sq. mm
-Rule Violations :2
+Rule Violations :0
 
 Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
 Rule Violations :0
@@ -32,7 +30,7 @@ Rule Violations :0
 Processing Rule : Width Constraint (Min=0.254mm) (Max=0.5mm) (Preferred=0.35mm) (All)
 Rule Violations :0
 
-Processing Rule : Width Constraint (Min=0.293mm) (Max=0.293mm) (Preferred=0.293mm) (InNet('MAIN_ANT'))
+Processing Rule : Width Constraint (Min=0.2mm) (Max=0.2mm) (Preferred=0.2mm) (InNet('MAIN_ANT'))
 Rule Violations :0
 
 Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (All)
@@ -60,6 +58,6 @@ Processing Rule : Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (Al
 Rule Violations :0
 
 
-Violations Detected : 2
+Violations Detected : 0
 Waived Violations : 0
 Time Elapsed        : 00:00:02
