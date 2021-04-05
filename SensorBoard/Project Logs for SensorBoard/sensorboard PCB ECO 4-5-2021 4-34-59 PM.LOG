@@ -1,0 +1,2 @@
+Change Component DesignItemId : Designator=JP1 Old DesignItemId=Male Header 2x3 New DesignItemId=Female Header 2x3
+Change Component Footprint: Designator=JP1 Old Footprint=Male Header 2x3 New Footprint=Female Header RA 2x3

@@ -58,7 +58,7 @@ GenerateClassCluster=0
 DocumentUniqueId=cdec712f-2973-4e75-83a7-a910eead7d1f
 
 [Document2]
-DocumentPath=..\CommunicationBoard\CommunicationBoard.PrjPcb
+DocumentPath=FullGatewayAssembly.MbaDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -72,7 +72,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=50a510f2-70c7-4be4-bb88-195723457b69
 
 [Document3]
 DocumentPath=..\SensorBoard\SensorBoard.PrjPcb
@@ -92,7 +92,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document4]
-DocumentPath=FullGatewayAssembly.MbaDoc
+DocumentPath=..\CommunicationBoard\CommunicationBoard.PrjPcb
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -106,7 +106,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=a3ebd9b7-3398-4fba-b3f5-33e2b911129f
+DocumentUniqueId=
 
 [OutputGroup1]
 Name=Netlist Outputs

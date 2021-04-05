@@ -1,4 +1,4 @@
-Record=DiagramHierarchy|SourceDocument=FullGateway.MbsDoc|Kind=Multi-board Schematic Module|Designator=2|Source=..\CommunicationBoard\CommunicationBoard.PrjPcb
+Record=DiagramHierarchy|SourceDocument=FullGateway.MbsDoc|Kind=Multi-board Schematic Module|Designator=M2|Source=..\CommunicationBoard\CommunicationBoard.PrjPcb
 Record=SubProject|SourceDocument=FullGateway.MbsDoc|ProjectPath=..\CommunicationBoard\CommunicationBoard.PrjPcb
-Record=DiagramHierarchy|SourceDocument=FullGateway.MbsDoc|Kind=Multi-board Schematic Module|Designator=1|Source=..\SensorBoard\SensorBoard.PrjPcb
+Record=DiagramHierarchy|SourceDocument=FullGateway.MbsDoc|Kind=Multi-board Schematic Module|Designator=M1|Source=..\SensorBoard\SensorBoard.PrjPcb
 Record=SubProject|SourceDocument=FullGateway.MbsDoc|ProjectPath=..\SensorBoard\SensorBoard.PrjPcb
