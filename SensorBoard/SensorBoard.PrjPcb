@@ -31,7 +31,7 @@ ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
 IsProjectConflictPreventionWarningsEnabled=0
-OutputPath=
+OutputPath=Project Outputs for SensorBoard
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
@@ -286,6 +286,110 @@ DItemRevisionGUID=
 DocumentPath=Project Outputs for SensorBoard\Design Rule Check - sensorboard.html
 DItemRevisionGUID=
 
+[GeneratedDocument3]
+DocumentPath=Project Outputs for SensorBoard\NC Drill\sensorboard-RoundHoles.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument4]
+DocumentPath=Project Outputs for SensorBoard\NC Drill\sensorboard-SlotHoles.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument5]
+DocumentPath=Project Outputs for SensorBoard\NC Drill\sensorboard.DRR
+DItemRevisionGUID=
+
+[GeneratedDocument6]
+DocumentPath=Project Outputs for SensorBoard\Gerber\sensorboard.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument7]
+DocumentPath=Project Outputs for SensorBoard\Gerber\sensorboard.GBL
+DItemRevisionGUID=
+
+[GeneratedDocument8]
+DocumentPath=Project Outputs for SensorBoard\Gerber\sensorboard.GBO
+DItemRevisionGUID=
+
+[GeneratedDocument9]
+DocumentPath=Project Outputs for SensorBoard\Gerber\sensorboard.GBP
+DItemRevisionGUID=
+
+[GeneratedDocument10]
+DocumentPath=Project Outputs for SensorBoard\Gerber\sensorboard.GBS
+DItemRevisionGUID=
+
+[GeneratedDocument11]
+DocumentPath=Project Outputs for SensorBoard\Gerber\sensorboard.GD1
+DItemRevisionGUID=
+
+[GeneratedDocument12]
+DocumentPath=Project Outputs for SensorBoard\Gerber\sensorboard.GG1
+DItemRevisionGUID=
+
+[GeneratedDocument13]
+DocumentPath=Project Outputs for SensorBoard\Gerber\sensorboard.GM1
+DItemRevisionGUID=
+
+[GeneratedDocument14]
+DocumentPath=Project Outputs for SensorBoard\Gerber\sensorboard.GM2
+DItemRevisionGUID=
+
+[GeneratedDocument15]
+DocumentPath=Project Outputs for SensorBoard\Gerber\sensorboard.GM5
+DItemRevisionGUID=
+
+[GeneratedDocument16]
+DocumentPath=Project Outputs for SensorBoard\Gerber\sensorboard.GM6
+DItemRevisionGUID=
+
+[GeneratedDocument17]
+DocumentPath=Project Outputs for SensorBoard\Gerber\sensorboard.GM13
+DItemRevisionGUID=
+
+[GeneratedDocument18]
+DocumentPath=Project Outputs for SensorBoard\Gerber\sensorboard.GM14
+DItemRevisionGUID=
+
+[GeneratedDocument19]
+DocumentPath=Project Outputs for SensorBoard\Gerber\sensorboard.GM30
+DItemRevisionGUID=
+
+[GeneratedDocument20]
+DocumentPath=Project Outputs for SensorBoard\Gerber\sensorboard.GP1
+DItemRevisionGUID=
+
+[GeneratedDocument21]
+DocumentPath=Project Outputs for SensorBoard\Gerber\sensorboard.GP2
+DItemRevisionGUID=
+
+[GeneratedDocument22]
+DocumentPath=Project Outputs for SensorBoard\Gerber\sensorboard.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument23]
+DocumentPath=Project Outputs for SensorBoard\Gerber\sensorboard.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument24]
+DocumentPath=Project Outputs for SensorBoard\Gerber\sensorboard.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument25]
+DocumentPath=Project Outputs for SensorBoard\Gerber\sensorboard.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument26]
+DocumentPath=Project Outputs for SensorBoard\NC Drill\sensorboard.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument27]
+DocumentPath=Project Outputs for SensorBoard\Gerber\sensorboard.REP
+DItemRevisionGUID=
+
+[GeneratedDocument28]
+DocumentPath=Project Outputs for SensorBoard\Gerber\sensorboard.RUL
+DItemRevisionGUID=
+
 [Configuration1]
 Name=Sources
 ParameterCount=0
@@ -295,6 +399,9 @@ Variant=[No Variations]
 OutputJobsCount=0
 ContentTypeGUID=CB6F2064-E317-11DF-B822-12313F0024A2
 ConfigurationType=Source
+
+[Generic_EDE]
+OutputDir=Project Outputs for SensorBoard
 
 [OutputGroup1]
 Name=Netlist Outputs

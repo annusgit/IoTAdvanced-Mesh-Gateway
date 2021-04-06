@@ -1,0 +1,10 @@
+DRC Rules Export File for PCB: C:\Users\Public\Documents\Altium\Projects\IoTAdvanced-Mesh-Gateway\CommunicationBoard\communicationboard.PcbDoc
+RuleKind=Width|RuleName=Antenna50|Scope=Board|Minimum=11.55
+RuleKind=Clearance|RuleName=Clearance_USBDiffPair|Scope=Board|Minimum=3.94
+RuleKind=Clearance|RuleName=Clearance_SmallFootprint|Scope=Board|Minimum=11.81
+RuleKind=Clearance|RuleName=FCI USB 10118193-0001LF|Scope=Board|Minimum=9.84
+RuleKind=Clearance|RuleName=TXS0108RGYR|Scope=Board|Minimum=7.87
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=4.00
+RuleKind=Width|RuleName=Width|Scope=Board|Minimum=10.00
+RuleKind=Clearance|RuleName=Clearance|Scope=Board|Minimum=13.78
+RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0
