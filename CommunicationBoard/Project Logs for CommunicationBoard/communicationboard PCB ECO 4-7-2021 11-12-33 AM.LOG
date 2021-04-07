@@ -1,0 +1,20 @@
+Change Component Footprint: Designator=S1 Old Footprint=PANASONIC EVPAW New Footprint=SW_B3U-1000P
+Change Component Footprint: Designator=S2 Old Footprint=PANASONIC EVPAW New Footprint=SW_B3U-1000P
+Change Component Comment : Designator=S1 Old Comment=EVP-AWCD2A New Comment=B3U-1000P
+Change Component Comment : Designator=S2 Old Comment=EVP-AWCD2A New Comment=B3U-1000P
+Change component parameters: Designator = "S1" ("S1"); Footprint = "PANASONIC EVPAW"; UniqueID = "\EAKJPCSL" ("\EAKJPCSL")
+Change component parameters (AddParameter): Name = "Digi-Key_Part_Number"; Value = "SW1020CT-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Digi-Key_Purchase_URL"; Value = "https://www.digikey.com/product-detail/en/omron-electronics-inc-emc-div/B3U-1000P/SW1020CT-ND/1534357?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MF"; Value = "Omron"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MP"; Value = "B3U-1000P"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/B3U-1000P/Omron%20Electronics%20Inc-EMC%20Div/view-part/104326/?ref=snap"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "S2" ("S2"); Footprint = "PANASONIC EVPAW"; UniqueID = "\HFDJUDJG" ("\HFDJUDJG")
+Change component parameters (AddParameter): Name = "Digi-Key_Part_Number"; Value = "SW1020CT-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Digi-Key_Purchase_URL"; Value = "https://www.digikey.com/product-detail/en/omron-electronics-inc-emc-div/B3U-1000P/SW1020CT-ND/1534357?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MF"; Value = "Omron"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MP"; Value = "B3U-1000P"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/B3U-1000P/Omron%20Electronics%20Inc-EMC%20Div/view-part/104326/?ref=snap"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"

@@ -1,13 +1,29 @@
-Output: NC Drill Files
-Type  : NC Drill
-From  : PCB Document [communicationboard.PcbDoc]
-   Generated File[communicationboard-RoundHoles.TXT]
-   Generated File[communicationboard-SlotHoles.TXT]
-   Generated File[communicationboard.LDP]
-   Generated File[communicationboard.DRR]
+Output: Gerber Files
+Type  : Gerber
+From  : Variant [[No Variations]] of PCB Document [communicationboard.PcbDoc]
+   Generated File[communicationboard.GTO]
+   Generated File[communicationboard.GTP]
+   Generated File[communicationboard.GTS]
+   Generated File[communicationboard.GTL]
+   Generated File[communicationboard.GP1]
+   Generated File[communicationboard.GP2]
+   Generated File[communicationboard.GBL]
+   Generated File[communicationboard.GBS]
+   Generated File[communicationboard.GBP]
+   Generated File[communicationboard.GBO]
+   Generated File[communicationboard.GM1]
+   Generated File[communicationboard.GM2]
+   Generated File[communicationboard.GM5]
+   Generated File[communicationboard.GM6]
+   Generated File[communicationboard.GM13]
+   Generated File[communicationboard.GM14]
+   Generated File[communicationboard.GM30]
+   Generated File[communicationboard.RUL]
+   Generated File[communicationboard.EXTREP]
+   Generated File[communicationboard.REP]
 
 
-Files Generated   : 4
+Files Generated   : 20
 Documents Printed : 0
 
-Finished Output Generation At 7:44:45 PM On 4/6/2021
+Finished Output Generation At 7:15:54 PM On 4/7/2021

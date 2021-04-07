@@ -1,0 +1,20 @@
+Removed Pin From Net: NetName=MAIN_ANT Pin=AE1-1
+Removed Pin From Net: NetName=GND Pin=AE1-2
+Removed Pin From Net: NetName=GND Pin=AE1-3
+Removed Pin From Net: NetName=GND Pin=AE1-4
+Removed Pin From Net: NetName=GND Pin=AE1-5
+Added Component: Designator=J2(LINX_CONSMA002-G)
+Add component (AddParameter): Name = "Availability"; Value = "Warning"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/CONSMA002-G/Linx%20Technologies%20Inc./view-part/546281/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Linx Technologies"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "CONSMA002-G"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Purchase-URL"; Value = "https://pricing.snapeda.com/search/part/CONSMA002-G/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/CONSMA002-G/Linx%20Technologies%20Inc./view-part/546281/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=MAIN_ANT Pin=J2-1
+Added Pin To Net: NetName=GND Pin=J2-S1
+Added Pin To Net: NetName=GND Pin=J2-S2
+Added Pin To Net: NetName=GND Pin=J2-S3
+Added Pin To Net: NetName=GND Pin=J2-S4

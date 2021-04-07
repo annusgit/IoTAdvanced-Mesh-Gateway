@@ -2,235 +2,21 @@
 FileName = communicationboard.GBR
 AutoAperture = True
 *************************************************************
-Generating : Bottom Layer
-      File : communicationboard.GBL
+Generating : Top Layer
+      File : communicationboard.GTL
 
-    Adding Layer      : Bottom Layer
+    Adding Layer      : Top Layer
 
     Adding Layer      : BoardOutline
 
     Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D10
-    D15
-    D16
-    D24
-    D29
-    D65
-    D69
-    D70
-    D71
-    D72
-    D73
-    D74
-    D75
-    D76
-    D87
-    D88
-    D89
-    D90
-    D91
-    D92
-    D93
-    D94
-    D95
-*************************************************************
-
-*************************************************************
-Generating : Bottom Assembly
-      File : communicationboard.GM14
-
-    Adding Layer      : Bottom Assembly
-
-    Adding Layer      : BoardOutline
-
-
-Used DCodes :
-    D14
-    D15
-    D16
-    D110
-    D111
-    D112
-    D113
-*************************************************************
-
-*************************************************************
-Generating : Top Assembly
-      File : communicationboard.GM13
-
-    Adding Layer      : Top Assembly
-
-    Adding Layer      : BoardOutline
 
 
 Used DCodes :
     D10
     D11
-    D13
-    D14
-    D15
-    D16
-    D19
-    D20
-    D107
-    D108
-    D109
-*************************************************************
-
-*************************************************************
-Generating : Bottom Paste
-      File : communicationboard.GBP
-
-    Adding Layer      : Bottom Paste
-
-    Adding Layer      : BoardOutline
-
-    Adding Layer      : Bottom Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D15
-    D24
-    D29
-    D87
-    D88
-    D89
-    D90
-    D91
-    D92
-    D93
-    D94
-    D95
-*************************************************************
-
-*************************************************************
-Generating : Bottom 3D Body
-      File : communicationboard.GM2
-
-    Adding Layer      : Bottom 3D Body
-
-    Adding Layer      : BoardOutline
-
-
-Used DCodes :
-    D15
-*************************************************************
-
-*************************************************************
-Generating : Top Designator
-      File : communicationboard.GM5
-
-    Adding Layer      : Top Designator
-
-    Adding Layer      : BoardOutline
-
-
-Used DCodes :
-    D15
-*************************************************************
-
-*************************************************************
-Generating : Bottom Designator
-      File : communicationboard.GM6
-
-    Adding Layer      : Bottom Designator
-
-    Adding Layer      : BoardOutline
-
-
-Used DCodes :
-    D15
-*************************************************************
-
-*************************************************************
-Generating : Bottom Solder
-      File : communicationboard.GBS
-
-    Adding Layer      : Bottom Solder
-
-    Adding Layer      : BoardOutline
-
-    Adding Layer      : Bottom Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D15
-    D42
-    D47
-    D59
-    D60
-    D61
-    D62
-    D63
-    D64
-    D65
-    D96
-    D97
-    D98
-    D99
-    D100
-    D101
-    D102
-    D103
-    D104
-*************************************************************
-
-*************************************************************
-Generating : Bottom Overlay
-      File : communicationboard.GBO
-
-    Adding Layer      : Bottom Overlay
-
-    Adding Layer      : BoardOutline
-
-
-Used DCodes :
     D12
-    D14
-    D15
-    D16
     D17
-    D18
-    D21
-    D105
-    D106
-*************************************************************
-
-*************************************************************
-Generating : BoardOutline
-      File : communicationboard.GM30
-
-    Adding Layer      : BoardOutline
-
-    Adding Layer      : BoardOutline
-
-
-Used DCodes :
-    D15
-*************************************************************
-
-*************************************************************
-Generating : Top Paste
-      File : communicationboard.GTP
-
-    Adding Layer      : Top Paste
-
-    Adding Layer      : BoardOutline
-
-    Adding Layer      : Top Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D15
     D23
     D24
     D25
@@ -249,6 +35,106 @@ Used DCodes :
     D38
     D39
     D40
+    D41
+    D42
+    D43
+    D71
+    D72
+    D73
+    D74
+    D75
+    D76
+    D77
+    D78
+    D79
+    D80
+*************************************************************
+
+*************************************************************
+Generating : GND
+      File : communicationboard.GP1
+
+    Adding Layer      : GND
+
+    Adding Layer      : BoardOutline
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D10
+    D23
+    D81
+    D82
+    D83
+    D84
+    D85
+    D86
+    D87
+    D88
+*************************************************************
+
+*************************************************************
+Generating : VDD
+      File : communicationboard.GP2
+
+    Adding Layer      : VDD
+
+    Adding Layer      : BoardOutline
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D10
+    D13
+    D23
+    D81
+    D82
+    D83
+    D84
+    D86
+    D88
+    D89
+    D90
+*************************************************************
+
+*************************************************************
+Generating : Bottom Layer
+      File : communicationboard.GBL
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : BoardOutline
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D10
+    D11
+    D12
+    D17
+    D23
+    D28
+    D32
+    D73
+    D74
+    D75
+    D76
+    D77
+    D78
+    D79
+    D80
+    D91
+    D92
+    D93
+    D94
+    D95
+    D96
+    D97
+    D98
+    D99
 *************************************************************
 
 *************************************************************
@@ -274,23 +160,24 @@ Used DCodes :
     D20
     D21
     D22
+    D23
 *************************************************************
 
 *************************************************************
-Generating : Top Layer
-      File : communicationboard.GTL
+Generating : Top Paste
+      File : communicationboard.GTP
 
-    Adding Layer      : Top Layer
+    Adding Layer      : Top Paste
 
     Adding Layer      : BoardOutline
+
+    Adding Layer      : Top Layer
 
     Adding Layer      : Multi-Layer
 
 
 Used DCodes :
     D10
-    D15
-    D16
     D23
     D24
     D25
@@ -309,18 +196,9 @@ Used DCodes :
     D38
     D39
     D40
-    D65
-    D66
-    D67
-    D68
-    D69
-    D70
-    D71
-    D72
-    D73
-    D74
-    D75
-    D76
+    D41
+    D42
+    D43
 *************************************************************
 
 *************************************************************
@@ -337,10 +215,8 @@ Generating : Top Solder
 
 
 Used DCodes :
-    D15
-    D41
-    D42
-    D43
+    D10
+    D23
     D44
     D45
     D46
@@ -363,55 +239,156 @@ Used DCodes :
     D63
     D64
     D65
+    D66
+    D67
+    D68
+    D69
+    D70
 *************************************************************
 
 *************************************************************
-Generating : VDD
-      File : communicationboard.GP2
+Generating : Bottom Solder
+      File : communicationboard.GBS
 
-    Adding Layer      : VDD
+    Adding Layer      : Bottom Solder
 
     Adding Layer      : BoardOutline
+
+    Adding Layer      : Bottom Layer
 
     Adding Layer      : Multi-Layer
 
 
 Used DCodes :
+    D10
+    D23
+    D48
+    D52
+    D64
+    D65
+    D66
+    D67
+    D68
+    D69
+    D70
+    D100
+    D101
+    D102
+    D103
+    D104
+    D105
+    D106
+    D107
+    D108
+*************************************************************
+
+*************************************************************
+Generating : Bottom Overlay
+      File : communicationboard.GBO
+
+    Adding Layer      : Bottom Overlay
+
+    Adding Layer      : BoardOutline
+
+
+Used DCodes :
+    D10
+    D11
+    D15
+    D16
+    D17
+    D18
+    D20
+    D23
+    D109
+    D110
+    D111
+*************************************************************
+
+*************************************************************
+Generating : Bottom Paste
+      File : communicationboard.GBP
+
+    Adding Layer      : Bottom Paste
+
+    Adding Layer      : BoardOutline
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D10
+    D23
+    D28
+    D32
+    D91
+    D92
+    D93
+    D94
+    D95
+    D96
+    D97
+    D98
+    D99
+*************************************************************
+
+*************************************************************
+Generating : Top Assembly
+      File : communicationboard.GM13
+
+    Adding Layer      : Top Assembly
+
+    Adding Layer      : BoardOutline
+
+
+Used DCodes :
+    D10
+    D12
     D13
     D15
-    D65
-    D77
-    D78
-    D80
-    D81
-    D83
-    D84
-    D85
-    D86
+    D16
+    D17
+    D19
+    D21
+    D23
+    D112
+    D113
 *************************************************************
 
 *************************************************************
-Generating : GND
-      File : communicationboard.GP1
+Generating : Bottom Assembly
+      File : communicationboard.GM14
 
-    Adding Layer      : GND
+    Adding Layer      : Bottom Assembly
 
     Adding Layer      : BoardOutline
 
-    Adding Layer      : Multi-Layer
+
+Used DCodes :
+    D10
+    D15
+    D16
+    D17
+    D23
+    D114
+    D115
+    D116
+*************************************************************
+
+*************************************************************
+Generating : BoardOutline
+      File : communicationboard.GM30
+
+    Adding Layer      : BoardOutline
+
+    Adding Layer      : BoardOutline
 
 
 Used DCodes :
-    D15
-    D65
-    D77
-    D78
-    D79
-    D80
-    D81
-    D82
-    D83
-    D84
+    D10
+    D23
 *************************************************************
 
 *************************************************************
@@ -424,6 +401,49 @@ Generating : Top 3D Body
 
 
 Used DCodes :
-    D15
+    D10
+    D23
+*************************************************************
+
+*************************************************************
+Generating : Top Designator
+      File : communicationboard.GM5
+
+    Adding Layer      : Top Designator
+
+    Adding Layer      : BoardOutline
+
+
+Used DCodes :
+    D10
+    D23
+*************************************************************
+
+*************************************************************
+Generating : Bottom 3D Body
+      File : communicationboard.GM2
+
+    Adding Layer      : Bottom 3D Body
+
+    Adding Layer      : BoardOutline
+
+
+Used DCodes :
+    D10
+    D23
+*************************************************************
+
+*************************************************************
+Generating : Bottom Designator
+      File : communicationboard.GM6
+
+    Adding Layer      : Bottom Designator
+
+    Adding Layer      : BoardOutline
+
+
+Used DCodes :
+    D10
+    D23
 *************************************************************
 
