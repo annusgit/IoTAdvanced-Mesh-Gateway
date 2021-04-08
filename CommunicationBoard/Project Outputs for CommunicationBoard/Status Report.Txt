@@ -1,29 +1,14 @@
-Output: Gerber Files
-Type  : Gerber
+Project Outputs Generation Report
+---------------------------------
+Start Output Generation At 9:54:04 AM On 4/8/2021
+
+Output: Export STEP
+Type  : ExportSTEP
 From  : Variant [[No Variations]] of PCB Document [communicationboard.PcbDoc]
-   Generated File[communicationboard.GTO]
-   Generated File[communicationboard.GTP]
-   Generated File[communicationboard.GTS]
-   Generated File[communicationboard.GTL]
-   Generated File[communicationboard.GP1]
-   Generated File[communicationboard.GP2]
-   Generated File[communicationboard.GBL]
-   Generated File[communicationboard.GBS]
-   Generated File[communicationboard.GBP]
-   Generated File[communicationboard.GBO]
-   Generated File[communicationboard.GM1]
-   Generated File[communicationboard.GM2]
-   Generated File[communicationboard.GM5]
-   Generated File[communicationboard.GM6]
-   Generated File[communicationboard.GM13]
-   Generated File[communicationboard.GM14]
-   Generated File[communicationboard.GM30]
-   Generated File[communicationboard.RUL]
-   Generated File[communicationboard.EXTREP]
-   Generated File[communicationboard.REP]
+   Generated File[communicationboard.step]
 
 
-Files Generated   : 20
+Files Generated   : 1
 Documents Printed : 0
 
-Finished Output Generation At 7:15:54 PM On 4/7/2021
+Finished Output Generation At 9:54:20 AM On 4/8/2021

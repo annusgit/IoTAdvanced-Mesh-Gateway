@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=VDD5.0 Pin=F1-2
+Added Pin To Net: NetName=VDD5.0 Pin=F1-1
+Added Pin To Net: NetName=NetF1_2 Pin=F1-2
+Added Pin To Net: NetName=NetF1_2 Pin=J13-1
+Added Net: Name=NetF1_2

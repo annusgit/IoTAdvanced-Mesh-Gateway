@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
 PCB File : C:\Users\Public\Documents\Altium\Projects\IoTAdvanced-Mesh-Gateway\CommunicationBoard\communicationboard.PcbDoc
-Date     : 4/7/2021
-Time     : 7:15:39 PM
+Date     : 4/8/2021
+Time     : 8:32:33 AM
 
 Processing Rule : Clearance Constraint (Gap=0.25mm) ((HasFootprint('FCI USB 10118193-0001LF'))),(All)
 Rule Violations :0
@@ -60,4 +60,4 @@ Rule Violations :0
 
 Violations Detected : 0
 Waived Violations : 0
-Time Elapsed        : 00:00:02
+Time Elapsed        : 00:00:01

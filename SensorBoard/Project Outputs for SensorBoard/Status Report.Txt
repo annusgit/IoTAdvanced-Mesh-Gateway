@@ -1,13 +1,14 @@
-Output: NC Drill Files
-Type  : NC Drill
-From  : PCB Document [sensorboard.PcbDoc]
-   Generated File[sensorboard-RoundHoles.TXT]
-   Generated File[sensorboard-SlotHoles.TXT]
-   Generated File[sensorboard.LDP]
-   Generated File[sensorboard.DRR]
+Project Outputs Generation Report
+---------------------------------
+Start Output Generation At 10:12:49 AM On 4/8/2021
+
+Output: Export STEP
+Type  : ExportSTEP
+From  : Variant [[No Variations]] of PCB Document [sensorboard.PcbDoc]
+   Generated File[sensorboard.step]
 
 
-Files Generated   : 4
+Files Generated   : 1
 Documents Printed : 0
 
-Finished Output Generation At 8:07:33 PM On 4/7/2021
+Finished Output Generation At 10:13:01 AM On 4/8/2021

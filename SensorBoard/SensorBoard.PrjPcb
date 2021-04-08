@@ -335,59 +335,55 @@ DocumentPath=Project Outputs for SensorBoard\Gerber\sensorboard.GM2
 DItemRevisionGUID=
 
 [GeneratedDocument15]
-DocumentPath=Project Outputs for SensorBoard\Gerber\sensorboard.GM5
-DItemRevisionGUID=
-
-[GeneratedDocument16]
-DocumentPath=Project Outputs for SensorBoard\Gerber\sensorboard.GM6
-DItemRevisionGUID=
-
-[GeneratedDocument17]
 DocumentPath=Project Outputs for SensorBoard\Gerber\sensorboard.GM13
 DItemRevisionGUID=
 
-[GeneratedDocument18]
+[GeneratedDocument16]
 DocumentPath=Project Outputs for SensorBoard\Gerber\sensorboard.GM14
 DItemRevisionGUID=
 
-[GeneratedDocument19]
+[GeneratedDocument17]
 DocumentPath=Project Outputs for SensorBoard\Gerber\sensorboard.GM30
 DItemRevisionGUID=
 
-[GeneratedDocument20]
+[GeneratedDocument18]
 DocumentPath=Project Outputs for SensorBoard\Gerber\sensorboard.GP1
 DItemRevisionGUID=
 
-[GeneratedDocument21]
+[GeneratedDocument19]
 DocumentPath=Project Outputs for SensorBoard\Gerber\sensorboard.GP2
 DItemRevisionGUID=
 
-[GeneratedDocument22]
+[GeneratedDocument20]
 DocumentPath=Project Outputs for SensorBoard\Gerber\sensorboard.GTL
 DItemRevisionGUID=
 
-[GeneratedDocument23]
+[GeneratedDocument21]
 DocumentPath=Project Outputs for SensorBoard\Gerber\sensorboard.GTO
 DItemRevisionGUID=
 
-[GeneratedDocument24]
+[GeneratedDocument22]
 DocumentPath=Project Outputs for SensorBoard\Gerber\sensorboard.GTP
 DItemRevisionGUID=
 
-[GeneratedDocument25]
+[GeneratedDocument23]
 DocumentPath=Project Outputs for SensorBoard\Gerber\sensorboard.GTS
 DItemRevisionGUID=
 
-[GeneratedDocument26]
+[GeneratedDocument24]
 DocumentPath=Project Outputs for SensorBoard\NC Drill\sensorboard.LDP
 DItemRevisionGUID=
 
-[GeneratedDocument27]
+[GeneratedDocument25]
 DocumentPath=Project Outputs for SensorBoard\Gerber\sensorboard.REP
 DItemRevisionGUID=
 
-[GeneratedDocument28]
+[GeneratedDocument26]
 DocumentPath=Project Outputs for SensorBoard\Gerber\sensorboard.RUL
+DItemRevisionGUID=
+
+[GeneratedDocument27]
+DocumentPath=Project Outputs for SensorBoard\ExportSTEP\sensorboard.step
 DItemRevisionGUID=
 
 [Configuration1]

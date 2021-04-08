@@ -72,7 +72,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=50a510f2-70c7-4be4-bb88-195723457b69
+DocumentUniqueId=a520743f-87ab-4be6-9788-cf5be91e5045
 
 [Document3]
 DocumentPath=..\SensorBoard\SensorBoard.PrjPcb
@@ -93,6 +93,23 @@ DocumentUniqueId=
 
 [Document4]
 DocumentPath=..\CommunicationBoard\CommunicationBoard.PrjPcb
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document5]
+DocumentPath=OutputJob.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
