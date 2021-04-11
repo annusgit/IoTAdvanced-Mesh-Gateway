@@ -1,0 +1,24 @@
+Change Component Footprint: Designator=J13 Old Footprint=CUI PJ-102AH New Footprint=Pluggable 2x3P Terminal Block Right Angle
+Change Component Comment : Designator=J13 Old Comment=PJ-102AH New Comment=PT-Block
+Change component parameters: Designator = "J13" ("J13"); Footprint = "CUI PJ-102AH"; UniqueID = "\QTJMCADS" ("\QTJMCADS")
+Added Component: Designator=PS1(CONV_HLK-5M05)
+Add component (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Hi-link"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "HLK-5M05"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "Package Analog Devices"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/HLK-5M05/Hi-link/view-part/2758659/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=PS1-3
+Added Pin To Net: NetName=AC_1 Pin=J13-4
+Added Pin To Net: NetName=AC_1 Pin=PS1-1
+Added Net: Name=AC_1
+Added Pin To Net: NetName=AC_2 Pin=J13-5
+Added Pin To Net: NetName=AC_2 Pin=PS1-2
+Added Net: Name=AC_2
+Added Pin To Net: NetName=Earth Pin=J13-6
+Added Net: Name=Earth
+Added Pin To Net: NetName=VIN5.0 Pin=F1-1
+Added Pin To Net: NetName=VIN5.0 Pin=J13-1
+Added Pin To Net: NetName=VIN5.0 Pin=PS1-4
+Added Net: Name=VIN5.0
