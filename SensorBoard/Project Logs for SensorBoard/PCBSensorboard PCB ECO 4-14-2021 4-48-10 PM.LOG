@@ -1,0 +1,20 @@
+Removed Pin From Net: NetName=NetC13_2 Pin=J8-2
+Removed Pin From Net: NetName=CT1_GND Pin=J12-1
+Removed Pin From Net: NetName=VDD5.0 Pin=J12-2
+Removed Pin From Net: NetName=CT1_GND Pin=J12-3
+Removed Pin From Net: NetName=CT1_GND Pin=J12-4
+Change Component Description : Designator=L3 Old Description=Power Line 10mH @ 1kHz 1.2O Through Hole Common Mode Chokes / Filters RoHS New Description= 
+Power Line 10mH @ 1kHz 1.2O Through Hole Common Mode Chokes / Filters RoHS
+Added Pin To Net: NetName=NetJ8_2 Pin=J8-2
+Added Pin To Net: NetName=ETH_SCLK Pin=R31-1
+Added Pin To Net: NetName=ETH_MOSI Pin=R32-1
+Added Pin To Net: NetName=ETH_SCLK Pin=R33-1
+Added Pin To Net: NetName=NetJ8_2 Pin=R33-2
+Added Pin To Net: NetName=ETH_MOSI Pin=R34-1
+Added Pin To Net: NetName=ESP32-LTE-RI Pin=R36-1
+Added Pin To Net: NetName=JTG_TDO Pin=U1-23
+Added Pin To Net: NetName=JTG_TDO Pin=U6-11
+Change Net Name : Old Net Name=ESP32-LTE-RI New Net Name=JTG_TDI
+Change Net Name : Old Net Name=ETH_MOSI New Net Name=JTG_TCK
+Change Net Name : Old Net Name=ETH_SCLK New Net Name=JTG_TMS
+Change Net Name : Old Net Name=System_Reset New Net Name=EN

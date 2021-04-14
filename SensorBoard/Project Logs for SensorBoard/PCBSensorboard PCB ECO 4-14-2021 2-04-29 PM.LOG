@@ -1,0 +1,41 @@
+Change Component Description : Designator=L3 Old Description=Power Line 10mH @ 1kHz 1.2O Through Hole Common Mode Chokes / Filters RoHS New Description= 
+Power Line 10mH @ 1kHz 1.2O Through Hole Common Mode Chokes / Filters RoHS
+Added Component: Designator=BR1(DIOB_DB107S)
+Add component (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "SMC Diode"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "DB107S"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "SMD-4 SMC Diode"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/DB107S/SMC%20Diode%20Solutions/view-part/582848/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=C6(Q12B1D102KN0B0S0N0)
+Add component (AddParameter): Name = "Electrolytic Through Hole Axial Capacitor"; Value = "100pF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "Capacitor; 2 Leads"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "CAPR5-4X5"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "23-Sep-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Added Component: Designator=C12(Q12B1D102KN0B0S0N0)
+Add component (AddParameter): Name = "Electrolytic Through Hole Axial Capacitor"; Value = "100pF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "Capacitor; 2 Leads"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "CAPR5-4X5"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "23-Sep-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Added Component: Designator=C13(MP2104KGC3XLC)
+Add component (AddParameter): Name = "Electrolytic Through Hole Axial Capacitor"; Value = "100pF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "Capacitor; 2 Leads"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "CAPR5-4X5"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "23-Sep-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Added Component: Designator=F2(MF2410F1.000TM-Fuse2410)
+Added Pin To Net: NetName=GND Pin=BR1-NEG
+Added Pin To Net: NetName=VIN5.0 Pin=BR1-POS
+Added Pin To Net: NetName=GND Pin=BR1-~.
+Added Pin To Net: NetName=VPower5.0 Pin=BR1-~
+Added Pin To Net: NetName=Earth Pin=C6-1
+Added Pin To Net: NetName=NetC6_2 Pin=C6-2
+Added Pin To Net: NetName=NetC12_1 Pin=C12-1
+Added Pin To Net: NetName=Earth Pin=C12-2
+Added Pin To Net: NetName=AC_2 Pin=C13-1
+Added Pin To Net: NetName=NetC13_2 Pin=C13-2
+Added Pin To Net: NetName=AC_1 Pin=F2-1
+Added Pin To Net: NetName=NetC13_2 Pin=F2-2
