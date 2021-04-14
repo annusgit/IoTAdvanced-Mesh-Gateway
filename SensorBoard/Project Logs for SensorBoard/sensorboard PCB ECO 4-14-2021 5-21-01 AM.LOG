@@ -1,0 +1,17 @@
+Removed Pin From Net: NetName=AC_1 Pin=PS1-1
+Removed Pin From Net: NetName=AC_2 Pin=PS1-2
+Added Component: Designator=L?(UU9.8Y-10mH)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Link-LCSC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://lcsc.com/product-detail/Common-Mode-Chokes-Filters_FH-Guangdong-Fenghua-Advanced-Tech-UU9-8Y-10mH_C75192.html"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Link-AliExpress"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "https://www.aliexpress.com/item/32980182330.html?spm=a2g0o.detail.1000013.1.5cfb700ddkBmdG&gps-id=pcDetailBottomMoreThisSeller&scm=1007.13339.169870.0&scm_id=1007.13339.169870.0&scm-url=1007.13339.169870.0&pvid=74876de4-c52f-4303-af43-224ca810e133&_t=gps-id:pcDetailBottomMoreThisSeller,scm-url:1007.13339.169870.0,pvid:74876de4-c52f-4303-af43-224ca810e133,tpp_buckets:668%230%23131923%2385_668%230%23131923%2385_668%23888%233325%2318_668%23888%233325%2318_668%232846%238111%231996_668%232717%237567%23943_668%231000022185%231000066059%230_668%233468%2315616%23721_668%232846%238111%231996_668%232717%237567%23943_668%233164%239976%23861_668%233468%2315616%23721"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=AC_1 Pin=L?-1
+Added Pin To Net: NetName=AC_2 Pin=L?-4
+Added Pin To Net: NetName=AC_2 Pin=R?-1
+Added Pin To Net: NetName=AC_1 Pin=R?-2
+Added Pin To Net: NetName=NetL?_2 Pin=L?-2
+Added Pin To Net: NetName=NetL?_2 Pin=PS1-1
+Added Net: Name=NetL?_2
+Added Pin To Net: NetName=NetL?_3 Pin=L?-3
+Added Pin To Net: NetName=NetL?_3 Pin=PS1-2
+Added Net: Name=NetL?_3
