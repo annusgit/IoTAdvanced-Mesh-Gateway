@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
 PCB File : C:\Users\Public\Documents\Altium\Projects\IoTAdvanced-Mesh-Gateway\SensorBoard\sensorboard.PcbDoc
-Date     : 4/8/2021
-Time     : 10:55:34 AM
+Date     : 4/15/2021
+Time     : 4:47:24 PM
 
 Processing Rule : Clearance Constraint (Gap=0.35mm) (All),(All)
 Rule Violations :0
@@ -13,7 +13,29 @@ Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
 Rule Violations :0
 
 Processing Rule : Un-Routed Net Constraint ( (All) )
-Rule Violations :0
+   Violation between Un-Routed Net Constraint: Net VPower5.0 Between Pad J13-1(79.858mm,80.721mm) on Multi-Layer And Pad BR1-~(88.31mm,5.205mm) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad BR1-~.(83.21mm,5.205mm) on Top Layer And Pad BR1-NEG(83.21mm,13.945mm) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad U6-7(58.09mm,6.502mm) on Multi-Layer And Pad BR1-~.(83.21mm,5.205mm) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net VIN5.0 Between Pad F1-1(8.525mm,11.7mm) on Bottom Layer And Pad BR1-POS(88.31mm,13.945mm) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net VIN5.0 Between Pad BR1-POS(88.31mm,13.945mm) on Top Layer And Pad PS1-4(140.166mm,100.417mm) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net NetC12_1 Between Pad C12-1(62.967mm,6.299mm) on Multi-Layer And Pad L3-3(86.375mm,100.152mm) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net Earth Between Pad C12-2(62.967mm,16.299mm) on Multi-Layer And Pad C6-1(74.168mm,6.299mm) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net AC_2 Between Pad J13-5(67.158mm,76.911mm) on Multi-Layer And Pad C13-1(68.58mm,3.277mm) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net NetC13_2 Between Pad C13-2(68.58mm,13.277mm) on Multi-Layer And Pad F2-2(78.638mm,13.834mm) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net Earth Between Pad MH2-1(73.355mm,26.162mm) on Multi-Layer And Pad C6-1(74.168mm,6.299mm) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net NetC6_2 Between Pad C6-2(74.168mm,16.299mm) on Multi-Layer And Pad L3-2(86.375mm,92.152mm) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net AC_1 Between Pad J13-4(67.158mm,80.721mm) on Multi-Layer And Pad F2-1(78.638mm,8.924mm) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net NetC13_2 Between Pad F2-2(78.638mm,13.834mm) on Top Layer And Pad L3-1(79.375mm,92.152mm) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad J13-3(79.858mm,73.101mm) on Multi-Layer And Pad J13-2(79.858mm,76.911mm) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad J13-2(79.858mm,76.911mm) on Multi-Layer And Pad PS1-3(122.166mm,100.417mm) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad J7-20(41.43mm,57.17mm) on Multi-Layer And Pad J13-3(79.858mm,73.101mm) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net AC_2 Between Pad J13-5(67.158mm,76.911mm) on Multi-Layer And Pad L3-4(79.375mm,100.152mm) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net AC_2 Between Pad J13-5(67.158mm,76.911mm) on Multi-Layer And Pad R30-1(96.698mm,78.867mm) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net Earth Between Pad J13-6(67.158mm,73.101mm) on Multi-Layer And Pad MH2-1(73.355mm,26.162mm) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net NetC13_2 Between Pad L3-1(79.375mm,92.152mm) on Multi-Layer And Pad R30-2(104.198mm,78.867mm) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net NetC6_2 Between Pad L3-2(86.375mm,92.152mm) on Multi-Layer And Pad PS1-1(128.166mm,66.817mm) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net NetC12_1 Between Pad L3-3(86.375mm,100.152mm) on Multi-Layer And Pad PS1-2(134.166mm,66.817mm) on Multi-Layer 
+Rule Violations :22
 
 Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
 Rule Violations :0
@@ -46,6 +68,6 @@ Processing Rule : Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (Al
 Rule Violations :0
 
 
-Violations Detected : 0
+Violations Detected : 22
 Waived Violations : 0
-Time Elapsed        : 00:00:01
+Time Elapsed        : 00:00:02
