@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=VPower5.0_N Pin=BR1-~.
+Removed Pin From Net: NetName=VPower5.0_P Pin=BR1-~
+Change Component Description : Designator=L3 Old Description=Power Line 10mH @ 1kHz 1.2O Through Hole Common Mode Chokes / Filters RoHS New Description= 
+Power Line 10mH @ 1kHz 1.2O Through Hole Common Mode Chokes / Filters RoHS
+Added Pin To Net: NetName=VPower5.0_P Pin=BR1-~.
+Added Pin To Net: NetName=VPower5.0_N Pin=BR1-~

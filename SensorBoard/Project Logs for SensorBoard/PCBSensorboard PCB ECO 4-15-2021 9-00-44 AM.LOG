@@ -1,0 +1,50 @@
+Change Component Description : Designator=L3 Old Description=Power Line 10mH @ 1kHz 1.2O Through Hole Common Mode Chokes / Filters RoHS New Description= 
+Power Line 10mH @ 1kHz 1.2O Through Hole Common Mode Chokes / Filters RoHS
+Added Component: Designator=D12(12-21SURC/S530-A3/TR8)
+Added Component: Designator=Q1(ON SEMI SOT-23-3)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.onsemi.com/pub/Collateral/MMBT3904LT1-D.PDF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "DigiKey Link"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://digikey.com/product-detail/en/on-semiconductor/MMBT3904LT3G/MMBT3904LT3GOSCT-ND/1139814"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Current - Collector (Ic) (Max)"; Value = "200mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DC Current Gain (hFE) (Min) @ Ic, Vce"; Value = "100 @ 10mA, 1V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Frequency - Transition"; Value = "300MHz"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LastUpdated"; Value = "9/2/2020 1:30:08 AM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lifecycle Status"; Value = "Active"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "ON Semiconductor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Minimum Order"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-55°C ~ 150°C (TJ)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package / Case"; Value = "TO-236-3, SC-59, SOT-23-3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "TapeAndReel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "MMBT3904LT3G"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Status"; Value = "Active"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartId"; Value = "159"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power - Max"; Value = "300mW"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "0.02"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "DigiKey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Device Package"; Value = "SOT-23-3 (TO-236)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "MMBT3904LT3GOSCT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Transistor Type"; Value = "NPN"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vce Saturation (Max) @ Ib, Ic"; Value = "300mV @ 5mA, 50mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage - Collector Emitter Breakdown (Max)"; Value = "40V"; VariantName = "[No Variations]"
+Added Component: Designator=R38(R0805)
+Added Component: Designator=R39(R0805)
+Added Component: Designator=R40(R0805)
+Added Pin To Net: NetName=GND Pin=Q1-2
+Added Pin To Net: NetName=GND Pin=R40-2
+Added Pin To Net: NetName=LTE_NETLIGHT Pin=J7-19
+Added Pin To Net: NetName=LTE_NETLIGHT Pin=R39-2
+Added Net: Name=LTE_NETLIGHT
+Added Pin To Net: NetName=NetD12_2 Pin=D12-2
+Added Pin To Net: NetName=NetD12_2 Pin=R38-1
+Added Net: Name=NetD12_2
+Added Pin To Net: NetName=NetQ1_1 Pin=Q1-1
+Added Pin To Net: NetName=NetQ1_1 Pin=R39-1
+Added Pin To Net: NetName=NetQ1_1 Pin=R40-1
+Added Net: Name=NetQ1_1
+Added Pin To Net: NetName=NetQ1_3 Pin=Q1-3
+Added Pin To Net: NetName=NetQ1_3 Pin=R38-2
+Added Net: Name=NetQ1_3
+Added Pin To Net: NetName=VDD3.8 Pin=D12-1
+Added Net: Name=VDD3.8

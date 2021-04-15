@@ -1,0 +1,19 @@
+Removed Pin From Net: NetName=GND Pin=BR1-~.
+Removed Pin From Net: NetName=GND Pin=J13-2
+Removed Pin From Net: NetName=GND Pin=J13-3
+Removed Pin From Net: NetName=GND Pin=J14-14
+Removed Pin From Net: NetName=GND Pin=R22-1
+Removed Pin From Net: NetName=GND Pin=R23-2
+Removed Pin From Net: NetName=GND Pin=U1-12
+Added Pin To Net: NetName=NetC3_2 Pin=J8-10
+Change Net Name : Old Net Name=NetC3_2 New Net Name=EN
+Change Net Name : Old Net Name=VPower5.0 New Net Name=VPower5.0_P
+Added Pin To Net: NetName=RTD_3 Pin=J14-14
+Added Pin To Net: NetName=RTD_3 Pin=R22-1
+Added Pin To Net: NetName=RTD_3 Pin=R23-2
+Added Pin To Net: NetName=RTD_3 Pin=U1-12
+Added Net: Name=RTD_3
+Added Pin To Net: NetName=VPower5.0_N Pin=BR1-~.
+Added Pin To Net: NetName=VPower5.0_N Pin=J13-2
+Added Pin To Net: NetName=VPower5.0_N Pin=J13-3
+Added Net: Name=VPower5.0_N

@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=VPower5.0_P Pin=BR1-~.
+Removed Pin From Net: NetName=VPower5.0_N Pin=BR1-~
+Added Pin To Net: NetName=VPower5.0_N Pin=BR1-~.
+Added Pin To Net: NetName=VPower5.0_P Pin=BR1-~
