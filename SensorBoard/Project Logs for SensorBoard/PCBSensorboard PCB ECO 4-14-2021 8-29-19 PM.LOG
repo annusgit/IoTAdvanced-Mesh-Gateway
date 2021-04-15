@@ -1,0 +1,2 @@
+Change Net Name : Old Net Name=CT1_GND New Net Name=GND
+Change Net Name : Old Net Name=I2C_1_VCC New Net Name=VDD3.3
