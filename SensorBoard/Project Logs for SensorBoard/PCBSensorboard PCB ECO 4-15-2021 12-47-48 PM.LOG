@@ -1,0 +1,11 @@
+Removed Pin From Net: NetName=VDD3.3 Pin=J2-1
+Removed Pin From Net: NetName=JTG_TMS Pin=J2-2
+Removed Pin From Net: NetName=GND Pin=J2-3
+Removed Pin From Net: NetName=JTG_TCK Pin=J2-4
+Removed Pin From Net: NetName=GND Pin=J2-5
+Removed Pin From Net: NetName=JTG_TDO Pin=J2-6
+Removed Pin From Net: NetName=JTG_TDI Pin=J2-8
+Removed Pin From Net: NetName=GND Pin=J2-9
+Removed Pin From Net: NetName=EN Pin=J2-10
+Removed Pin From Net: NetName=EN Pin=J8-10
+Added Pin To Net: NetName=GND Pin=J8-7
