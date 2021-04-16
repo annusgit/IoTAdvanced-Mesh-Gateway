@@ -1,0 +1,496 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<style type="text/css">
+		h1, h2, h3, h4, h5, h6 {
+			font-family : segoe ui;
+			color : black;
+			background-color : #EDE7D9;
+			padding: 0.3em;
+		}
+
+		h1 {
+			font-size: 1.2em;
+		}		
+
+		h2 {
+			font-size: 1.2em;
+		}
+
+		body {
+			font-family : segoe ui;
+		}
+
+		td, th {
+			padding: 0.5em;
+			text-align : left;
+			width: 10em;
+		}
+		th {
+			background-color : #EEEEEE;
+
+		}
+		th.column1, td.column1 {
+			text-align: left;
+			width : auto;
+		}
+		table {
+			width : 100%;
+			font-size: 0.9em;
+		}
+
+		.DRC_summary_header {
+			padding-bottom : 0.1em;
+			border : 0px solid black;
+			width: 100%;
+			align: left;
+		}
+
+		.DRC_summary_header_col1,
+		.DRC_summary_header_col2, 
+		.DRC_summary_header_col3 {
+			color : black;
+			font-size:100%;
+			padding : 0em;
+			padding-top : 0.2em;
+			padding-bottom 0.2em;
+			border : 0px solid black;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		.DRC_summary_header_col1 {
+			font-weight: bold;
+			width: 8em;
+		}
+
+		.DRC_summary_header_col2 {
+			width: 0.1em;
+		
+		}
+
+		.DRC_summary_header_col3 {
+			width : auto;
+		}
+
+		.header_holder {
+		    Width = 100%;
+		    border = 0px solid green;
+		    padding = 0;
+		}
+
+
+		.front_matter, .front_matter_column1, .front_matter_column2, .front_matter_column3
+		{
+			left : 0;
+			top : 0;
+			padding: 0em;
+			padding-top : 0.1em;
+			border : 0px solid black;
+			width : 100%;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		.front_matter_column1 {
+			width : 8em;
+			font-weight: bold;
+		}
+
+		.front_matter_column2 {
+			width: 0.1em;
+		}
+
+		.front_matter_column3 {
+			width : auto;
+		}
+
+		.total_column1, .total_column {
+			font-weight : bold;
+		}
+		.total_column1 {
+			text-align : left;
+		}
+		.warning, .error {
+			color : red;
+			font-weight : bold;
+		}
+		tr.onmouseout_odd {
+			background-color : #white;
+		}
+		tr.onmouseout_even { 
+			background-color : #FAFAFA;
+		}
+		tr.onmouseover_odd, tr.onmouseover_even { 
+			background-color : #EEEEEE;
+		} 
+		a:link, a:visited, .q a:link,.q a:active,.q {
+			color: #21489e; 
+		}
+		a:link.callback, a:visited.callback { 
+			color: #21489e;
+		}
+		a:link.customize, a:visited.customize {
+			color: #C0C0C0;
+			position: absolute; 
+			right: 10px;
+		}	
+		p.contents_level1 {
+			font-weight : bold;
+			font-size : 110%;
+			margin : 0.5em;
+		}
+		p.contents_level2 {
+			position : relative;
+			left : 20px;
+			margin : 0.5em;
+		}
+	</style><script type="text/javascript">
+		function coordToMils(coord) {
+			var number = coord / 10000;
+			
+			if (number != number.toFixed(3))
+				number = number.toFixed(3);
+
+			return number + 'mil'
+		}
+
+		function coordToMM(coord) {
+			var number = 0.0254 * coord / 10000;
+			
+			if (number != number.toFixed(4))
+				number = number.toFixed(4);
+			
+			return number + 'mm'
+		}
+	
+		function convertCoord(coordNode, units) {
+			for (var i = 0; i < coordNode.childNodes.length; i++) {
+				coordNode.removeChild(coordNode.childNodes[i]);
+			}
+
+			var coord = coordNode.getAttribute('value');
+			if (coord != null) {
+				if (units == 'mm') {
+					textNode = document.createTextNode(coordToMM(coord));
+					coordNode.appendChild(textNode);
+				} else if (units == 'mil') {
+					textNode = document.createTextNode(coordToMils(coord));		
+					coordNode.appendChild(textNode);	
+				}
+			}
+		}
+	
+		function convertUnits(unitNode, units) {
+			for (var i = 0; i < unitNode.childNodes.length; i++) {
+				unitNode.removeChild(unitNode.childNodes[i]);		
+			}
+		
+			textNode = document.createTextNode(units); 
+			unitNode.appendChild(textNode);
+		}
+	
+		function changeUnits(radio_input, units) {
+			if (radio_input.checked) {
+			
+				var elements = document.getElementsByName('coordinate');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertCoord(elements[i], units);
+					}
+				}
+	
+				var elements = document.getElementsByName('units');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertUnits(elements[i], units);
+					}
+				}
+			}
+		}
+	</script><title>Design Rule Verification Report</title>
+</head>
+<body onload=""><img ALT="Altium" src="
+			file://C:\Users\Public\Documents\Altium\AD20\Templates\AD_logo.png
+		"><h1>Design Rule Verification Report</h1>
+<table class="header_holder">
+<td class="column1">
+<table class="front_matter">
+<tr class="front_matter">
+<td class="front_matter_column1">Date:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">4/16/2021</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">10:37:30 AM</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Elapsed Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">00:00:01</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Filename:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3"><a href="file:///C:\Users\Public\Documents\Altium\Projects\IoTAdvanced-Mesh-Gateway\SensorBoard\PCBSensorboard.PcbDoc" class="file"><acronym title="C:\Users\Public\Documents\Altium\Projects\IoTAdvanced-Mesh-Gateway\SensorBoard\PCBSensorboard.PcbDoc">C:\Users\Public\Documents\Altium\Projects\IoTAdvanced-Mesh-Gateway\SensorBoard\PCBSensorboard.PcbDoc</acronym></a></td>
+</tr>
+</table>
+</td>
+<td class="column2">
+<table class="DRC_summary_header">
+<tr>
+<td class="DRC_summary_header_col1">Warnings:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3">0</td></tr>
+<tr>
+<td class="DRC_summary_header_col1">Rule Violations:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3" style="color : red">52</td></tr>
+</table>
+</td>
+</table><a name="IDGRIN1IO5FM33FMVQQGJJQUX5OO134XPWCWFIDFOSKVL4UDPD0E3P"><h2>Summary</h2></a><table>
+<tr>
+<th class="column1">Warnings</th>
+<th class="column2">Count</th>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">0</td>
+</tr>
+</table><br><table>
+<tr>
+<th class="column1">Rule Violations</th>
+<th class="column2">Count</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDM3BLG2LXXHOTDODJVTVR3NZRYFMU0ZKCIDBL5B4MGJKOMTJK5VI">Clearance Constraint (Gap=0.3mm) (HasFootprint('PESDHC2FD4V5BH')),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDNJMA2B5POIQHNLRD1EBGCYC4OMWPNKFNJ4NBCZY4VPK0QLBA2H">Clearance Constraint (Gap=0.35mm) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#ID00S1UUMZDQWCG1GY2Q5OSKYIRNDVEPH50H5TWWKYQGCM0C4ZAVPG">Short-Circuit Constraint (Allowed=No) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDZLVT4WGBGXBSHZ2LTLPN5N5CONNGV5S4CVCJD1JGSDYGAL5SDJLD">Un-Routed Net Constraint ( (All) )</a></td>
+<td class="column2">49</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#ID3EUOR3QAP0D1EMTANFLENOTCHKOWWNNMMQ0M4PLLGGIPRFDXDLPP">Modified Polygon (Allow modified: No), (Allow shelved: No)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDSE2U3QCTDMUTBZBT4ZWI5D442BKJURCG2DZ4JZDN4O0H12VV5VMD">Width Constraint (Min=0.254mm) (Max=1mm) (Preferred=0.5mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDPGTIAXYRXJDVD12O1J0GGI522HIRWBZPMOHQV4GPB1Z33I5WWD4N">Power Plane Connect Rule(Relief Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (All)</a></td>
+<td class="column2">1</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDKFS12IGKIPBBHFF4GXUJVEJ5RPWQX3N1VXF5STH5QV5HFBFS02NI">Hole Size Constraint (Min=0.025mm) (Max=3.2mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDULLLJMKOIR5QP23O4ZMZ5CTALGVLMBCR2F5JURJ0IVH2QH34GSFL">Hole To Hole Clearance (Gap=0.254mm) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDQIDRI1AVH0W1BHFBZ5W5AQOXZIHKW1MNJT1NDVOOZPUSIVLQJTRM">Minimum Solder Mask Sliver (Gap=0mm) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#ID0Q0ZIJWH5DFNJ41UDV4EFS2QTCOU5IVT5QLGLHGITIHVDEQYCUHJ">Silk To Solder Mask (Clearance=0mm) (IsPad),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDLXHQWZOZDPU4GBVLXCCBEHDBMDXPPWBHTASUMBMJDEQ0SJVYHC5O">Silk to Silk (Clearance=0mm) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#ID2WESUPE1YH0LITO11MZ2DHVBCO5ZXL303EGZVPK42A4AJCA3OTHL">Net Antennae (Tolerance=0mm) (All)</a></td>
+<td class="column2">2</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDRIA1BFGROHCKDWPSFVQRWAUENJLJSIL0LGSPW2MMGCT1GFANMTPL">Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">52</td>
+</tr>
+</table><br><a name="IDZLVT4WGBGXBSHZ2LTLPN5N5CONNGV5S4CVCJD1JGSDYGAL5SDJLD"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Un-Routed Net Constraint ( (All) )</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Public\Documents\Altium\Projects\IoTAdvanced-Mesh-Gateway\SensorBoard\PCBSensorboard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3665.354mil|Location2.X=4541.795mil|Location1.Y=3786.614mil|Location2.Y=4092.583mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Public\Documents\Altium\Projects\IoTAdvanced-Mesh-Gateway\SensorBoard\PCBSensorboard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3665.354mil|Location2.X=4541.795mil|Location1.Y=3786.614mil|Location2.Y=4092.583mil|Absolute=True">Un-Routed Net Constraint: Net VDD3.3 Between Pad JP1-1(68.97mm,72.05mm) on Multi-Layer And Pad D12-1(89.36mm,77.95mm) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Public\Documents\Altium\Projects\IoTAdvanced-Mesh-Gateway\SensorBoard\PCBSensorboard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4369.622mil|Location2.X=4541.795mil|Location1.Y=3986.157mil|Location2.Y=4202.819mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Public\Documents\Altium\Projects\IoTAdvanced-Mesh-Gateway\SensorBoard\PCBSensorboard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4369.622mil|Location2.X=4541.795mil|Location1.Y=3986.157mil|Location2.Y=4202.819mil|Absolute=True">Un-Routed Net Constraint: Net NetD12_2 Between Pad R38-1(86.29mm,76.4mm) on Top Layer And Pad D12-2(89.36mm,80.75mm) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Public\Documents\Altium\Projects\IoTAdvanced-Mesh-Gateway\SensorBoard\PCBSensorboard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4386.945mil|Location2.X=4542.583mil|Location1.Y=3681.433mil|Location2.Y=3736.677mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Public\Documents\Altium\Projects\IoTAdvanced-Mesh-Gateway\SensorBoard\PCBSensorboard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4386.945mil|Location2.X=4542.583mil|Location1.Y=3681.433mil|Location2.Y=3736.677mil|Absolute=True">Un-Routed Net Constraint: Net NetD3_1 Between Pad R9-1(86.58mm,68.81mm) on Top Layer And Pad D3-1(89.38mm,68.75mm) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Public\Documents\Altium\Projects\IoTAdvanced-Mesh-Gateway\SensorBoard\PCBSensorboard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4494.819mil|Location2.X=4542.583mil|Location1.Y=3793.244mil|Location2.Y=4021.716mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Public\Documents\Altium\Projects\IoTAdvanced-Mesh-Gateway\SensorBoard\PCBSensorboard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4494.819mil|Location2.X=4542.583mil|Location1.Y=3793.244mil|Location2.Y=4021.716mil|Absolute=True">Un-Routed Net Constraint: Net GND Between Pad D4-2(89.37mm,76.15mm) on Top Layer And Pad D3-2(89.38mm,71.55mm) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Public\Documents\Altium\Projects\IoTAdvanced-Mesh-Gateway\SensorBoard\PCBSensorboard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4495.213mil|Location2.X=4543.701mil|Location1.Y=3588.189mil|Location2.Y=3840.614mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Public\Documents\Altium\Projects\IoTAdvanced-Mesh-Gateway\SensorBoard\PCBSensorboard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4495.213mil|Location2.X=4543.701mil|Location1.Y=3588.189mil|Location2.Y=3840.614mil|Absolute=True">Un-Routed Net Constraint: Net GND Between Pad D3-2(89.38mm,71.55mm) on Top Layer And Pad SW1-4(89.61mm,66.465mm) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Public\Documents\Altium\Projects\IoTAdvanced-Mesh-Gateway\SensorBoard\PCBSensorboard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4386.945mil|Location2.X=4542.189mil|Location1.Y=3862.535mil|Location2.Y=3917.78mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Public\Documents\Altium\Projects\IoTAdvanced-Mesh-Gateway\SensorBoard\PCBSensorboard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4386.945mil|Location2.X=4542.189mil|Location1.Y=3862.535mil|Location2.Y=3917.78mil|Absolute=True">Un-Routed Net Constraint: Net NetD4_1 Between Pad R10-1(86.58mm,73.41mm) on Top Layer And Pad D4-1(89.37mm,73.35mm) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Public\Documents\Altium\Projects\IoTAdvanced-Mesh-Gateway\SensorBoard\PCBSensorboard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4233.008mil|Location2.X=4542.189mil|Location1.Y=3974.346mil|Location2.Y=4076.441mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Public\Documents\Altium\Projects\IoTAdvanced-Mesh-Gateway\SensorBoard\PCBSensorboard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4233.008mil|Location2.X=4542.189mil|Location1.Y=3974.346mil|Location2.Y=4076.441mil|Absolute=True">Un-Routed Net Constraint: Net GND Between Pad Q1-2(82.67mm,77.64mm) on Top Layer And Pad D4-2(89.37mm,76.15mm) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Public\Documents\Altium\Projects\IoTAdvanced-Mesh-Gateway\SensorBoard\PCBSensorboard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4474.346mil|Location2.X=4542.189mil|Location1.Y=3974.346mil|Location2.Y=4311.087mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Public\Documents\Altium\Projects\IoTAdvanced-Mesh-Gateway\SensorBoard\PCBSensorboard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4474.346mil|Location2.X=4542.189mil|Location1.Y=3974.346mil|Location2.Y=4311.087mil|Absolute=True">Un-Routed Net Constraint: Net GND Between Pad S1-2(88.75mm,83.15mm) on Top Layer And Pad D4-2(89.37mm,76.15mm) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Public\Documents\Altium\Projects\IoTAdvanced-Mesh-Gateway\SensorBoard\PCBSensorboard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3076.535mil|Location2.X=3256.535mil|Location1.Y=4391.89mil|Location2.Y=4471.89mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Public\Documents\Altium\Projects\IoTAdvanced-Mesh-Gateway\SensorBoard\PCBSensorboard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3076.535mil|Location2.X=3256.535mil|Location1.Y=4391.89mil|Location2.Y=4471.89mil|Absolute=True">Un-Routed Net Constraint: Net VDD5.0 Between Pad J7-8(53.76mm,87.17mm) on Multi-Layer And Pad J7-10(56.3mm,87.17mm) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Public\Documents\Altium\Projects\IoTAdvanced-Mesh-Gateway\SensorBoard\PCBSensorboard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3176.535mil|Location2.X=3855.354mil|Location1.Y=3696.614mil|Location2.Y=4471.89mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Public\Documents\Altium\Projects\IoTAdvanced-Mesh-Gateway\SensorBoard\PCBSensorboard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3176.535mil|Location2.X=3855.354mil|Location1.Y=3696.614mil|Location2.Y=4471.89mil|Absolute=True">Un-Routed Net Constraint: Net VDD5.0 Between Pad J7-10(56.3mm,87.17mm) on Multi-Layer And Pad JP1-4(71.51mm,69.51mm) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Public\Documents\Altium\Projects\IoTAdvanced-Mesh-Gateway\SensorBoard\PCBSensorboard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3676.535mil|Location2.X=4131.953mil|Location1.Y=4098.362mil|Location2.Y=4371.89mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Public\Documents\Altium\Projects\IoTAdvanced-Mesh-Gateway\SensorBoard\PCBSensorboard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3676.535mil|Location2.X=4131.953mil|Location1.Y=4098.362mil|Location2.Y=4371.89mil|Absolute=True">Un-Routed Net Constraint: Net LTE_NETLIGHT Between Pad J7-19(69mm,84.63mm) on Multi-Layer And Pad R39-2(79mm,79.4mm) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Public\Documents\Altium\Projects\IoTAdvanced-Mesh-Gateway\SensorBoard\PCBSensorboard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2776.535mil|Location2.X=2956.535mil|Location1.Y=4391.89mil|Location2.Y=4471.89mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Public\Documents\Altium\Projects\IoTAdvanced-Mesh-Gateway\SensorBoard\PCBSensorboard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2776.535mil|Location2.X=2956.535mil|Location1.Y=4391.89mil|Location2.Y=4471.89mil|Absolute=True">Un-Routed Net Constraint: Net VDD5.0 Between Pad J7-2(46.14mm,87.17mm) on Multi-Layer And Pad J7-4(48.68mm,87.17mm) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Public\Documents\Altium\Projects\IoTAdvanced-Mesh-Gateway\SensorBoard\PCBSensorboard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2378.15mil|Location2.X=2916.535mil|Location1.Y=4337.992mil|Location2.Y=4531.89mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Public\Documents\Altium\Projects\IoTAdvanced-Mesh-Gateway\SensorBoard\PCBSensorboard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2378.15mil|Location2.X=2916.535mil|Location1.Y=4337.992mil|Location2.Y=4531.89mil|Absolute=True">Un-Routed Net Constraint: Net VDD5.0 Between Track (37.545mm,87.325mm)(37.545mm,88.865mm) on Top Layer And Pad J7-2(46.14mm,87.17mm) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Public\Documents\Altium\Projects\IoTAdvanced-Mesh-Gateway\SensorBoard\PCBSensorboard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2876.535mil|Location2.X=3056.535mil|Location1.Y=4391.89mil|Location2.Y=4471.89mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Public\Documents\Altium\Projects\IoTAdvanced-Mesh-Gateway\SensorBoard\PCBSensorboard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2876.535mil|Location2.X=3056.535mil|Location1.Y=4391.89mil|Location2.Y=4471.89mil|Absolute=True">Un-Routed Net Constraint: Net VDD5.0 Between Pad J7-4(48.68mm,87.17mm) on Multi-Layer And Pad J7-6(51.22mm,87.17mm) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Public\Documents\Altium\Projects\IoTAdvanced-Mesh-Gateway\SensorBoard\PCBSensorboard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2976.535mil|Location2.X=3156.535mil|Location1.Y=4391.89mil|Location2.Y=4471.89mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Public\Documents\Altium\Projects\IoTAdvanced-Mesh-Gateway\SensorBoard\PCBSensorboard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2976.535mil|Location2.X=3156.535mil|Location1.Y=4391.89mil|Location2.Y=4471.89mil|Absolute=True">Un-Routed Net Constraint: Net VDD5.0 Between Pad J7-6(51.22mm,87.17mm) on Multi-Layer And Pad J7-8(53.76mm,87.17mm) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Public\Documents\Altium\Projects\IoTAdvanced-Mesh-Gateway\SensorBoard\PCBSensorboard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3665.354mil|Location2.X=4116.598mil|Location1.Y=3194.031mil|Location2.Y=3886.614mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Public\Documents\Altium\Projects\IoTAdvanced-Mesh-Gateway\SensorBoard\PCBSensorboard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3665.354mil|Location2.X=4116.598mil|Location1.Y=3194.031mil|Location2.Y=3886.614mil|Absolute=True">Un-Routed Net Constraint: Net VDD3.3 Between Pad JP1-1(68.97mm,72.05mm) on Multi-Layer And Pad J8-1(77.86mm,56.21mm) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Public\Documents\Altium\Projects\IoTAdvanced-Mesh-Gateway\SensorBoard\PCBSensorboard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3860.567mil|Location2.X=4041.032mil|Location1.Y=2860.724mil|Location2.Y=3231.953mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Public\Documents\Altium\Projects\IoTAdvanced-Mesh-Gateway\SensorBoard\PCBSensorboard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3860.567mil|Location2.X=4041.032mil|Location1.Y=2860.724mil|Location2.Y=3231.953mil|Absolute=True">Un-Routed Net Constraint: Net JTG_TMS Between Pad J8-2(73.96mm,56.21mm) on Top Layer And Pad U6-10(76.15mm,50.65mm) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Public\Documents\Altium\Projects\IoTAdvanced-Mesh-Gateway\SensorBoard\PCBSensorboard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3100.394mil|Location2.X=4011.811mil|Location1.Y=3153.346mil|Location2.Y=3312.992mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Public\Documents\Altium\Projects\IoTAdvanced-Mesh-Gateway\SensorBoard\PCBSensorboard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3100.394mil|Location2.X=4011.811mil|Location1.Y=3153.346mil|Location2.Y=3312.992mil|Absolute=True">Un-Routed Net Constraint: Net JTG_TMS Between Track (55.89mm,55.91mm)(55.89mm,57.235mm) on Top Layer And Pad J8-2(73.96mm,56.21mm) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Public\Documents\Altium\Projects\IoTAdvanced-Mesh-Gateway\SensorBoard\PCBSensorboard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4014.11mil|Location2.X=4116.599mil|Location1.Y=3244.032mil|Location2.Y=3331.953mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Public\Documents\Altium\Projects\IoTAdvanced-Mesh-Gateway\SensorBoard\PCBSensorboard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4014.11mil|Location2.X=4116.599mil|Location1.Y=3244.032mil|Location2.Y=3331.953mil|Absolute=True">Un-Routed Net Constraint: Net GND Between Pad J8-5(77.86mm,58.75mm) on Top Layer And Pad J8-3(77.86mm,57.48mm) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Public\Documents\Altium\Projects\IoTAdvanced-Mesh-Gateway\SensorBoard\PCBSensorboard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4014.11mil|Location2.X=4245.748mil|Location1.Y=2860.724mil|Location2.Y=3281.953mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Public\Documents\Altium\Projects\IoTAdvanced-Mesh-Gateway\SensorBoard\PCBSensorboard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4014.11mil|Location2.X=4245.748mil|Location1.Y=2860.724mil|Location2.Y=3281.953mil|Absolute=True">Un-Routed Net Constraint: Net GND Between Pad J8-3(77.86mm,57.48mm) on Top Layer And Pad U6-8(81.23mm,50.65mm) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Public\Documents\Altium\Projects\IoTAdvanced-Mesh-Gateway\SensorBoard\PCBSensorboard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3860.567mil|Location2.X=4141.032mil|Location1.Y=2860.724mil|Location2.Y=3281.953mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Public\Documents\Altium\Projects\IoTAdvanced-Mesh-Gateway\SensorBoard\PCBSensorboard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3860.567mil|Location2.X=4141.032mil|Location1.Y=2860.724mil|Location2.Y=3281.953mil|Absolute=True">Un-Routed Net Constraint: Net JTG_TCK Between Pad J8-4(73.96mm,57.48mm) on Top Layer And Pad U6-9(78.69mm,50.65mm) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Public\Documents\Altium\Projects\IoTAdvanced-Mesh-Gateway\SensorBoard\PCBSensorboard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3450.984mil|Location2.X=4011.811mil|Location1.Y=3314.37mil|Location2.Y=3362.992mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Public\Documents\Altium\Projects\IoTAdvanced-Mesh-Gateway\SensorBoard\PCBSensorboard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3450.984mil|Location2.X=4011.811mil|Location1.Y=3314.37mil|Location2.Y=3362.992mil|Absolute=True">Un-Routed Net Constraint: Net JTG_TCK Between Track (64.795mm,61.325mm)(64.8mm,61.33mm) on Bottom Layer And Pad J8-4(73.96mm,57.48mm) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Public\Documents\Altium\Projects\IoTAdvanced-Mesh-Gateway\SensorBoard\PCBSensorboard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4014.11mil|Location2.X=4116.598mil|Location1.Y=3294.032mil|Location2.Y=3381.953mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Public\Documents\Altium\Projects\IoTAdvanced-Mesh-Gateway\SensorBoard\PCBSensorboard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4014.11mil|Location2.X=4116.598mil|Location1.Y=3294.032mil|Location2.Y=3381.953mil|Absolute=True">Un-Routed Net Constraint: Net GND Between Pad J8-5(77.86mm,58.75mm) on Top Layer And Pad J8-7(77.86mm,60.02mm) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Public\Documents\Altium\Projects\IoTAdvanced-Mesh-Gateway\SensorBoard\PCBSensorboard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3245.016mil|Location2.X=3963.055mil|Location1.Y=3294.032mil|Location2.Y=3786.087mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Public\Documents\Altium\Projects\IoTAdvanced-Mesh-Gateway\SensorBoard\PCBSensorboard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3245.016mil|Location2.X=3963.055mil|Location1.Y=3294.032mil|Location2.Y=3786.087mil|Absolute=True">Un-Routed Net Constraint: Net JTG_TDO Between Pad U1-23(58.125mm,70.215mm) on Top Layer [Unplated] And Pad J8-6(73.96mm,58.75mm) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Public\Documents\Altium\Projects\IoTAdvanced-Mesh-Gateway\SensorBoard\PCBSensorboard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3855.032mil|Location2.X=3963.055mil|Location1.Y=2860.724mil|Location2.Y=3331.953mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Public\Documents\Altium\Projects\IoTAdvanced-Mesh-Gateway\SensorBoard\PCBSensorboard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3855.032mil|Location2.X=3963.055mil|Location1.Y=2860.724mil|Location2.Y=3331.953mil|Absolute=True">Un-Routed Net Constraint: Net JTG_TDO Between Pad U6-11(73.61mm,50.65mm) on Multi-Layer And Pad J8-6(73.96mm,58.75mm) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Public\Documents\Altium\Projects\IoTAdvanced-Mesh-Gateway\SensorBoard\PCBSensorboard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4014.11mil|Location2.X=4116.598mil|Location1.Y=3344.032mil|Location2.Y=3431.953mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Public\Documents\Altium\Projects\IoTAdvanced-Mesh-Gateway\SensorBoard\PCBSensorboard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4014.11mil|Location2.X=4116.598mil|Location1.Y=3344.032mil|Location2.Y=3431.953mil|Absolute=True">Un-Routed Net Constraint: Net GND Between Pad J8-7(77.86mm,60.02mm) on Top Layer And Pad J8-9(77.86mm,61.29mm) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Public\Documents\Altium\Projects\IoTAdvanced-Mesh-Gateway\SensorBoard\PCBSensorboard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3227.299mil|Location2.X=3963.055mil|Location1.Y=3211.354mil|Location2.Y=3381.953mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Public\Documents\Altium\Projects\IoTAdvanced-Mesh-Gateway\SensorBoard\PCBSensorboard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3227.299mil|Location2.X=3963.055mil|Location1.Y=3211.354mil|Location2.Y=3381.953mil|Absolute=True">Un-Routed Net Constraint: Net JTG_TDI Between Pad U1-14(57.125mm,57.27mm) on Top Layer [Unplated] And Pad J8-8(73.96mm,60.02mm) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Public\Documents\Altium\Projects\IoTAdvanced-Mesh-Gateway\SensorBoard\PCBSensorboard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3755.032mil|Location2.X=3963.055mil|Location1.Y=2139.465mil|Location2.Y=3381.953mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Public\Documents\Altium\Projects\IoTAdvanced-Mesh-Gateway\SensorBoard\PCBSensorboard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3755.032mil|Location2.X=3963.055mil|Location1.Y=2139.465mil|Location2.Y=3381.953mil|Absolute=True">Un-Routed Net Constraint: Net JTG_TDI Between Pad U6-1(71.07mm,30.33mm) on Multi-Layer And Pad J8-8(73.96mm,60.02mm) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Public\Documents\Altium\Projects\IoTAdvanced-Mesh-Gateway\SensorBoard\PCBSensorboard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4014.11mil|Location2.X=4478.74mil|Location1.Y=3383.465mil|Location2.Y=3431.953mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Public\Documents\Altium\Projects\IoTAdvanced-Mesh-Gateway\SensorBoard\PCBSensorboard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4014.11mil|Location2.X=4478.74mil|Location1.Y=3383.465mil|Location2.Y=3431.953mil|Absolute=True">Un-Routed Net Constraint: Net GND Between Pad J8-9(77.86mm,61.29mm) on Top Layer And Pad SW1-1(87.725mm,60.99mm) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Public\Documents\Altium\Projects\IoTAdvanced-Mesh-Gateway\SensorBoard\PCBSensorboard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3233.008mil|Location2.X=3855.354mil|Location1.Y=2461.551mil|Location2.Y=3776.614mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Public\Documents\Altium\Projects\IoTAdvanced-Mesh-Gateway\SensorBoard\PCBSensorboard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3233.008mil|Location2.X=3855.354mil|Location1.Y=2461.551mil|Location2.Y=3776.614mil|Absolute=True">Un-Routed Net Constraint: Net VDD5.0 Between Pad U4-11(57.645mm,37.55mm) on Top Layer And Pad JP1-4(71.51mm,69.51mm) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Public\Documents\Altium\Projects\IoTAdvanced-Mesh-Gateway\SensorBoard\PCBSensorboard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3233.008mil|Location2.X=3478.189mil|Location1.Y=2139.528mil|Location2.Y=2495.142mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Public\Documents\Altium\Projects\IoTAdvanced-Mesh-Gateway\SensorBoard\PCBSensorboard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3233.008mil|Location2.X=3478.189mil|Location1.Y=2139.528mil|Location2.Y=2495.142mil|Absolute=True">Un-Routed Net Constraint: Net VDD5.0 Between Pad U4-11(57.645mm,37.55mm) on Top Layer And Pad JP2-1(61.93mm,29.96mm) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Public\Documents\Altium\Projects\IoTAdvanced-Mesh-Gateway\SensorBoard\PCBSensorboard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2957.953mil|Location2.X=3478.189mil|Location1.Y=1661.102mil|Location2.Y=2219.528mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Public\Documents\Altium\Projects\IoTAdvanced-Mesh-Gateway\SensorBoard\PCBSensorboard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2957.953mil|Location2.X=3478.189mil|Location1.Y=1661.102mil|Location2.Y=2219.528mil|Absolute=True">Un-Routed Net Constraint: Net VDD5.0 Between Via (50.39mm,17.45mm) from Top Layer to Bottom Layer And Pad JP2-1(61.93mm,29.96mm) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Public\Documents\Altium\Projects\IoTAdvanced-Mesh-Gateway\SensorBoard\PCBSensorboard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4171.197mil|Location2.X=4276.441mil|Location1.Y=4098.362mil|Location2.Y=4153.606mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Public\Documents\Altium\Projects\IoTAdvanced-Mesh-Gateway\SensorBoard\PCBSensorboard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4171.197mil|Location2.X=4276.441mil|Location1.Y=4098.362mil|Location2.Y=4153.606mil|Absolute=True">Un-Routed Net Constraint: Net NetQ1_1 Between Pad R39-1(81.1mm,79.4mm) on Top Layer And Pad Q1-1(82.67mm,79.54mm) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Public\Documents\Altium\Projects\IoTAdvanced-Mesh-Gateway\SensorBoard\PCBSensorboard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4160.567mil|Location2.X=4276.441mil|Location1.Y=3946.394mil|Location2.Y=4076.441mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Public\Documents\Altium\Projects\IoTAdvanced-Mesh-Gateway\SensorBoard\PCBSensorboard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4160.567mil|Location2.X=4276.441mil|Location1.Y=3946.394mil|Location2.Y=4076.441mil|Absolute=True">Un-Routed Net Constraint: Net GND Between Pad R40-2(80.98mm,75.39mm) on Top Layer And Pad Q1-2(82.67mm,77.64mm) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Public\Documents\Altium\Projects\IoTAdvanced-Mesh-Gateway\SensorBoard\PCBSensorboard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4311.748mil|Location2.X=4424.866mil|Location1.Y=4068.835mil|Location2.Y=4113.842mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Public\Documents\Altium\Projects\IoTAdvanced-Mesh-Gateway\SensorBoard\PCBSensorboard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4311.748mil|Location2.X=4424.866mil|Location1.Y=4068.835mil|Location2.Y=4113.842mil|Absolute=True">Un-Routed Net Constraint: Net NetQ1_3 Between Pad Q1-3(84.67mm,78.59mm) on Top Layer And Pad R38-2(86.29mm,78.5mm) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Public\Documents\Altium\Projects\IoTAdvanced-Mesh-Gateway\SensorBoard\PCBSensorboard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2569.37mil|Location2.X=4347.701mil|Location1.Y=3483.937mil|Location2.Y=3917.78mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Public\Documents\Altium\Projects\IoTAdvanced-Mesh-Gateway\SensorBoard\PCBSensorboard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2569.37mil|Location2.X=4347.701mil|Location1.Y=3483.937mil|Location2.Y=3917.78mil|Absolute=True">Un-Routed Net Constraint: Net GPIO2 Between Via (40.52mm,63.75mm) from Top Layer to Bottom Layer And Pad R10-2(84.48mm,73.41mm) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Public\Documents\Altium\Projects\IoTAdvanced-Mesh-Gateway\SensorBoard\PCBSensorboard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3295.213mil|Location2.X=3403.465mil|Location1.Y=2024.347mil|Location2.Y=2327.874mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Public\Documents\Altium\Projects\IoTAdvanced-Mesh-Gateway\SensorBoard\PCBSensorboard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3295.213mil|Location2.X=3403.465mil|Location1.Y=2024.347mil|Location2.Y=2327.874mil|Absolute=True">Un-Routed Net Constraint: Net GND Between Pad R22-2(59mm,26.57mm) on Top Layer And Via (60.39mm,33.07mm) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Public\Documents\Altium\Projects\IoTAdvanced-Mesh-Gateway\SensorBoard\PCBSensorboard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4160.567mil|Location2.X=4215.811mil|Location1.Y=4029.071mil|Location2.Y=4153.606mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Public\Documents\Altium\Projects\IoTAdvanced-Mesh-Gateway\SensorBoard\PCBSensorboard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4160.567mil|Location2.X=4215.811mil|Location1.Y=4029.071mil|Location2.Y=4153.606mil|Absolute=True">Un-Routed Net Constraint: Net NetQ1_1 Between Pad R40-1(80.98mm,77.49mm) on Top Layer And Pad R39-1(81.1mm,79.4mm) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Public\Documents\Altium\Projects\IoTAdvanced-Mesh-Gateway\SensorBoard\PCBSensorboard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2649.016mil|Location2.X=4425.984mil|Location1.Y=3260.433mil|Location2.Y=3809.055mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Public\Documents\Altium\Projects\IoTAdvanced-Mesh-Gateway\SensorBoard\PCBSensorboard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2649.016mil|Location2.X=4425.984mil|Location1.Y=3260.433mil|Location2.Y=3809.055mil|Absolute=True">Un-Routed Net Constraint: Net GPIO1 Between Track (41.75mm,62.63mm)(44.425mm,59.955mm) on Top Layer And Pad R9-2(84.48mm,68.81mm) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Public\Documents\Altium\Projects\IoTAdvanced-Mesh-Gateway\SensorBoard\PCBSensorboard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3141.142mil|Location2.X=4460.236mil|Location1.Y=3816.142mil|Location2.Y=4373.622mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Public\Documents\Altium\Projects\IoTAdvanced-Mesh-Gateway\SensorBoard\PCBSensorboard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3141.142mil|Location2.X=4460.236mil|Location1.Y=3816.142mil|Location2.Y=4373.622mil|Absolute=True">Un-Routed Net Constraint: Net ESP32-BOOT/MODBUS_DE Between Track (56.925mm,74.07mm)(57.125mm,74.27mm) on Top Layer And Pad S1-1(85.35mm,83.15mm) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Public\Documents\Altium\Projects\IoTAdvanced-Mesh-Gateway\SensorBoard\PCBSensorboard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4428.74mil|Location2.X=4543.701mil|Location1.Y=3322.441mil|Location2.Y=3418.898mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Public\Documents\Altium\Projects\IoTAdvanced-Mesh-Gateway\SensorBoard\PCBSensorboard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4428.74mil|Location2.X=4543.701mil|Location1.Y=3322.441mil|Location2.Y=3418.898mil|Absolute=True">Un-Routed Net Constraint: Net GND Between Pad SW1-1(87.725mm,60.99mm) on Top Layer And Pad SW1-3(89.61mm,59.715mm) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Public\Documents\Altium\Projects\IoTAdvanced-Mesh-Gateway\SensorBoard\PCBSensorboard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2599.606mil|Location2.X=4553.74mil|Location1.Y=2947.244mil|Location2.Y=3666.535mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Public\Documents\Altium\Projects\IoTAdvanced-Mesh-Gateway\SensorBoard\PCBSensorboard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2599.606mil|Location2.X=4553.74mil|Location1.Y=2947.244mil|Location2.Y=3666.535mil|Absolute=True">Un-Routed Net Constraint: Net NetC4_2 Between Track (43.17mm,50.35mm)(43.17mm,52mm) on Top Layer And Pad SW1-2(87.725mm,65.19mm) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Public\Documents\Altium\Projects\IoTAdvanced-Mesh-Gateway\SensorBoard\PCBSensorboard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4512.205mil|Location2.X=4543.701mil|Location1.Y=3322.441mil|Location2.Y=3645.276mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Public\Documents\Altium\Projects\IoTAdvanced-Mesh-Gateway\SensorBoard\PCBSensorboard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4512.205mil|Location2.X=4543.701mil|Location1.Y=3322.441mil|Location2.Y=3645.276mil|Absolute=True">Un-Routed Net Constraint: Net GND Between Pad SW1-3(89.61mm,59.715mm) on Top Layer And Pad SW1-4(89.61mm,66.465mm) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Public\Documents\Altium\Projects\IoTAdvanced-Mesh-Gateway\SensorBoard\PCBSensorboard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3049.016mil|Location2.X=3337.401mil|Location1.Y=3154.724mil|Location2.Y=2056.692mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Public\Documents\Altium\Projects\IoTAdvanced-Mesh-Gateway\SensorBoard\PCBSensorboard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3049.016mil|Location2.X=3337.401mil|Location1.Y=3154.724mil|Location2.Y=2056.692mil|Absolute=True">Un-Routed Net Constraint: Net RTD_3 Between Pad U1-12(54.585mm,57.27mm) on Top Layer [Unplated] And Track (56.83mm,24.3mm)(56.83mm,24.47mm) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Public\Documents\Altium\Projects\IoTAdvanced-Mesh-Gateway\SensorBoard\PCBSensorboard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3027.299mil|Location2.X=3841.032mil|Location1.Y=2860.724mil|Location2.Y=3967.386mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Public\Documents\Altium\Projects\IoTAdvanced-Mesh-Gateway\SensorBoard\PCBSensorboard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3027.299mil|Location2.X=3841.032mil|Location1.Y=2860.724mil|Location2.Y=3967.386mil|Absolute=True">Un-Routed Net Constraint: Net ESP32-LTE-DCD Between Pad U1-29(52.045mm,74.27mm) on Top Layer [Unplated] And Pad U6-12(71.07mm,50.65mm) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Public\Documents\Altium\Projects\IoTAdvanced-Mesh-Gateway\SensorBoard\PCBSensorboard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3135.039mil|Location2.X=3369.488mil|Location1.Y=2985.433mil|Location2.Y=2728.346mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Public\Documents\Altium\Projects\IoTAdvanced-Mesh-Gateway\SensorBoard\PCBSensorboard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3135.039mil|Location2.X=3369.488mil|Location1.Y=2985.433mil|Location2.Y=2728.346mil|Absolute=True">Un-Routed Net Constraint: Net RT_2 Between Track (56.713mm,52.97mm)(56.77mm,52.97mm) on Top Layer And Pad U4-14(57.645mm,41.36mm) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Public\Documents\Altium\Projects\IoTAdvanced-Mesh-Gateway\SensorBoard\PCBSensorboard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3044.882mil|Location2.X=3369.488mil|Location1.Y=2985.433mil|Location2.Y=2428.346mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Public\Documents\Altium\Projects\IoTAdvanced-Mesh-Gateway\SensorBoard\PCBSensorboard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3044.882mil|Location2.X=3369.488mil|Location1.Y=2985.433mil|Location2.Y=2428.346mil|Absolute=True">Un-Routed Net Constraint: Net RT_1 Between Track (54.42mm,53.03mm)(54.48mm,52.97mm) on Top Layer And Pad U4-8(57.645mm,33.74mm) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Public\Documents\Altium\Projects\IoTAdvanced-Mesh-Gateway\SensorBoard\PCBSensorboard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3100.472mil|Location2.X=3941.032mil|Location1.Y=2139.465mil|Location2.Y=4038.898mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Public\Documents\Altium\Projects\IoTAdvanced-Mesh-Gateway\SensorBoard\PCBSensorboard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3100.472mil|Location2.X=3941.032mil|Location1.Y=2139.465mil|Location2.Y=4038.898mil|Absolute=True">Un-Routed Net Constraint: Net ESP32-LTE-DTR Between Via (54.01mm,76.53mm) from Top Layer to Bottom Layer And Pad U6-2(73.61mm,30.33mm) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Public\Documents\Altium\Projects\IoTAdvanced-Mesh-Gateway\SensorBoard\PCBSensorboard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2807.953mil|Location2.X=3009.764mil|Location1.Y=1661.102mil|Location2.Y=1712.913mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Public\Documents\Altium\Projects\IoTAdvanced-Mesh-Gateway\SensorBoard\PCBSensorboard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2807.953mil|Location2.X=3009.764mil|Location1.Y=1661.102mil|Location2.Y=1712.913mil|Absolute=True">Un-Routed Net Constraint: Net VDD5.0 Between Via (46.58mm,17.45mm) from Top Layer to Bottom Layer And Via (50.39mm,17.45mm) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDPGTIAXYRXJDVD12O1J0GGI522HIRWBZPMOHQV4GPB1Z33I5WWD4N"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Power Plane Connect Rule(Relief Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Public\Documents\Altium\Projects\IoTAdvanced-Mesh-Gateway\SensorBoard\PCBSensorboard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2326.299mil|Location2.X=2441.417mil|Location1.Y=1221.181mil|Location2.Y=1336.299mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Public\Documents\Altium\Projects\IoTAdvanced-Mesh-Gateway\SensorBoard\PCBSensorboard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2326.299mil|Location2.X=2441.417mil|Location1.Y=1221.181mil|Location2.Y=1336.299mil|Absolute=True">Starved Thermal on GND: Pad J14-11(35.15mm,7.08mm) on Multi-Layer. Only 44% copper is connected to the hole.</acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="ID2WESUPE1YH0LITO11MZ2DHVBCO5ZXL303EGZVPK42A4AJCA3OTHL"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Net Antennae (Tolerance=0mm) (All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Public\Documents\Altium\Projects\IoTAdvanced-Mesh-Gateway\SensorBoard\PCBSensorboard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2804.453mil|Location2.X=2873.552mil|Location1.Y=1657.602mil|Location2.Y=1768.18mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Public\Documents\Altium\Projects\IoTAdvanced-Mesh-Gateway\SensorBoard\PCBSensorboard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2804.453mil|Location2.X=2873.552mil|Location1.Y=1657.602mil|Location2.Y=1768.18mil|Absolute=True">Net Antennae: Via (46.58mm,17.45mm) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Public\Documents\Altium\Projects\IoTAdvanced-Mesh-Gateway\SensorBoard\PCBSensorboard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2954.453mil|Location2.X=3023.552mil|Location1.Y=1657.602mil|Location2.Y=1768.18mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Public\Documents\Altium\Projects\IoTAdvanced-Mesh-Gateway\SensorBoard\PCBSensorboard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2954.453mil|Location2.X=3023.552mil|Location1.Y=1657.602mil|Location2.Y=1768.18mil|Absolute=True">Net Antennae: Via (50.39mm,17.45mm) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br></body>
+</html>
