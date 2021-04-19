@@ -24,6 +24,7 @@ ReorderDocumentsOnCompile=1
 NameNetsHierarchically=0
 PowerPortNamesTakePriority=1
 AutoSheetNumbering=1
+AutoCrossReferences=0
 PushECOToAnnotationFile=1
 DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
@@ -244,23 +245,6 @@ GenerateClassCluster=0
 DocumentUniqueId=DQPNUYSJ
 
 [Document13]
-DocumentPath=sensorboard.PcbDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=XWTDQEDW
-
-[Document14]
 DocumentPath=OutputJob.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -277,7 +261,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document15]
+[Document14]
 DocumentPath=PCBSensorboard.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -307,102 +291,6 @@ DocumentPath=Project Outputs for SensorBoard\Design Rule Check - sensorboard.htm
 DItemRevisionGUID=
 
 [GeneratedDocument4]
-DocumentPath=Project Outputs for SensorBoard\NC Drill\sensorboard-RoundHoles.TXT
-DItemRevisionGUID=
-
-[GeneratedDocument5]
-DocumentPath=Project Outputs for SensorBoard\NC Drill\sensorboard-SlotHoles.TXT
-DItemRevisionGUID=
-
-[GeneratedDocument6]
-DocumentPath=Project Outputs for SensorBoard\NC Drill\sensorboard.DRR
-DItemRevisionGUID=
-
-[GeneratedDocument7]
-DocumentPath=Project Outputs for SensorBoard\Gerber\sensorboard.EXTREP
-DItemRevisionGUID=
-
-[GeneratedDocument8]
-DocumentPath=Project Outputs for SensorBoard\Gerber\sensorboard.GBL
-DItemRevisionGUID=
-
-[GeneratedDocument9]
-DocumentPath=Project Outputs for SensorBoard\Gerber\sensorboard.GBO
-DItemRevisionGUID=
-
-[GeneratedDocument10]
-DocumentPath=Project Outputs for SensorBoard\Gerber\sensorboard.GBP
-DItemRevisionGUID=
-
-[GeneratedDocument11]
-DocumentPath=Project Outputs for SensorBoard\Gerber\sensorboard.GBS
-DItemRevisionGUID=
-
-[GeneratedDocument12]
-DocumentPath=Project Outputs for SensorBoard\Gerber\sensorboard.GD1
-DItemRevisionGUID=
-
-[GeneratedDocument13]
-DocumentPath=Project Outputs for SensorBoard\Gerber\sensorboard.GG1
-DItemRevisionGUID=
-
-[GeneratedDocument14]
-DocumentPath=Project Outputs for SensorBoard\Gerber\sensorboard.GM1
-DItemRevisionGUID=
-
-[GeneratedDocument15]
-DocumentPath=Project Outputs for SensorBoard\Gerber\sensorboard.GM2
-DItemRevisionGUID=
-
-[GeneratedDocument16]
-DocumentPath=Project Outputs for SensorBoard\Gerber\sensorboard.GM13
-DItemRevisionGUID=
-
-[GeneratedDocument17]
-DocumentPath=Project Outputs for SensorBoard\Gerber\sensorboard.GM14
-DItemRevisionGUID=
-
-[GeneratedDocument18]
-DocumentPath=Project Outputs for SensorBoard\Gerber\sensorboard.GM30
-DItemRevisionGUID=
-
-[GeneratedDocument19]
-DocumentPath=Project Outputs for SensorBoard\Gerber\sensorboard.GP1
-DItemRevisionGUID=
-
-[GeneratedDocument20]
-DocumentPath=Project Outputs for SensorBoard\Gerber\sensorboard.GP2
-DItemRevisionGUID=
-
-[GeneratedDocument21]
-DocumentPath=Project Outputs for SensorBoard\Gerber\sensorboard.GTL
-DItemRevisionGUID=
-
-[GeneratedDocument22]
-DocumentPath=Project Outputs for SensorBoard\Gerber\sensorboard.GTO
-DItemRevisionGUID=
-
-[GeneratedDocument23]
-DocumentPath=Project Outputs for SensorBoard\Gerber\sensorboard.GTP
-DItemRevisionGUID=
-
-[GeneratedDocument24]
-DocumentPath=Project Outputs for SensorBoard\Gerber\sensorboard.GTS
-DItemRevisionGUID=
-
-[GeneratedDocument25]
-DocumentPath=Project Outputs for SensorBoard\NC Drill\sensorboard.LDP
-DItemRevisionGUID=
-
-[GeneratedDocument26]
-DocumentPath=Project Outputs for SensorBoard\Gerber\sensorboard.REP
-DItemRevisionGUID=
-
-[GeneratedDocument27]
-DocumentPath=Project Outputs for SensorBoard\Gerber\sensorboard.RUL
-DItemRevisionGUID=
-
-[GeneratedDocument28]
 DocumentPath=Project Outputs for SensorBoard\ExportSTEP\sensorboard.step
 DItemRevisionGUID=
 
@@ -422,7 +310,7 @@ OutputDir=
 [OutputGroup1]
 Name=Netlist Outputs
 Description=
-TargetPrinter=HP LaserJet Pro MFP M225-M226 PCL 6 (Copy 1)
+TargetPrinter=NPI4E3540 (HP LaserJet Pro MFP M225dw)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=CadnetixNetlist
 OutputName1=Cadnetix Netlist
@@ -528,7 +416,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=HP LaserJet Pro MFP M225-M226 PCL 6 (Copy 1)
+TargetPrinter=NPI4E3540 (HP LaserJet Pro MFP M225dw)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
@@ -606,7 +494,7 @@ PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 [OutputGroup4]
 Name=Assembly Outputs
 Description=
-TargetPrinter=HP LaserJet Pro MFP M225-M226 PCL 6 (Copy 1)
+TargetPrinter=NPI4E3540 (HP LaserJet Pro MFP M225dw)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Assembly
 OutputName1=Assembly Drawings
@@ -628,7 +516,7 @@ OutputDefault3=0
 [OutputGroup5]
 Name=Fabrication Outputs
 Description=
-TargetPrinter=HP LaserJet Pro MFP M225-M226 PCL 6 (Copy 1)
+TargetPrinter=NPI4E3540 (HP LaserJet Pro MFP M225dw)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Board Stack Report
 OutputName1=Report Board Stack
@@ -700,7 +588,7 @@ OutputDefault12=0
 [OutputGroup6]
 Name=Report Outputs
 Description=
-TargetPrinter=HP LaserJet Pro MFP M225-M226 PCL 6 (Copy 1)
+TargetPrinter=NPI4E3540 (HP LaserJet Pro MFP M225dw)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=BOM_PartType
 OutputName1=Bill of Materials
@@ -737,7 +625,7 @@ OutputDefault6=0
 [OutputGroup7]
 Name=Other Outputs
 Description=
-TargetPrinter=HP LaserJet Pro MFP M225-M226 PCL 6 (Copy 1)
+TargetPrinter=NPI4E3540 (HP LaserJet Pro MFP M225dw)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Text Print
 OutputName1=Text Print
@@ -845,7 +733,7 @@ PageOptions17=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 [OutputGroup8]
 Name=Validation Outputs
 Description=
-TargetPrinter=HP LaserJet Pro MFP M225-M226 PCL 6 (Copy 1)
+TargetPrinter=NPI4E3540 (HP LaserJet Pro MFP M225dw)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=BOM_Violations
 OutputName1=BOM Checks Report
@@ -889,7 +777,7 @@ OutputDefault7=0
 [OutputGroup9]
 Name=Export Outputs
 Description=
-TargetPrinter=HP LaserJet Pro MFP M225-M226 PCL 6 (Copy 1)
+TargetPrinter=NPI4E3540 (HP LaserJet Pro MFP M225dw)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=AutoCAD dwg/dxf PCB
 OutputName1=AutoCAD dwg/dxf File PCB
@@ -950,7 +838,7 @@ OutputDefault11=0
 [OutputGroup10]
 Name=PostProcess Outputs
 Description=
-TargetPrinter=HP LaserJet Pro MFP M225-M226 PCL 6 (Copy 1)
+TargetPrinter=NPI4E3540 (HP LaserJet Pro MFP M225dw)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Copy Files
 OutputName1=Copy Files

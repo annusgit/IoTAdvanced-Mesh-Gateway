@@ -1,14 +1,12 @@
-Project Outputs Generation Report
----------------------------------
-Start Output Generation At 2:30:18 PM On 4/15/2021
-
-Output: Bill of Materials
-Type  : BOM
-From  : Variant [[No Variations]] of Project [SensorBoard.PrjPcb]
-   Generated File[Bill of Materials-SensorBoard.xlsx]
+Output: NC Drill Files
+Type  : NC Drill
+From  : PCB Document [PCBSensorboard.PcbDoc]
+   Generated File[PCBSensorboard.TXT]
+   Generated File[PCBSensorboard.LDP]
+   Generated File[PCBSensorboard.DRR]
 
 
-Files Generated   : 1
+Files Generated   : 3
 Documents Printed : 0
 
-Finished Output Generation At 2:30:31 PM On 4/15/2021
+Finished Output Generation At 5:25:27 PM On 4/17/2021

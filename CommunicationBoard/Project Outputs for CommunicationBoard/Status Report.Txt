@@ -1,14 +1,13 @@
-Project Outputs Generation Report
----------------------------------
-Start Output Generation At 9:54:04 AM On 4/8/2021
+Output: NC Drill Files
+Type  : NC Drill
+From  : PCB Document [communicationboard.PcbDoc]
+   Generated File[communicationboard-RoundHoles.TXT]
+   Generated File[communicationboard-SlotHoles.TXT]
+   Generated File[communicationboard.LDP]
+   Generated File[communicationboard.DRR]
 
-Output: Export STEP
-Type  : ExportSTEP
-From  : Variant [[No Variations]] of PCB Document [communicationboard.PcbDoc]
-   Generated File[communicationboard.step]
 
-
-Files Generated   : 1
+Files Generated   : 4
 Documents Printed : 0
 
-Finished Output Generation At 9:54:20 AM On 4/8/2021
+Finished Output Generation At 5:21:10 PM On 4/17/2021

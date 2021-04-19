@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
-PCB File : C:\Users\Public\Documents\Altium\Projects\IoTAdvanced-Mesh-Gateway\CommunicationBoard\communicationboard.PcbDoc
-Date     : 4/8/2021
-Time     : 8:32:33 AM
+PCB File : C:\Users\Public\Documents\Altium\Projects\IoTAdvanced-Mesh+Gateway\CommunicationBoard\communicationboard.PcbDoc
+Date     : 4/17/2021
+Time     : 5:12:11 PM
 
 Processing Rule : Clearance Constraint (Gap=0.25mm) ((HasFootprint('FCI USB 10118193-0001LF'))),(All)
 Rule Violations :0
@@ -30,7 +30,7 @@ Rule Violations :0
 Processing Rule : Width Constraint (Min=0.254mm) (Max=0.5mm) (Preferred=0.35mm) (All)
 Rule Violations :0
 
-Processing Rule : Width Constraint (Min=0.2mm) (Max=0.2mm) (Preferred=0.2mm) (InNet('MAIN_ANT'))
+Processing Rule : Width Constraint (Min=0.293mm) (Max=0.293mm) (Preferred=0.293mm) (InNet('MAIN_ANT'))
 Rule Violations :0
 
 Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (All)
@@ -60,4 +60,4 @@ Rule Violations :0
 
 Violations Detected : 0
 Waived Violations : 0
-Time Elapsed        : 00:00:01
+Time Elapsed        : 00:00:02
