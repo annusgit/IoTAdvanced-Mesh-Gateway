@@ -1,12 +1,10 @@
-Output: NC Drill Files
-Type  : NC Drill
-From  : PCB Document [PCBSensorboard.PcbDoc]
-   Generated File[PCBSensorboard.TXT]
-   Generated File[PCBSensorboard.LDP]
-   Generated File[PCBSensorboard.DRR]
+Output: Bill of Materials
+Type  : BOM
+From  : Variant [[No Variations]] of Project [SensorBoard.PrjPcb]
+   Generated File[Bill of Materials-SensorBoard.xlsx]
 
 
-Files Generated   : 3
+Files Generated   : 1
 Documents Printed : 0
 
-Finished Output Generation At 5:25:27 PM On 4/17/2021
+Finished Output Generation At 5:19:01 PM On 8/27/2021

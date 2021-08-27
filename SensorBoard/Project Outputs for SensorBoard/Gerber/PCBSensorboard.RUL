@@ -1,8 +1,10 @@
-DRC Rules Export File for PCB: C:\Users\Public\Documents\Altium\Projects\IoTAdvanced-Mesh+Gateway\SensorBoard\PCBSensorboard.PcbDoc
+DRC Rules Export File for PCB: C:\Users\Public\Documents\Altium\Projects\IoTAdvanced-Mesh-Gateway\SensorBoard\PCBSensorboard.PcbDoc
 RuleKind=Clearance|RuleName=PolygonClearance|Scope=Board|Minimum=19.69
+RuleKind=Clearance|RuleName=MAX31865|Scope=Board|Minimum=11.81
+RuleKind=Clearance|RuleName=TC7S_MUX|Scope=Board|Minimum=11.02
 RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0
 RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=4.00
 RuleKind=SolderMaskExpansion|RuleName=ViaMask|Scope=Board|Minimum=4.00
-RuleKind=Width|RuleName=Width|Scope=Board|Minimum=10.00
+RuleKind=Width|RuleName=Width|Scope=Board|Minimum=7.87
 RuleKind=Clearance|RuleName=Clearance|Scope=Board|Minimum=13.78
 RuleKind=Clearance|RuleName=PESDHC2FD4V5BH|Scope=Board|Minimum=11.81

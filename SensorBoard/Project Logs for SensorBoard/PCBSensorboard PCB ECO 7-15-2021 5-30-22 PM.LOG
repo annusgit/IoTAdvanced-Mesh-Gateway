@@ -1,0 +1,16 @@
+Added Component: Designator=U3(SOT323-5L_STM-M)
+Add component (AddParameter): Name = "Copyright"; Value = "Copyright (C) 2016 Accelerated Designs. All rights reserved"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "TC7SB3157CFU"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number_devices_in_Package"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PCB_Footprint"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PositionInPackage"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RefDes"; Value = "RefDes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Source_Package"; Value = "TC7SB3157CFU"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SourceLibrary"; Value = "Toshiba_2019-02-27"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "DEV"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor"; Value = "Toshiba"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=MODBUS_R Pin=U3-1
+Added Pin To Net: NetName=GND Pin=U3-2
+Added Pin To Net: NetName=ESP32-U2-RXD Pin=U3-3
+Added Pin To Net: NetName=RXD_2 Pin=U3-4
+Added Pin To Net: NetName=VDD3.3 Pin=U3-5

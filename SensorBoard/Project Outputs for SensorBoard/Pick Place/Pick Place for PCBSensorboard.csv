@@ -1,0 +1,96 @@
+Altium Designer Pick and Place Locations,,,,,,,
+C:\Users\Public\Documents\Altium\Projects\IoTAdvanced-Mesh-Gateway\SensorBoard\Project Outputs for SensorBoard\Pick Place\Pick Place for PCBSensorboard.csv,,,,,,,
+,,,,,,,
+========================================================================================================================,,,,,,,
+File Design Information:,,,,,,,
+,,,,,,,
+Date:       27/08/21,,,,,,,
+Time:       17:18,,,,,,,
+Revision:   15d1ae35ee6548b0c9c132a745bc92fa0cc5eea1,,,,,,,
+Variant:    No variations,,,,,,,
+Units used: mm,,,,,,,
+,,,,,,,
+Designator,Comment,Layer,Footprint,Center-X(mm),Center-Y(mm),Rotation,Description
+U8,AP1509-33SG-13,TopLayer,AP1509,4.7400mm,80.5200mm,180,22V 2A SOIC-8_150mil DC-DC Converters RoHS
+C9,0.1uF,TopLayer,C0805,55.7700mm,44.8300mm,270,Ceramic Capacitor SMD 0805
+C8,0.1uF,TopLayer,C0805,55.7900mm,48.4300mm,90,Ceramic Capacitor SMD 0805
+U3,TC7SB3157CFU,TopLayer,SOT-363___(US6),60.8100mm,73.7100mm,180,No Description Available
+U4,TC7SB3157CFU,TopLayer,SOT-363___(US6),60.8086mm,76.8000mm,180,No Description Available
+U10,MAX31865ATP+,TopLayer,"MAX31865ATP+T,TQFN-20",59.7313mm,46.7850mm,360,Temp Monitoring System _Sensor_ External Sensor SPI Output 20-TQFN _5x5_
+U7,LM4040AIM3-5.0/NOPB,TopLayer,SOT95P237X112-3N,36.7300mm,48.6000mm,270,5V ±0.1% 100ppm/°C SOT-23(SOT-23-3) Voltage References RoHS
+U6,MCP3204-BI/SL,TopLayer,MCP-3204-BI/SL,49.6764mm,46.5622mm,90,No Description Available
+SW1,TL3330AF260QG,TopLayer,FP-TL3330AF260QG-MFG,88.5875mm,85.8500mm,90,SWITCH TACTILE SPST-NO 0.05A 12V
+SH-J2,SNT-100-BK-G,TopLayer,Jumper,99.4077mm,23.9129mm,90,"Shunt, 100mil, Gold plated, Black"
+SH-J1,SNT-100-BK-G,TopLayer,Jumper,99.7030mm,17.7720mm,0,"Shunt, 100mil, Gold plated, Black"
+J5,Male Header 4x1,TopLayer,Male_Header_4x1,56.7100mm,35.9500mm,90,
+J4,Male Header 3x1,TopLayer,Male_Header_3x1,63.3300mm,35.6100mm,270,
+C10,100nF,TopLayer,C0805,64.1300mm,46.3800mm,270,Ceramic Capacitor SMD 0805
+MH4,MTG_NoPads,TopLayer,MH,86.1200mm,25.2300mm,0,"PCB Mounting Hole, No Pad"
+MH3,MTG_NoPads,TopLayer,MH,30.6400mm,29.0000mm,0,"PCB Mounting Hole, No Pad"
+R17,47Kohm,TopLayer,R0805,80.9800mm,76.4400mm,270,
+R16,4.7K,TopLayer,R0805,80.0500mm,79.4000mm,180,
+R14,270ohm,TopLayer,R0805,86.2900mm,77.4500mm,90,
+Q1,MMBT3904LT3G,TopLayer,ON_SEMI_SOT-23-3,83.6700mm,78.5900mm,0,TRANS NPN 40V 0.2A SOT23
+D6,RLED-RA,TopLayer,12-21SURC/S530-A3/TR8,89.3600mm,79.3500mm,90,Red 624nm Right-Angle 1206 Light Emitting Diodes (LED) RoHS
+U9,USR-ES1_WIZNET5500,TopLayer,USR-ES1-WIZNET5500,77.4200mm,40.4900mm,90,Ethernet Controllers Module 10/100 Base-T/TX PHY SPI 2.97V ~ 3.63V LQFP-48_7x7x05P Ethernet ICs RoHS
+U5,SM712.TCT,TopLayer,SMTC-SOT23-3_V,39.0800mm,26.2800mm,270,"Asymmetrical TVS Diode for Extended Common-Mode RS-485, 400 W, -55 to 125 degC, 3-Pin SOT23, RoHS, Tape and Reel"
+U2,MAX485ESA+,TopLayer,SOIC127P600X175-8N,39.0550mm,38.6650mm,270,"1/1 Transceiver Half RS422, RS485 8-SOIC"
+U1,ESP32-WROOM-32UE,TopLayer,ESP32WROOM32UEM113EH6400UH3Q0,49.3700mm,65.7700mm,90,WIFI MODULE 4MBITS SPI FLASH
+TP2,TestPoint,TopLayer,TESTPOINT,39.5800mm,88.8700mm,90,
+TP1,TestPoint,TopLayer,TESTPOINT,37.5500mm,88.8700mm,90,
+SW2,TL3330AF260QG,TopLayer,FP-TL3330AF260QG-MFG,88.6575mm,57.9600mm,90,SWITCH TACTILE SPST-NO 0.05A 12V
+R18,MOV-10D221K,TopLayer,MOV-10D221K_BRN,16.9600mm,6.9600mm,90,Varistors 180pF 560volts 10%
+R4,120ohm,TopLayer,R0805,39.0700mm,33.2500mm,360,Resistor SMD 0805
+R20,270ohm,TopLayer,R0805,39.5800mm,86.2600mm,90,Resistor SMD 0805
+R19,430ohm,TopLayer,R0805,37.5400mm,86.2700mm,90,Resistor SMD 0805
+R15,1K,TopLayer,R0805,46.1150mm,36.4050mm,270,Resistor SMD 0805
+R13,430ohm,TopLayer,R0805,58.6900mm,42.5700mm,360,Resistor SMD 0805
+R12,1K,TopLayer,R0805,50.4264mm,36.4275mm,270,Resistor SMD 0805
+R9,68ohm,TopLayer,R0805,85.5300mm,73.4100mm,180,Resistor SMD 0805
+R8,68ohm,TopLayer,R0805,85.5300mm,68.8100mm,180,Resistor SMD 0805
+R11,1K,TopLayer,R0805,52.5164mm,36.4775mm,270,Resistor SMD 0805
+R10,1K,TopLayer,R0805,48.3250mm,36.3950mm,270,Resistor SMD 0805
+R5,10ohm,TopLayer,R0805,41.9500mm,26.3100mm,90,Resistor SMD 0805
+R3,10ohm,TopLayer,R0805,36.1900mm,26.3000mm,90,Resistor SMD 0805
+R6,10Kohm,TopLayer,R0805,46.9900mm,78.0300mm,90,Resistor SMD 0805
+R7,10Kohm,TopLayer,R0805,50.7800mm,78.0300mm,90,Resistor SMD 0805
+R2,0R,TopLayer,R0805,43.1600mm,53.0600mm,90,Resistor SMD 0805
+R1,10Kohm,TopLayer,R0805,39.2800mm,53.0600mm,270,Resistor SMD 0805
+PS1,HLK-5M05,TopLayer,CONV_HLK-5M05,13.2600mm,56.5700mm,90,AC DC 220V to 5V 5W 5Watt Isolated Switching Step-Down Power Supply Module Converter
+MH2,MTG_NoPads,TopLayer,MH,35.0100mm,77.2600mm,0,"PCB Mounting Hole, No Pad"
+MH1,MTG_NoPads,TopLayer,MH,74.6200mm,77.6400mm,0,"PCB Mounting Hole, No Pad"
+L2,UU9.8Y-10mH,TopLayer,UU9.8Y-10MH,13.5700mm,30.0600mm,180,Power Line 10mH @ 1kHz 1.2O Through Hole Common Mode Chokes / Filters RoHS
+L3,47µH,TopLayer,WURTH_WE-LQS_6045,16.0000mm,86.1700mm,360,FIXED IND 47UH 1.2A 200 MOHM SMD
+L1,ACM2012-121-2P-T002,TopLayer,TDK-ACM2012-4_V,39.0800mm,30.2000mm,270,"Common Mode Filter, For High-Speed Differential Signal Line / General Signal Line, 120 Ohm, 0.37 A, 50 V, -40 to 85 degC, 4-Pin SMD (0805), RoHS, Tape and Reel"
+JP1,PEC03DAAN,TopLayer,MALE_HEADER_2X3_RA,70.2400mm,68.6400mm,270,"Header, Right Angle, 100mil, 3x2, Tin, TH"
+J2,PT-Block,TopLayer,PLUGGABLE_2X8P_TERMINAL_BLOCK_RIGHT_ANGLE,40.8650mm,13.4300mm,360,3.81mm Pitch Double Row Right Angle Pin Male Pluggable PCB Electrical Screw Terminal Block 2x8P
+J7,PT-Block,TopLayer,PLUGGABLE_2X3P_TERMINAL_BLOCK_RIGHT_ANGLE,6.9600mm,13.4300mm,360,3.81mm Pitch Double Row Right Angle Pin Male Pluggable PCB Electrical Screw Terminal Block 2x3P
+J1,JTAG10pin1.27mm,TopLayer,20021121-00010C4LF,75.9100mm,58.7500mm,90,"CONN HEADER 10POS DUAL .05 SMD"""
+J6,PEC10DAAN,TopLayer,MALE_HEADER_10X2,57.5700mm,85.9000mm,90,"Header, 2.54mm, 10x2, Tin, TH"
+J3,PT-Block,TopLayer,PLUGGABLE_2X8P_TERMINAL_BLOCK_RIGHT_ANGLE,73.3850mm,13.4300mm,360,3.81mm Pitch Double Row Right Angle Pin Male Pluggable PCB Electrical Screw Terminal Block 2x8P
+F1,MF2410F1.000TM,TopLayer,MF2410F1.000TM-FUSE2410,18.9200mm,15.9500mm,360,Chip Fuse 1A 84mO 100A 0.62 2410 Surface Mount Fuses RoHS
+F2,CC12H3A-TR,TopLayer,FUSE_1206_3216_0.6MM,12.8700mm,78.6800mm,90,FUSE BOARD MOUNT 3A 63VDC 1206
+D12,PESDHC2FD4V5BH,TopLayer,PESDHC2FD4V5BH,17.8400mm,81.8800mm,180,http://www.prisemi.com/UploadImage/files/ESD(TVS%20Array%EF%BC%89/High%20capacitance/PESDHC2FD4V5BH.pdf
+D11,RLED,TopLayer,ORH-R35A,39.5700mm,82.5000mm,270,OrangeRed 615~625nm 0805 Light Emitting Diodes (LED) RoHS
+D10,GLED,TopLayer,ORH-G35A,37.5500mm,82.5000mm,270,Green 515~535nm 0805 Light Emitting Diodes (LED) RoHS
+D9,BZX84C5V6W-7-F,TopLayer,DIODES_SOT-323-3,17.1900mm,78.9600mm,270,DIODE ZENER 5.6V 200MW SOT323
+D8,P6SMB7.5A,TopLayer,DO214AA_SMB,22.0700mm,85.1600mm,270,TVS DIODE 6.4V 11.3V DO214AA
+D7,"CUS10S30,H3F",TopLayer,SOD323,46.1050mm,40.1250mm,90,DIODE SCHOTTKY 30V 1A USC
+D5,"CUS10S30,H3F",TopLayer,SOD323,50.4264mm,40.1475mm,90,DIODE SCHOTTKY 30V 1A USC
+D2,BLED-RA,TopLayer,12-21C/BHC-AP1Q1N/2C,89.3700mm,74.7500mm,90,Blue 464.5~476.5nm 1206 Right-Angle Light Emitting Diodes (LED) RoHS
+D1,GLED-RA,TopLayer,12-21C/G6C-KN2P2/2C,89.3800mm,70.1500mm,90,Green-yellow 569.5~575.5nm Right-Angle 1206 Light Emitting Diodes (LED) RoHS
+D4,"CUS10S30,H3F",TopLayer,SOD323,52.5064mm,40.2000mm,90,DIODE SCHOTTKY 30V 1A USC
+D3,"CUS10S30,H3F",TopLayer,SOD323,48.3350mm,40.1225mm,90,DIODE SCHOTTKY 30V 1A USC
+C12,0.1uF/275VAC,TopLayer,MP2104KGC3XLC,21.2400mm,7.0900mm,90,"X2 100nF ±10% 275V 10mm Through Hole,P=10mm Suppression Capacitors RoHS"
+C13,1nF/400VAC,TopLayer,Q12B1D102KN0B0S0N0,24.4400mm,29.4200mm,270,"Y1 1nF ±10% 400V 10mm Through Hole,P=10mm Suppression Capacitors RoHS"
+C16,1µF,TopLayer,CAP_POL_1411_3528,77.1300mm,26.6300mm,180,CAP TANT 1UF 10% 35V 1411
+C15,100µF,TopLayer,CAP_POL_2917_7343,5.4050mm,86.8300mm,180,CAP TANT 100UF 10% 10V 2917
+C14,100µF,TopLayer,CAP_POL_2917_7343,28.1600mm,82.6200mm,90,CAP TANT 100UF 10% 10V 2917
+C7,100pF,TopLayer,C0805,42.3000mm,32.2100mm,270,Ceramic Capacitor SMD 0805
+C6,100pF,TopLayer,C0805,35.0600mm,34.3000mm,90,Ceramic Capacitor SMD 0805
+C11,1nF/400VAC,TopLayer,Q12B1D102KN0B0S0N0,2.5100mm,29.4100mm,90,"Y1 1nF ±10% 400V 10mm Through Hole,P=10mm Suppression Capacitors RoHS"
+C5,0.1uF,TopLayer,C0805,42.8400mm,38.8400mm,90,Ceramic Capacitor SMD 0805
+C4,0.1uF,TopLayer,C0805,43.1700mm,49.3000mm,90,Ceramic Capacitor SMD 0805
+C3,1uF,TopLayer,C0805,41.2200mm,53.0600mm,90,Ceramic Capacitor SMD 0805
+C2,0.1uF,TopLayer,C0805,35.5900mm,57.2400mm,90,Ceramic Capacitor SMD 0805
+C1,22uF,TopLayer,C0805,37.5400mm,57.2400mm,90,Ceramic Capacitor SMD 0805

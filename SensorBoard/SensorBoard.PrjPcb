@@ -277,6 +277,23 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=ARYFPXIH
 
+[Document15]
+DocumentPath=Job1.OutJob
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
 [GeneratedDocument1]
 DocumentPath=Project Outputs for SensorBoard\BOM\Bill of Materials-SensorBoard.xlsx
 DItemRevisionGUID=
@@ -290,6 +307,14 @@ DocumentPath=Project Outputs for SensorBoard\Design Rule Check - sensorboard.htm
 DItemRevisionGUID=
 
 [GeneratedDocument4]
+DocumentPath=Project Outputs for SensorBoard\Pick Place\Pick Place for PCBSensorboard.csv
+DItemRevisionGUID=
+
+[GeneratedDocument5]
+DocumentPath=Project Outputs for SensorBoard\Pick Place\Pick Place for PCBSensorboard.txt
+DItemRevisionGUID=
+
+[GeneratedDocument6]
 DocumentPath=Project Outputs for SensorBoard\ExportSTEP\sensorboard.step
 DItemRevisionGUID=
 
@@ -508,6 +533,8 @@ OutputName2=Generates pick and place files
 OutputDocumentPath2=
 OutputVariantName2=[No Variations]
 OutputDefault2=0
+Configuration2_Name1=ForceUpdateSettings
+Configuration2_Item1=False
 OutputType3=Test Points For Assembly
 OutputName3=Test Point Report
 OutputDocumentPath3=

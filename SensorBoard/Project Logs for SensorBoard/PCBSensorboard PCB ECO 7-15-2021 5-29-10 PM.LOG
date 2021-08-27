@@ -1,0 +1,46 @@
+Removed Pin From Net: NetName=MAX31865_RTD_CS Pin=1-CS
+Removed Pin From Net: NetName=GND Pin=1-DGND
+Removed Pin From Net: NetName=RTD_DRDY Pin=1-DRDY
+Removed Pin From Net: NetName=VDD3.3 Pin=1-DVDD
+Removed Pin From Net: NetName=FORCE2 Pin=1-FORCE2
+Removed Pin From Net: NetName=FORCE+ Pin=1-FORCE+
+Removed Pin From Net: NetName=FORCE- Pin=1-FORCE-
+Removed Pin From Net: NetName=GND Pin=1-GND1
+Removed Pin From Net: NetName=GND Pin=1-GND2
+Removed Pin From Net: NetName=RTD_2 Pin=1-RTDIN+
+Removed Pin From Net: NetName=RTD_3 Pin=1-RTDIN-
+Removed Pin From Net: NetName=JTG_TMS Pin=1-SCLK
+Removed Pin From Net: NetName=JTG_TDI Pin=1-SD0
+Removed Pin From Net: NetName=JTG_TCK Pin=1-SDI
+Removed Pin From Net: NetName=VDD3.3 Pin=1-VDD
+Added Component: Designator=U10(MAX31865ATP+T,TQFN-20)
+Add component (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Maxim Integrated"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "MAX31865ATP+T"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "QFN-20 Maxim"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/MAX31865ATP%2BT/Maxim%20Integrated/view-part/47355/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=MAX31865_RTD_CS Pin=U10-CS
+Added Pin To Net: NetName=GND Pin=U10-DGND
+Added Pin To Net: NetName=RTD_DRDY Pin=U10-DRDY
+Added Pin To Net: NetName=VDD3.3 Pin=U10-DVDD
+Added Pin To Net: NetName=FORCE2 Pin=U10-FORCE2
+Added Pin To Net: NetName=FORCE+ Pin=U10-FORCE+
+Added Pin To Net: NetName=FORCE- Pin=U10-FORCE-
+Added Pin To Net: NetName=GND Pin=U10-GND1
+Added Pin To Net: NetName=GND Pin=U10-GND2
+Added Pin To Net: NetName=RTD_2 Pin=U10-RTDIN+
+Added Pin To Net: NetName=RTD_3 Pin=U10-RTDIN-
+Added Pin To Net: NetName=JTG_TMS Pin=U10-SCLK
+Added Pin To Net: NetName=JTG_TDI Pin=U10-SD0
+Added Pin To Net: NetName=JTG_TCK Pin=U10-SDI
+Added Pin To Net: NetName=VDD3.3 Pin=U10-VDD
+Added Pin To Net: NetName=NetR13_1 Pin=R13-1
+Added Pin To Net: NetName=NetR13_1 Pin=U10-BIAS
+Added Pin To Net: NetName=NetR13_1 Pin=U10-REFIN+
+Added Net: Name=NetR13_1
+Added Pin To Net: NetName=NetR13_2 Pin=R13-2
+Added Pin To Net: NetName=NetR13_2 Pin=U10-ISENSOR
+Added Pin To Net: NetName=NetR13_2 Pin=U10-REFIN-
+Added Net: Name=NetR13_2

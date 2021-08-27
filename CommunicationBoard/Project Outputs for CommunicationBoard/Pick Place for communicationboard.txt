@@ -1,0 +1,90 @@
+Altium Designer Pick and Place Locations
+C:\Users\Public\Documents\Altium\Projects\IoTAdvanced-Mesh-Gateway\CommunicationBoard\Project Outputs for CommunicationBoard\Pick Place for communicationboard.txt
+
+========================================================================================================================
+File Design Information:
+
+Date:       10/08/21
+Time:       17:49
+Revision:   15d1ae35ee6548b0c9c132a745bc92fa0cc5eea1
+Variant:    No variations
+Units used: mil
+
+Designator Comment            Layer       Footprint               Center-X(mil) Center-Y(mil) Rotation Description                                                                                             
+S3         SSSS811101         TopLayer    SSSS811101              80.984        538.779       270      "SPDT 300mA @ 5VDC 5V On-On SMD-7PIN Toggle Switches RoHS"                                              
+J2         CONSMA002-G        BottomLayer LINX_CONSMA002-G        172.913       2189.803      360      "SMA Female Right-Angle Through-Hole Mount Connector, Gold"                                             
+U3         LM2596SX-ADJ/NOPB  TopLayer    VREG_LM2596S-ADJ/NOPB   2126.772      1958.071      90       "No Description Available"                                                                              
+U2         TXS0108EPW         BottomLayer TSSOP20                 1023.228      1531.299      90       "Voltage Level Translator Bidirectional 1 Circuit 8 Channel 100Mbps 20-VQFN _3.5x4.5_"                  
+U1         A7600E             TopLayer    A7600E                  694.291       1392.520      180      "LTE Cat-4 Module"                                                                                      
+TP13       TestPoint          TopLayer    TESTPOINT               1643.891      1417.913      90       ""                                                                                                      
+TP12       TestPoint          TopLayer    TESTPOINT               1535.236      1497.047      90       ""                                                                                                      
+TP11       TestPoint          TopLayer    TESTPOINT               1475.591      1547.638      90       ""                                                                                                      
+TP10       TestPoint          TopLayer    TESTPOINT               1714.370      1038.976      90       ""                                                                                                      
+TP9        TestPoint          TopLayer    TESTPOINT               30.709        1451.968      90       ""                                                                                                      
+TP8        TestPoint          TopLayer    TESTPOINT               32.480        1296.260      90       ""                                                                                                      
+TP7        TestPoint          TopLayer    TESTPOINT               27.362        978.937       90       ""                                                                                                      
+TP6        TestPoint          TopLayer    TESTPOINT               31.299        1232.480      90       ""                                                                                                      
+TP5        TestPoint          TopLayer    TESTPOINT               1394.882      1548.032      90       ""                                                                                                      
+TP4        TestPoint          TopLayer    TESTPOINT               29.134        1648.032      90       ""                                                                                                      
+TP3        TestPoint          TopLayer    TESTPOINT               1361.614      1342.716      90       ""                                                                                                      
+TP2        TestPoint          TopLayer    TESTPOINT               27.756        1371.653      90       ""                                                                                                      
+TP1        TestPoint          TopLayer    TESTPOINT               1353.740      947.835       90       ""                                                                                                      
+S2         B3U-1000P          TopLayer    SW_B3U-1000P            102.953       240.551       270      "Tactile Switch SPST-NO Top Actuated Surface Mount"                                                     
+S1         B3U-1000P          TopLayer    SW_B3U-1000P            1353.740      834.842       90       "Tactile Switch SPST-NO Top Actuated Surface Mount"                                                     
+R18        1K                 TopLayer    R0805                   1843.504      1693.701      180      ""                                                                                                      
+R17        62ohm              TopLayer    R0805                   1696.850      1616.732      360      ""                                                                                                      
+R16        2.2K               TopLayer    R0805                   1697.047      1693.110      180      ""                                                                                                      
+R15        22ohm              BottomLayer R0805                   1420.079      1612.205      360      ""                                                                                                      
+R14        22ohm              BottomLayer R0805                   1420.473      1762.992      360      ""                                                                                                      
+R13        22ohm              BottomLayer R0805                   1420.866      1687.598      360      ""                                                                                                      
+R12        10K                BottomLayer R0805                   498.425       147.441       90       ""                                                                                                      
+R11        10K                BottomLayer R0805                   208.268       443.701       90       ""                                                                                                      
+R10        10K                BottomLayer R0805                   209.843       679.921       90       ""                                                                                                      
+R9         47Kohm             BottomLayer R0805                   1409.252      1281.299      180      ""                                                                                                      
+R8         4.7K               BottomLayer R0805                   1409.252      1206.299      180      ""                                                                                                      
+R7         47Kohm             BottomLayer R0805                   519.488       1258.071      360      ""                                                                                                      
+R6         4.7K               BottomLayer R0805                   377.854       1178.642      180      ""                                                                                                      
+R5         47Kohm             BottomLayer R0805                   668.307       1123.819      360      ""                                                                                                      
+R4         47Kohm             BottomLayer R0805                   910.630       1802.362      270      ""                                                                                                      
+R3         47Kohm             BottomLayer R0805                   1408.661      1125.984      180      ""                                                                                                      
+R2         180ohm             BottomLayer R0805                   519.488       1009.646      90       ""                                                                                                      
+R1         4.7K               BottomLayer R0805                   1409.055      1050.984      180      ""                                                                                                      
+Q3         MMBT3904LT3G       TopLayer    ON_SEMI_SOT-23-3        1443.110      1208.071      180      "TRANS NPN 40V 0.2A SOT23"                                                                              
+Q2         MMBT3904LT3G       BottomLayer ON_SEMI_SOT-23-3        520.275       1150.984      270      "TRANS NPN 40V 0.2A SOT23"                                                                              
+Q1         MMBT3904LT3G       TopLayer    ON_SEMI_SOT-23-3        1443.110      1082.086      180      "TRANS NPN 40V 0.2A SOT23"                                                                              
+L1         100uH/2.1A         TopLayer    CDRH127/LDNP-101MC      2070.472      1385.039      180      "Fixed Inductors 100uH 2.1A"                                                                            
+J3         C707_10M006_512_2A TopLayer    C70710M0065122A         829.626       361.811       360      Connector                                                                                               
+J1         10118193-0001LF    BottomLayer FCI_USB_10118193-0001LF 728.346       120.177       360      "CONN RCPT USB2.0 MICRO B SMD R/A"                                                                      
+FB2        BLM31KN271BH1L     TopLayer    FER_1206_3216           1656.496      1347.841      180      "270OHM DCR MAX 3) A RATED CURREN"                                                                      
+FB1        "30 Ohms @ 100MHz" BottomLayer FER_0805_2012           1114.173      547.047       270      "FERRITE BEAD 30 OHM 0805 1LN"                                                                          
+D11        MBRS360BT3G        TopLayer    DO214AA_SMB             1805.906      2172.244      270      "DIODE SCHOTTKY 60V 3A SMB"                                                                             
+D10        BLED               TopLayer    ORH-B35A                1697.638      1540.748      360      "Blue 460~470nm 0805 Light Emitting Diodes (LED) RoHS"                                                  
+D9         ESD73011N          TopLayer    ESD73011N               1424.803      1497.244      360      ""                                                                                                      
+D8         ESD73011N          TopLayer    ESD73011N               1498.032      1445.866      360      ""                                                                                                      
+D7         ESD73011N          TopLayer    ESD73011N               1424.606      1394.094      360      ""                                                                                                      
+D6         PESDHC2FD4V5BH     TopLayer    PESDHC2FD4V5BH          184.449       318.504       270      http://www.prisemi.com/UploadImage/files/ESD(TVS%20Array%EF%BC%89/High%20capacitance/PESDHC2FD4V5BH.pdf 
+D5         PESDHC2FD4V5BH     BottomLayer PESDHC2FD4V5BH          242.323       812.992       360      http://www.prisemi.com/UploadImage/files/ESD(TVS%20Array%EF%BC%89/High%20capacitance/PESDHC2FD4V5BH.pdf 
+D4         PESDHC2FD4V5BH     TopLayer    PESDHC2FD4V5BH          1420.275      1307.874      180      http://www.prisemi.com/UploadImage/files/ESD(TVS%20Array%EF%BC%89/High%20capacitance/PESDHC2FD4V5BH.pdf 
+D3         PESDHC2FD4V5BH     TopLayer    PESDHC2FD4V5BH          1225.591      765.748       360      http://www.prisemi.com/UploadImage/files/ESD(TVS%20Array%EF%BC%89/High%20capacitance/PESDHC2FD4V5BH.pdf 
+D2         RLED-RA            TopLayer    12-21SURC/S530-A3/TR8   97.992        29.016        0        "Red 624nm Right-Angle 1206 Light Emitting Diodes (LED) RoHS"                                           
+D1         PESDHC2FD4V5BH     BottomLayer PESDHC2FD4V5BH          1125.394      449.409       180      http://www.prisemi.com/UploadImage/files/ESD(TVS%20Array%EF%BC%89/High%20capacitance/PESDHC2FD4V5BH.pdf 
+CR1        ESDA6V1W5          BottomLayer SOT323-5L_STM-M         511.896       606.496       360      "No Description Available"                                                                              
+C18        100nF              TopLayer    C0805                   1696.260      1773.425      180      ""                                                                                                      
+C17        1uF                TopLayer    C0805                   1842.716      1773.228      360      ""                                                                                                      
+C16        330µF              TopLayer    CAP_POL_2917_7343       2091.929      1042.323      360      "CAP TANT 330UF 20% 6.3V 2917"                                                                          
+C15        100µF              BottomLayer CAP_POL_2917_7343       1794.685      1492.913      270      "CAP TANT 100UF 10% 10V 2917"                                                                           
+C14        100nF              BottomLayer C0805                   599.606       465.748       90       ""                                                                                                      
+C13        33pF               BottomLayer C0805                   524.803       465.748       90       ""                                                                                                      
+C12        2.2uF              BottomLayer C0805                   449.606       465.748       90       ""                                                                                                      
+C11        22pF               TopLayer    C0805                   1456.102      1685.827      180      ""                                                                                                      
+C10        22pF               TopLayer    C0805                   1455.709      1761.220      360      ""                                                                                                      
+C9         22pF               TopLayer    C0805                   1455.315      1610.433      180      ""                                                                                                      
+C8         100nF              BottomLayer C0805                   377.756       1046.457      270      ""                                                                                                      
+C7         100µF              BottomLayer CAP_POL_2917_7343       607.874       1480.315      270      "CAP TANT 100UF 10% 10V 2917"                                                                           
+C6         100µF              BottomLayer CAP_POL_2917_7343       402.953       1479.921      270      "CAP TANT 100UF 10% 10V 2917"                                                                           
+C5         100nF              BottomLayer C0805                   1179.724      1772.441      270      ""                                                                                                      
+C4         100nF              BottomLayer C0805                   668.701       1200.984      360      ""                                                                                                      
+C3         100µF              BottomLayer CAP_POL_2917_7343       946.260       474.803       270      "CAP TANT 100UF 10% 10V 2917"                                                                           
+C2         100µF              BottomLayer CAP_POL_2917_7343       741.535       473.622       270      "CAP TANT 100UF 10% 10V 2917"                                                                           
+C1         1uF                BottomLayer C0805                   1242.520      544.488       90       ""                                                                                                      
+J4         PEC10DAAN          BottomLayer Female_Header_10x2      1181.102      2200.787      270      "Header, 2.54mm, 10x2, Tin, TH"                                                                         
